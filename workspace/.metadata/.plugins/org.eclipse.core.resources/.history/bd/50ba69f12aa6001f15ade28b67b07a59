@@ -1,0 +1,18 @@
+#ifndef __LCD_IO_INIT_H
+#define __LCD_IO_INIT_H
+
+#include "xgpiops.h"
+#include "xspips.h"
+#include "../Includes/lcd_drv.h"
+
+#define GPIO_DEVICE_ID  	XPAR_XGPIOPS_0_DEVICE_ID
+#define SPI_DEVICE_ID		XPAR_XSPIPS_0_DEVICE_ID
+#define EMIO_LCD_RES 	55
+#define EMIO_LCD_BLK 	56
+
+extern XGpioPs_Config *ConfigPtr;
+
+void Lcd_Gpio_Init();
+void Lcd_Spi_Init();
+
+#endif

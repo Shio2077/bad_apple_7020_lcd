@@ -1,0 +1,7 @@
+verilog xil_defaultlib --include "D:/AMD/Vivado/2022.2/data/xilinx_vip/include" --include "../../../../lcd_7020.gen/sources_1/bd/zynq_7/ipshared/ec67/hdl" --include "../../../../lcd_7020.gen/sources_1/bd/zynq_7/ipshared/ee60/hdl" \
+"../../../bd/zynq_7/ip/zynq_7_processing_system7_0_0/sim/zynq_7_processing_system7_0_0.v" \
+"../../../bd/zynq_7/sim/zynq_7.v" \
+
+verilog xil_defaultlib "glbl.v"
+
+nosort

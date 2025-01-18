@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ASCII"?>
+<sdkproject:SdkProject xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:sdkproject="http://www.xilinx.com/sdkproject" name="app_zynq7_lcd" location="D:/Projects/prj/AMD/lcd_7020/zynq_7020_lcd/workspace/app_zynq7_lcd" platform="D:/Projects/prj/AMD/lcd_7020/zynq_7020_lcd/workspace/zynq7_lcd/export/zynq7_lcd/zynq7_lcd.xpfm" platformUID="xilinx:::0.0(custom)" systemProject="app_zynq7_lcd_system" sysConfig="zynq7_lcd" runtime="C/C++" cpu="standalone_domain" cpuInstance="ps7_cortexa9_0" os="standalone" mssSignature="b85764b3846dc736e0ef8138ffb0922e">
+  <configuration name="Debug" id="xilinx.gnu.armv7.exe.debug.821338318" dirty="true">
+    <configBuildOptions xsi:type="sdkproject:SdkOptions"/>
+    <lastBuildOptions xsi:type="sdkproject:SdkOptions"/>
+  </configuration>
+  <configuration name="Release" id="xilinx.gnu.armv7.exe.release.998801313" dirty="true">
+    <configBuildOptions xsi:type="sdkproject:SdkOptions"/>
+    <lastBuildOptions xsi:type="sdkproject:SdkOptions"/>
+  </configuration>
+  <template appTemplateName="empty_application"/>
+</sdkproject:SdkProject>

@@ -1,0 +1,10 @@
+17:40:14 **** Incremental Build of configuration Release for project app_zynq7_lcd ****
+make all 
+make --no-print-directory pre-build
+a9-linaro-pre-build-step
+' '
+make --no-print-directory main-build
+make[1]: Nothing to be done for 'main-build'.
+
+17:40:15 Build Finished (took 255ms)
+

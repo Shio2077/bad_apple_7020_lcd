@@ -1,0 +1,36 @@
+################################################################################
+# Automatically-generated file. Do not edit!
+################################################################################
+
+# Add inputs and outputs from these tool invocations to the build variables 
+C_SRCS += \
+../includes/intr_io_init.c \
+../includes/lcd_drv.c \
+../includes/lcd_init.c \
+../includes/lcd_io_init.c \
+../includes/setup_intr.c 
+
+OBJS += \
+./includes/intr_io_init.o \
+./includes/lcd_drv.o \
+./includes/lcd_init.o \
+./includes/lcd_io_init.o \
+./includes/setup_intr.o 
+
+C_DEPS += \
+./includes/intr_io_init.d \
+./includes/lcd_drv.d \
+./includes/lcd_init.d \
+./includes/lcd_io_init.d \
+./includes/setup_intr.d 
+
+
+# Each subdirectory must supply rules for building sources it contributes
+includes/%.o: ../includes/%.c
+	@echo 'Building file: $<'
+	@echo 'Invoking: ARM v7 gcc compiler'
+	arm-none-eabi-gcc -Wall -O2 -c -fmessage-length=0 -MT"$@" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -ID:/Projects/prj/AMD/lcd_7020/zynq_7020_lcd/workspace/zynq7_lcd/export/zynq7_lcd/sw/zynq7_lcd/standalone_domain/bspinclude/include -MMD -MP -MF"$(@:%.o=%.d)" -MT"$(@)" -o "$@" "$<"
+	@echo 'Finished building: $<'
+	@echo ' '
+
+

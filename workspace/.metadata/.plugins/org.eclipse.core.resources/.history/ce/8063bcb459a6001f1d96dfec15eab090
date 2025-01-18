@@ -1,0 +1,7 @@
+/*zynq7_lcd*/
+the_ROM_image:
+{
+ [bootloader] <zynq7_lcd/boot/fsbl.elf>
+ <bitstream>
+ <elf,ps7_cortexa9_0>
+}

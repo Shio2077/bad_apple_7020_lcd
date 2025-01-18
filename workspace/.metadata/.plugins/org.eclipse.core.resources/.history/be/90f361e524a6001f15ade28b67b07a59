@@ -1,0 +1,12 @@
+#ifndef __INTR_IO_INIT_H
+#define __INTR_IO_INIT_H
+#include "xil_exception.h"
+#include "xscugic.h"
+#include "unistd.h"
+#include "xgpiops.h"
+
+extern XGpioPs_Config *ConfigPtr;
+
+void IntrIoInit(void);
+
+#endif

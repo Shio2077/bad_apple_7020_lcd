@@ -1,0 +1,90 @@
+2024-11-19T14:01:49.273643200255-14:01:49 **** Build of configuration Debug for project app_zynq7_lcd ****
+000-make all 
+000-make --no-print-directory pre-build
+000-a9-linaro-pre-build-step
+000-' '
+000-make --no-print-directory main-build
+000-'Building file: ../src/main.c'
+000-'Invoking: ARM v7 gcc compiler'
+000-arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -ID:/Projects/prj/AMD/lcd_7020/zynq_7020_lcd/workspace/zynq7_lcd/export/zynq7_lcd/sw/zynq7_lcd/standalone_domain/bspinclude/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+000-../src/main.c: In function 'LCD_Test':
+000/app_zynq7_lcd/src/main.c98-1-1operation on 'pic_idx' may be undefined [-Wsequence-point]1-../src/main.c:98:83: warning: operation on 'pic_idx' may be undefined [-Wsequence-point]
+000-   98 |                         LCD_WR_DATA(char2u16_data(gImage_pic[pic_idx], gImage_pic[++pic_idx]));
+000-      |                                                                                   ^~~~~~~~~
+000/app_zynq7_lcd/src/main.c103-1-1unsigned conversion from 'int' to 'unsigned char' changes value from '1000' to '232' [-Woverflow]1-../src/main.c:103:11: warning: unsigned conversion from 'int' to 'unsigned char' changes value from '1000' to '232' [-Woverflow]
+000-  103 |     delay(1000);
+000-      |           ^~~~
+000-In file included from ../src/../includes/../Includes/global_defines.h:8,
+000-                 from ../src/../includes/../Includes/lcd_drv.h:6,
+000-                 from ../src/../includes/lcd_init.h:6,
+000-                 from ../src/main.c:15:
+000-At top level:
+000/app_zynq7_lcd/includes/setup_intr.h14-1-1'pin_stat_past' defined but not used [-Wunused-variable]1pin_stat_past../src/../includes/../Includes/setup_intr.h:14:12: warning: 'pin_stat_past' defined but not used [-Wunused-variable]
+000-   14 | static u16 pin_stat_past = 1;
+000-      |            ^~~~~~~~~~~~~
+000-'Finished building: ../src/main.c'
+000-' '
+000-'Building file: ../includes/intr_io_init.c'
+000-'Invoking: ARM v7 gcc compiler'
+000-arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"includes/intr_io_init.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -ID:/Projects/prj/AMD/lcd_7020/zynq_7020_lcd/workspace/zynq7_lcd/export/zynq7_lcd/sw/zynq7_lcd/standalone_domain/bspinclude/include -MMD -MP -MF"includes/intr_io_init.d" -MT"includes/intr_io_init.o" -o "includes/intr_io_init.o" "../includes/intr_io_init.c"
+000-In file included from ../includes/intr_io_init.h:7,
+000-                 from ../includes/intr_io_init.c:4:
+000/app_zynq7_lcd/includes/setup_intr.h14-1-1'pin_stat_past' defined but not used [-Wunused-variable]1pin_stat_past../includes/setup_intr.h:14:12: warning: 'pin_stat_past' defined but not used [-Wunused-variable]
+000-   14 | static u16 pin_stat_past = 1;
+000-      |            ^~~~~~~~~~~~~
+000-'Finished building: ../includes/intr_io_init.c'
+000-' '
+000-'Building file: ../includes/lcd_drv.c'
+000-'Invoking: ARM v7 gcc compiler'
+000-arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"includes/lcd_drv.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -ID:/Projects/prj/AMD/lcd_7020/zynq_7020_lcd/workspace/zynq7_lcd/export/zynq7_lcd/sw/zynq7_lcd/standalone_domain/bspinclude/include -MMD -MP -MF"includes/lcd_drv.d" -MT"includes/lcd_drv.o" -o "includes/lcd_drv.o" "../includes/lcd_drv.c"
+000-In file included from ../includes/global_defines.h:8,
+000-                 from ../includes/lcd_drv.h:6,
+000-                 from ../includes/lcd_drv.c:4:
+000/app_zynq7_lcd/includes/setup_intr.h14-1-1'pin_stat_past' defined but not used [-Wunused-variable]1pin_stat_past../includes/setup_intr.h:14:12: warning: 'pin_stat_past' defined but not used [-Wunused-variable]
+000-   14 | static u16 pin_stat_past = 1;
+000-      |            ^~~~~~~~~~~~~
+000-'Finished building: ../includes/lcd_drv.c'
+000-' '
+000-'Building file: ../includes/lcd_init.c'
+000-'Invoking: ARM v7 gcc compiler'
+000-arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"includes/lcd_init.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -ID:/Projects/prj/AMD/lcd_7020/zynq_7020_lcd/workspace/zynq7_lcd/export/zynq7_lcd/sw/zynq7_lcd/standalone_domain/bspinclude/include -MMD -MP -MF"includes/lcd_init.d" -MT"includes/lcd_init.o" -o "includes/lcd_init.o" "../includes/lcd_init.c"
+000-In file included from ../includes/../Includes/global_defines.h:8,
+000-                 from ../includes/../Includes/lcd_drv.h:6,
+000-                 from ../includes/lcd_init.h:6,
+000-                 from ../includes/lcd_init.c:4:
+000/app_zynq7_lcd/includes/setup_intr.h14-1-1'pin_stat_past' defined but not used [-Wunused-variable]1pin_stat_past../includes/../Includes/setup_intr.h:14:12: warning: 'pin_stat_past' defined but not used [-Wunused-variable]
+000-   14 | static u16 pin_stat_past = 1;
+000-      |            ^~~~~~~~~~~~~
+000-'Finished building: ../includes/lcd_init.c'
+000-' '
+000-'Building file: ../includes/lcd_io_init.c'
+000-'Invoking: ARM v7 gcc compiler'
+000-arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"includes/lcd_io_init.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -ID:/Projects/prj/AMD/lcd_7020/zynq_7020_lcd/workspace/zynq7_lcd/export/zynq7_lcd/sw/zynq7_lcd/standalone_domain/bspinclude/include -MMD -MP -MF"includes/lcd_io_init.d" -MT"includes/lcd_io_init.o" -o "includes/lcd_io_init.o" "../includes/lcd_io_init.c"
+000-In file included from ../includes/../Includes/global_defines.h:8,
+000-                 from ../includes/../Includes/lcd_drv.h:6,
+000-                 from ../includes/lcd_io_init.h:6,
+000-                 from ../includes/lcd_io_init.c:4:
+000/app_zynq7_lcd/includes/setup_intr.h14-1-1'pin_stat_past' defined but not used [-Wunused-variable]1pin_stat_past../includes/../Includes/setup_intr.h:14:12: warning: 'pin_stat_past' defined but not used [-Wunused-variable]
+000-   14 | static u16 pin_stat_past = 1;
+000-      |            ^~~~~~~~~~~~~
+000-'Finished building: ../includes/lcd_io_init.c'
+000-' '
+000-'Building file: ../includes/setup_intr.c'
+000-'Invoking: ARM v7 gcc compiler'
+000-arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"includes/setup_intr.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -ID:/Projects/prj/AMD/lcd_7020/zynq_7020_lcd/workspace/zynq7_lcd/export/zynq7_lcd/sw/zynq7_lcd/standalone_domain/bspinclude/include -MMD -MP -MF"includes/setup_intr.d" -MT"includes/setup_intr.o" -o "includes/setup_intr.o" "../includes/setup_intr.c"
+000-'Finished building: ../includes/setup_intr.c'
+000-' '
+000-'Building target: app_zynq7_lcd.elf'
+000-'Invoking: ARM v7 gcc linker'
+000-arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -LD:/Projects/prj/AMD/lcd_7020/zynq_7020_lcd/workspace/zynq7_lcd/export/zynq7_lcd/sw/zynq7_lcd/standalone_domain/bsplib/lib -o "app_zynq7_lcd.elf"  ./src/main.o  ./includes/intr_io_init.o ./includes/lcd_drv.o ./includes/lcd_init.o ./includes/lcd_io_init.o ./includes/setup_intr.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxilffs,-lxil,-lgcc,-lc,--end-group
+000-'Finished building target: app_zynq7_lcd.elf'
+000-' '
+000-'Invoking: ARM v7 Print Size'
+000-arm-none-eabi-size app_zynq7_lcd.elf  |tee "app_zynq7_lcd.elf.size"
+000-   text	   data	    bss	    dec	    hex	filename
+000- 141413	   1952	  22696	 166061	  288ad	app_zynq7_lcd.elf
+000-'Finished building: app_zynq7_lcd.elf.size'
+000-' '
+00255-
+14:01:51 Build Finished (took 1s.852ms)
+

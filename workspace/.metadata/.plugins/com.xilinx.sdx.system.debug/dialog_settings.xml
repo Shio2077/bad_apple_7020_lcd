@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<item key="app_zynq7_lcd_system-imgFile" value="D:/Projects/prj/AMD/lcd_7020/zynq_7020_lcd/workspace/app_zynq7_lcd_system/_ide/bootimage/BOOT.bin"/>
+	<item key="app_zynq7_lcd_system-offSet" value=""/>
+	<item key="app_zynq7_lcd_system-initFile" value="D:/Projects/prj/AMD/lcd_7020/zynq_7020_lcd/workspace/zynq7_lcd/export/zynq7_lcd/sw/zynq7_lcd/boot/fsbl.elf"/>
+	<item key="app_zynq7_lcd_system-flashType" value="qspi-x4-single"/>
+	<item key="app_zynq7_lcd_system-verifyFlash" value="true"/>
+	<item key="app_zynq7_lcd_system-blankCheck" value="false"/>
+	<item key="app_zynq7_lcd_system-device" value="Auto Detect"/>
+	<item key="app_zynq7_lcd_system-target" value="Local"/>
+	<item key="programflash.hwplatform" value="app_zynq7_lcd_system"/>
+</section>
