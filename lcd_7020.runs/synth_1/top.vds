@@ -2,20 +2,20 @@
 # Vivado v2022.2.2 (64-bit)
 # SW Build 3788238 on Tue Feb 21 20:00:34 MST 2023
 # IP Build 3783773 on Tue Feb 21 23:41:56 MST 2023
-# Start of session at: Mon Nov 18 22:20:09 2024
-# Process ID: 16104
-# Current directory: D:/Projects/prj/AMD/lcd_7020/zynq_7020_lcd/lcd_7020.runs/synth_1
+# Start of session at: Sun Jan 19 00:15:22 2025
+# Process ID: 8908
+# Current directory: D:/Projects/prj/AMD/bad_apple_7020_lcd/lcd_7020.runs/synth_1
 # Command line: vivado.exe -log top.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source top.tcl
-# Log file: D:/Projects/prj/AMD/lcd_7020/zynq_7020_lcd/lcd_7020.runs/synth_1/top.vds
-# Journal file: D:/Projects/prj/AMD/lcd_7020/zynq_7020_lcd/lcd_7020.runs/synth_1\vivado.jou
+# Log file: D:/Projects/prj/AMD/bad_apple_7020_lcd/lcd_7020.runs/synth_1/top.vds
+# Journal file: D:/Projects/prj/AMD/bad_apple_7020_lcd/lcd_7020.runs/synth_1\vivado.jou
 # Running On: C88, OS: Windows, CPU Frequency: 3793 MHz, CPU Physical cores: 16, Host memory: 33618 MB
 #-----------------------------------------------------------
 source top.tcl -notrace
 INFO: [IP_Flow 19-234] Refreshing IP repositories
 INFO: [IP_Flow 19-1704] No user IP repositories specified
 INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/AMD/Vivado/2022.2/data/ip'.
-Command: read_checkpoint -auto_incremental -incremental D:/Projects/prj/AMD/lcd_7020/zynq_7020_lcd/lcd_7020.srcs/utils_1/imports/synth_1/zynq_7_wrapper.dcp
-INFO: [Vivado 12-5825] Read reference checkpoint from D:/Projects/prj/AMD/lcd_7020/zynq_7020_lcd/lcd_7020.srcs/utils_1/imports/synth_1/zynq_7_wrapper.dcp for incremental synthesis
+Command: read_checkpoint -auto_incremental -incremental D:/Projects/prj/AMD/bad_apple_7020_lcd/lcd_7020.srcs/utils_1/imports/synth_1/zynq_7_wrapper.dcp
+INFO: [Vivado 12-5825] Read reference checkpoint from D:/Projects/prj/AMD/bad_apple_7020_lcd/lcd_7020.srcs/utils_1/imports/synth_1/zynq_7_wrapper.dcp for incremental synthesis
 INFO: [Vivado 12-7989] Please ensure there are no constraint changes
 Command: synth_design -top top -part xc7z020clg484-1
 Starting synth_design
@@ -26,83 +26,83 @@ INFO: [Designutils 20-5440] No compile time benefit to using incremental synthes
 INFO: [Designutils 20-4379] Flow is switching to default flow due to incremental criteria not met. If you would like to alter this behaviour and have the flow terminate instead, please set the following parameter config_implementation {autoIncr.Synth.RejectBehavior Terminate}
 INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
 INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
-INFO: [Synth 8-7075] Helper process launched with PID 14556
+INFO: [Synth 8-7075] Helper process launched with PID 15268
 INFO: [Synth 8-11241] undeclared symbol 'REGCCE', assumed default net type 'wire' [D:/AMD/Vivado/2022.2/data/verilog/src/unimacro/BRAM_SINGLE_MACRO.v:2170]
-WARNING: [Synth 8-11121] redeclaration of ANSI port 'rst_n' is not allowed [D:/Projects/prj/AMD/lcd_7020/zynq_7020_lcd/lcd_7020.srcs/sources_1/new/rst_gen.v:28]
-WARNING: [Synth 8-10929] literal value 'hFFF_FFF_FFF truncated to fit in 24 bits [D:/Projects/prj/AMD/lcd_7020/zynq_7020_lcd/lcd_7020.srcs/sources_1/new/rst_gen.v:44]
-INFO: [Synth 8-11241] undeclared symbol 'FCLK_CLK0_0', assumed default net type 'wire' [D:/Projects/prj/AMD/lcd_7020/zynq_7020_lcd/lcd_7020.srcs/sources_1/new/top.v:81]
+WARNING: [Synth 8-11121] redeclaration of ANSI port 'rst_n' is not allowed [D:/Projects/prj/AMD/bad_apple_7020_lcd/lcd_7020.srcs/sources_1/new/rst_gen.v:28]
+WARNING: [Synth 8-10929] literal value 'hFFF_FFF_FFF truncated to fit in 24 bits [D:/Projects/prj/AMD/bad_apple_7020_lcd/lcd_7020.srcs/sources_1/new/rst_gen.v:44]
+INFO: [Synth 8-11241] undeclared symbol 'FCLK_CLK0_0', assumed default net type 'wire' [D:/Projects/prj/AMD/bad_apple_7020_lcd/lcd_7020.srcs/sources_1/new/top.v:81]
 ---------------------------------------------------------------------------------
-Starting RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 2396.426 ; gain = 410.406
+Starting RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 2395.645 ; gain = 409.637
 ---------------------------------------------------------------------------------
-INFO: [Synth 8-6157] synthesizing module 'top' [D:/Projects/prj/AMD/lcd_7020/zynq_7020_lcd/lcd_7020.srcs/sources_1/new/top.v:23]
-INFO: [Synth 8-6157] synthesizing module 'zynq_7_wrapper' [D:/Projects/prj/AMD/lcd_7020/zynq_7020_lcd/lcd_7020.srcs/sources_1/imports/hdl/zynq_7_wrapper.v:12]
+INFO: [Synth 8-6157] synthesizing module 'top' [D:/Projects/prj/AMD/bad_apple_7020_lcd/lcd_7020.srcs/sources_1/new/top.v:23]
+INFO: [Synth 8-6157] synthesizing module 'zynq_7_wrapper' [D:/Projects/prj/AMD/bad_apple_7020_lcd/lcd_7020.srcs/sources_1/imports/hdl/zynq_7_wrapper.v:12]
 INFO: [Synth 8-6157] synthesizing module 'IOBUF' [D:/AMD/Vivado/2022.2/scripts/rt/data/unisim_comp.v:75902]
 INFO: [Synth 8-6155] done synthesizing module 'IOBUF' (0#1) [D:/AMD/Vivado/2022.2/scripts/rt/data/unisim_comp.v:75902]
-INFO: [Synth 8-6157] synthesizing module 'zynq_7' [d:/Projects/prj/AMD/lcd_7020/zynq_7020_lcd/lcd_7020.gen/sources_1/bd/zynq_7/synth/zynq_7.v:12]
-INFO: [Synth 8-6157] synthesizing module 'zynq_7_processing_system7_0_0' [d:/Projects/prj/AMD/lcd_7020/zynq_7020_lcd/lcd_7020.gen/sources_1/bd/zynq_7/ip/zynq_7_processing_system7_0_0/synth/zynq_7_processing_system7_0_0.v:53]
-INFO: [Synth 8-6157] synthesizing module 'processing_system7_v5_5_processing_system7' [d:/Projects/prj/AMD/lcd_7020/zynq_7020_lcd/lcd_7020.gen/sources_1/bd/zynq_7/ip/zynq_7_processing_system7_0_0/hdl/verilog/processing_system7_v5_5_processing_system7.v:152]
+INFO: [Synth 8-6157] synthesizing module 'zynq_7' [d:/Projects/prj/AMD/bad_apple_7020_lcd/lcd_7020.gen/sources_1/bd/zynq_7/synth/zynq_7.v:12]
+INFO: [Synth 8-6157] synthesizing module 'zynq_7_processing_system7_0_0' [d:/Projects/prj/AMD/bad_apple_7020_lcd/lcd_7020.gen/sources_1/bd/zynq_7/ip/zynq_7_processing_system7_0_0/synth/zynq_7_processing_system7_0_0.v:53]
+INFO: [Synth 8-6157] synthesizing module 'processing_system7_v5_5_processing_system7' [d:/Projects/prj/AMD/bad_apple_7020_lcd/lcd_7020.gen/sources_1/bd/zynq_7/ip/zynq_7_processing_system7_0_0/hdl/verilog/processing_system7_v5_5_processing_system7.v:152]
 INFO: [Synth 8-6157] synthesizing module 'BUFG' [D:/AMD/Vivado/2022.2/scripts/rt/data/unisim_comp.v:1082]
 INFO: [Synth 8-6155] done synthesizing module 'BUFG' (0#1) [D:/AMD/Vivado/2022.2/scripts/rt/data/unisim_comp.v:1082]
 INFO: [Synth 8-6157] synthesizing module 'BIBUF' [D:/AMD/Vivado/2022.2/scripts/rt/data/unisim_comp.v:729]
 INFO: [Synth 8-6155] done synthesizing module 'BIBUF' (0#1) [D:/AMD/Vivado/2022.2/scripts/rt/data/unisim_comp.v:729]
 INFO: [Synth 8-6157] synthesizing module 'PS7' [D:/AMD/Vivado/2022.2/scripts/rt/data/unisim_comp.v:109424]
 INFO: [Synth 8-6155] done synthesizing module 'PS7' (0#1) [D:/AMD/Vivado/2022.2/scripts/rt/data/unisim_comp.v:109424]
-INFO: [Synth 8-6155] done synthesizing module 'processing_system7_v5_5_processing_system7' (0#1) [d:/Projects/prj/AMD/lcd_7020/zynq_7020_lcd/lcd_7020.gen/sources_1/bd/zynq_7/ip/zynq_7_processing_system7_0_0/hdl/verilog/processing_system7_v5_5_processing_system7.v:152]
-WARNING: [Synth 8-7071] port 'M_AXI_GP0_ARESETN' of module 'processing_system7_v5_5_processing_system7' is unconnected for instance 'inst' [d:/Projects/prj/AMD/lcd_7020/zynq_7020_lcd/lcd_7020.gen/sources_1/bd/zynq_7/ip/zynq_7_processing_system7_0_0/synth/zynq_7_processing_system7_0_0.v:365]
-WARNING: [Synth 8-7071] port 'M_AXI_GP1_ARESETN' of module 'processing_system7_v5_5_processing_system7' is unconnected for instance 'inst' [d:/Projects/prj/AMD/lcd_7020/zynq_7020_lcd/lcd_7020.gen/sources_1/bd/zynq_7/ip/zynq_7_processing_system7_0_0/synth/zynq_7_processing_system7_0_0.v:365]
-WARNING: [Synth 8-7071] port 'S_AXI_GP0_ARESETN' of module 'processing_system7_v5_5_processing_system7' is unconnected for instance 'inst' [d:/Projects/prj/AMD/lcd_7020/zynq_7020_lcd/lcd_7020.gen/sources_1/bd/zynq_7/ip/zynq_7_processing_system7_0_0/synth/zynq_7_processing_system7_0_0.v:365]
-WARNING: [Synth 8-7071] port 'S_AXI_GP1_ARESETN' of module 'processing_system7_v5_5_processing_system7' is unconnected for instance 'inst' [d:/Projects/prj/AMD/lcd_7020/zynq_7020_lcd/lcd_7020.gen/sources_1/bd/zynq_7/ip/zynq_7_processing_system7_0_0/synth/zynq_7_processing_system7_0_0.v:365]
-WARNING: [Synth 8-7071] port 'S_AXI_ACP_ARESETN' of module 'processing_system7_v5_5_processing_system7' is unconnected for instance 'inst' [d:/Projects/prj/AMD/lcd_7020/zynq_7020_lcd/lcd_7020.gen/sources_1/bd/zynq_7/ip/zynq_7_processing_system7_0_0/synth/zynq_7_processing_system7_0_0.v:365]
-WARNING: [Synth 8-7071] port 'S_AXI_HP0_ARESETN' of module 'processing_system7_v5_5_processing_system7' is unconnected for instance 'inst' [d:/Projects/prj/AMD/lcd_7020/zynq_7020_lcd/lcd_7020.gen/sources_1/bd/zynq_7/ip/zynq_7_processing_system7_0_0/synth/zynq_7_processing_system7_0_0.v:365]
-WARNING: [Synth 8-7071] port 'S_AXI_HP1_ARESETN' of module 'processing_system7_v5_5_processing_system7' is unconnected for instance 'inst' [d:/Projects/prj/AMD/lcd_7020/zynq_7020_lcd/lcd_7020.gen/sources_1/bd/zynq_7/ip/zynq_7_processing_system7_0_0/synth/zynq_7_processing_system7_0_0.v:365]
-WARNING: [Synth 8-7071] port 'S_AXI_HP2_ARESETN' of module 'processing_system7_v5_5_processing_system7' is unconnected for instance 'inst' [d:/Projects/prj/AMD/lcd_7020/zynq_7020_lcd/lcd_7020.gen/sources_1/bd/zynq_7/ip/zynq_7_processing_system7_0_0/synth/zynq_7_processing_system7_0_0.v:365]
-WARNING: [Synth 8-7071] port 'S_AXI_HP3_ARESETN' of module 'processing_system7_v5_5_processing_system7' is unconnected for instance 'inst' [d:/Projects/prj/AMD/lcd_7020/zynq_7020_lcd/lcd_7020.gen/sources_1/bd/zynq_7/ip/zynq_7_processing_system7_0_0/synth/zynq_7_processing_system7_0_0.v:365]
-WARNING: [Synth 8-7071] port 'DMA0_RSTN' of module 'processing_system7_v5_5_processing_system7' is unconnected for instance 'inst' [d:/Projects/prj/AMD/lcd_7020/zynq_7020_lcd/lcd_7020.gen/sources_1/bd/zynq_7/ip/zynq_7_processing_system7_0_0/synth/zynq_7_processing_system7_0_0.v:365]
-WARNING: [Synth 8-7071] port 'DMA1_RSTN' of module 'processing_system7_v5_5_processing_system7' is unconnected for instance 'inst' [d:/Projects/prj/AMD/lcd_7020/zynq_7020_lcd/lcd_7020.gen/sources_1/bd/zynq_7/ip/zynq_7_processing_system7_0_0/synth/zynq_7_processing_system7_0_0.v:365]
-WARNING: [Synth 8-7071] port 'DMA2_RSTN' of module 'processing_system7_v5_5_processing_system7' is unconnected for instance 'inst' [d:/Projects/prj/AMD/lcd_7020/zynq_7020_lcd/lcd_7020.gen/sources_1/bd/zynq_7/ip/zynq_7_processing_system7_0_0/synth/zynq_7_processing_system7_0_0.v:365]
-WARNING: [Synth 8-7071] port 'DMA3_RSTN' of module 'processing_system7_v5_5_processing_system7' is unconnected for instance 'inst' [d:/Projects/prj/AMD/lcd_7020/zynq_7020_lcd/lcd_7020.gen/sources_1/bd/zynq_7/ip/zynq_7_processing_system7_0_0/synth/zynq_7_processing_system7_0_0.v:365]
-WARNING: [Synth 8-7023] instance 'inst' of module 'processing_system7_v5_5_processing_system7' has 685 connections declared, but only 672 given [d:/Projects/prj/AMD/lcd_7020/zynq_7020_lcd/lcd_7020.gen/sources_1/bd/zynq_7/ip/zynq_7_processing_system7_0_0/synth/zynq_7_processing_system7_0_0.v:365]
-INFO: [Synth 8-6155] done synthesizing module 'zynq_7_processing_system7_0_0' (0#1) [d:/Projects/prj/AMD/lcd_7020/zynq_7020_lcd/lcd_7020.gen/sources_1/bd/zynq_7/ip/zynq_7_processing_system7_0_0/synth/zynq_7_processing_system7_0_0.v:53]
-WARNING: [Synth 8-7071] port 'M_AXI_GP0_ARVALID' of module 'zynq_7_processing_system7_0_0' is unconnected for instance 'processing_system7_0' [d:/Projects/prj/AMD/lcd_7020/zynq_7020_lcd/lcd_7020.gen/sources_1/bd/zynq_7/synth/zynq_7.v:151]
-WARNING: [Synth 8-7071] port 'M_AXI_GP0_AWVALID' of module 'zynq_7_processing_system7_0_0' is unconnected for instance 'processing_system7_0' [d:/Projects/prj/AMD/lcd_7020/zynq_7020_lcd/lcd_7020.gen/sources_1/bd/zynq_7/synth/zynq_7.v:151]
-WARNING: [Synth 8-7071] port 'M_AXI_GP0_BREADY' of module 'zynq_7_processing_system7_0_0' is unconnected for instance 'processing_system7_0' [d:/Projects/prj/AMD/lcd_7020/zynq_7020_lcd/lcd_7020.gen/sources_1/bd/zynq_7/synth/zynq_7.v:151]
-WARNING: [Synth 8-7071] port 'M_AXI_GP0_RREADY' of module 'zynq_7_processing_system7_0_0' is unconnected for instance 'processing_system7_0' [d:/Projects/prj/AMD/lcd_7020/zynq_7020_lcd/lcd_7020.gen/sources_1/bd/zynq_7/synth/zynq_7.v:151]
-WARNING: [Synth 8-7071] port 'M_AXI_GP0_WLAST' of module 'zynq_7_processing_system7_0_0' is unconnected for instance 'processing_system7_0' [d:/Projects/prj/AMD/lcd_7020/zynq_7020_lcd/lcd_7020.gen/sources_1/bd/zynq_7/synth/zynq_7.v:151]
-WARNING: [Synth 8-7071] port 'M_AXI_GP0_WVALID' of module 'zynq_7_processing_system7_0_0' is unconnected for instance 'processing_system7_0' [d:/Projects/prj/AMD/lcd_7020/zynq_7020_lcd/lcd_7020.gen/sources_1/bd/zynq_7/synth/zynq_7.v:151]
-WARNING: [Synth 8-7071] port 'M_AXI_GP0_ARID' of module 'zynq_7_processing_system7_0_0' is unconnected for instance 'processing_system7_0' [d:/Projects/prj/AMD/lcd_7020/zynq_7020_lcd/lcd_7020.gen/sources_1/bd/zynq_7/synth/zynq_7.v:151]
-WARNING: [Synth 8-7071] port 'M_AXI_GP0_AWID' of module 'zynq_7_processing_system7_0_0' is unconnected for instance 'processing_system7_0' [d:/Projects/prj/AMD/lcd_7020/zynq_7020_lcd/lcd_7020.gen/sources_1/bd/zynq_7/synth/zynq_7.v:151]
-WARNING: [Synth 8-7071] port 'M_AXI_GP0_WID' of module 'zynq_7_processing_system7_0_0' is unconnected for instance 'processing_system7_0' [d:/Projects/prj/AMD/lcd_7020/zynq_7020_lcd/lcd_7020.gen/sources_1/bd/zynq_7/synth/zynq_7.v:151]
-WARNING: [Synth 8-7071] port 'M_AXI_GP0_ARBURST' of module 'zynq_7_processing_system7_0_0' is unconnected for instance 'processing_system7_0' [d:/Projects/prj/AMD/lcd_7020/zynq_7020_lcd/lcd_7020.gen/sources_1/bd/zynq_7/synth/zynq_7.v:151]
-WARNING: [Synth 8-7071] port 'M_AXI_GP0_ARLOCK' of module 'zynq_7_processing_system7_0_0' is unconnected for instance 'processing_system7_0' [d:/Projects/prj/AMD/lcd_7020/zynq_7020_lcd/lcd_7020.gen/sources_1/bd/zynq_7/synth/zynq_7.v:151]
-WARNING: [Synth 8-7071] port 'M_AXI_GP0_ARSIZE' of module 'zynq_7_processing_system7_0_0' is unconnected for instance 'processing_system7_0' [d:/Projects/prj/AMD/lcd_7020/zynq_7020_lcd/lcd_7020.gen/sources_1/bd/zynq_7/synth/zynq_7.v:151]
-WARNING: [Synth 8-7071] port 'M_AXI_GP0_AWBURST' of module 'zynq_7_processing_system7_0_0' is unconnected for instance 'processing_system7_0' [d:/Projects/prj/AMD/lcd_7020/zynq_7020_lcd/lcd_7020.gen/sources_1/bd/zynq_7/synth/zynq_7.v:151]
-WARNING: [Synth 8-7071] port 'M_AXI_GP0_AWLOCK' of module 'zynq_7_processing_system7_0_0' is unconnected for instance 'processing_system7_0' [d:/Projects/prj/AMD/lcd_7020/zynq_7020_lcd/lcd_7020.gen/sources_1/bd/zynq_7/synth/zynq_7.v:151]
-WARNING: [Synth 8-7071] port 'M_AXI_GP0_AWSIZE' of module 'zynq_7_processing_system7_0_0' is unconnected for instance 'processing_system7_0' [d:/Projects/prj/AMD/lcd_7020/zynq_7020_lcd/lcd_7020.gen/sources_1/bd/zynq_7/synth/zynq_7.v:151]
-WARNING: [Synth 8-7071] port 'M_AXI_GP0_ARPROT' of module 'zynq_7_processing_system7_0_0' is unconnected for instance 'processing_system7_0' [d:/Projects/prj/AMD/lcd_7020/zynq_7020_lcd/lcd_7020.gen/sources_1/bd/zynq_7/synth/zynq_7.v:151]
-WARNING: [Synth 8-7071] port 'M_AXI_GP0_AWPROT' of module 'zynq_7_processing_system7_0_0' is unconnected for instance 'processing_system7_0' [d:/Projects/prj/AMD/lcd_7020/zynq_7020_lcd/lcd_7020.gen/sources_1/bd/zynq_7/synth/zynq_7.v:151]
-WARNING: [Synth 8-7071] port 'M_AXI_GP0_ARADDR' of module 'zynq_7_processing_system7_0_0' is unconnected for instance 'processing_system7_0' [d:/Projects/prj/AMD/lcd_7020/zynq_7020_lcd/lcd_7020.gen/sources_1/bd/zynq_7/synth/zynq_7.v:151]
-WARNING: [Synth 8-7071] port 'M_AXI_GP0_AWADDR' of module 'zynq_7_processing_system7_0_0' is unconnected for instance 'processing_system7_0' [d:/Projects/prj/AMD/lcd_7020/zynq_7020_lcd/lcd_7020.gen/sources_1/bd/zynq_7/synth/zynq_7.v:151]
-WARNING: [Synth 8-7071] port 'M_AXI_GP0_WDATA' of module 'zynq_7_processing_system7_0_0' is unconnected for instance 'processing_system7_0' [d:/Projects/prj/AMD/lcd_7020/zynq_7020_lcd/lcd_7020.gen/sources_1/bd/zynq_7/synth/zynq_7.v:151]
-WARNING: [Synth 8-7071] port 'M_AXI_GP0_ARCACHE' of module 'zynq_7_processing_system7_0_0' is unconnected for instance 'processing_system7_0' [d:/Projects/prj/AMD/lcd_7020/zynq_7020_lcd/lcd_7020.gen/sources_1/bd/zynq_7/synth/zynq_7.v:151]
-WARNING: [Synth 8-7071] port 'M_AXI_GP0_ARLEN' of module 'zynq_7_processing_system7_0_0' is unconnected for instance 'processing_system7_0' [d:/Projects/prj/AMD/lcd_7020/zynq_7020_lcd/lcd_7020.gen/sources_1/bd/zynq_7/synth/zynq_7.v:151]
-WARNING: [Synth 8-7071] port 'M_AXI_GP0_ARQOS' of module 'zynq_7_processing_system7_0_0' is unconnected for instance 'processing_system7_0' [d:/Projects/prj/AMD/lcd_7020/zynq_7020_lcd/lcd_7020.gen/sources_1/bd/zynq_7/synth/zynq_7.v:151]
-WARNING: [Synth 8-7071] port 'M_AXI_GP0_AWCACHE' of module 'zynq_7_processing_system7_0_0' is unconnected for instance 'processing_system7_0' [d:/Projects/prj/AMD/lcd_7020/zynq_7020_lcd/lcd_7020.gen/sources_1/bd/zynq_7/synth/zynq_7.v:151]
-WARNING: [Synth 8-7071] port 'M_AXI_GP0_AWLEN' of module 'zynq_7_processing_system7_0_0' is unconnected for instance 'processing_system7_0' [d:/Projects/prj/AMD/lcd_7020/zynq_7020_lcd/lcd_7020.gen/sources_1/bd/zynq_7/synth/zynq_7.v:151]
-WARNING: [Synth 8-7071] port 'M_AXI_GP0_AWQOS' of module 'zynq_7_processing_system7_0_0' is unconnected for instance 'processing_system7_0' [d:/Projects/prj/AMD/lcd_7020/zynq_7020_lcd/lcd_7020.gen/sources_1/bd/zynq_7/synth/zynq_7.v:151]
-WARNING: [Synth 8-7071] port 'M_AXI_GP0_WSTRB' of module 'zynq_7_processing_system7_0_0' is unconnected for instance 'processing_system7_0' [d:/Projects/prj/AMD/lcd_7020/zynq_7020_lcd/lcd_7020.gen/sources_1/bd/zynq_7/synth/zynq_7.v:151]
-WARNING: [Synth 8-7071] port 'FCLK_RESET0_N' of module 'zynq_7_processing_system7_0_0' is unconnected for instance 'processing_system7_0' [d:/Projects/prj/AMD/lcd_7020/zynq_7020_lcd/lcd_7020.gen/sources_1/bd/zynq_7/synth/zynq_7.v:151]
-WARNING: [Synth 8-7023] instance 'processing_system7_0' of module 'zynq_7_processing_system7_0_0' has 79 connections declared, but only 51 given [d:/Projects/prj/AMD/lcd_7020/zynq_7020_lcd/lcd_7020.gen/sources_1/bd/zynq_7/synth/zynq_7.v:151]
-INFO: [Synth 8-6155] done synthesizing module 'zynq_7' (0#1) [d:/Projects/prj/AMD/lcd_7020/zynq_7020_lcd/lcd_7020.gen/sources_1/bd/zynq_7/synth/zynq_7.v:12]
-INFO: [Synth 8-6155] done synthesizing module 'zynq_7_wrapper' (0#1) [D:/Projects/prj/AMD/lcd_7020/zynq_7020_lcd/lcd_7020.srcs/sources_1/imports/hdl/zynq_7_wrapper.v:12]
-INFO: [Synth 8-6157] synthesizing module 'rst_gen' [D:/Projects/prj/AMD/lcd_7020/zynq_7020_lcd/lcd_7020.srcs/sources_1/new/rst_gen.v:22]
-INFO: [Synth 8-6155] done synthesizing module 'rst_gen' (0#1) [D:/Projects/prj/AMD/lcd_7020/zynq_7020_lcd/lcd_7020.srcs/sources_1/new/rst_gen.v:22]
-INFO: [Synth 8-6157] synthesizing module 'pl_anti_jitter' [D:/Projects/prj/AMD/lcd_7020/zynq_7020_lcd/lcd_7020.srcs/sources_1/new/pl_anti_jitter.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'processing_system7_v5_5_processing_system7' (0#1) [d:/Projects/prj/AMD/bad_apple_7020_lcd/lcd_7020.gen/sources_1/bd/zynq_7/ip/zynq_7_processing_system7_0_0/hdl/verilog/processing_system7_v5_5_processing_system7.v:152]
+WARNING: [Synth 8-7071] port 'M_AXI_GP0_ARESETN' of module 'processing_system7_v5_5_processing_system7' is unconnected for instance 'inst' [d:/Projects/prj/AMD/bad_apple_7020_lcd/lcd_7020.gen/sources_1/bd/zynq_7/ip/zynq_7_processing_system7_0_0/synth/zynq_7_processing_system7_0_0.v:365]
+WARNING: [Synth 8-7071] port 'M_AXI_GP1_ARESETN' of module 'processing_system7_v5_5_processing_system7' is unconnected for instance 'inst' [d:/Projects/prj/AMD/bad_apple_7020_lcd/lcd_7020.gen/sources_1/bd/zynq_7/ip/zynq_7_processing_system7_0_0/synth/zynq_7_processing_system7_0_0.v:365]
+WARNING: [Synth 8-7071] port 'S_AXI_GP0_ARESETN' of module 'processing_system7_v5_5_processing_system7' is unconnected for instance 'inst' [d:/Projects/prj/AMD/bad_apple_7020_lcd/lcd_7020.gen/sources_1/bd/zynq_7/ip/zynq_7_processing_system7_0_0/synth/zynq_7_processing_system7_0_0.v:365]
+WARNING: [Synth 8-7071] port 'S_AXI_GP1_ARESETN' of module 'processing_system7_v5_5_processing_system7' is unconnected for instance 'inst' [d:/Projects/prj/AMD/bad_apple_7020_lcd/lcd_7020.gen/sources_1/bd/zynq_7/ip/zynq_7_processing_system7_0_0/synth/zynq_7_processing_system7_0_0.v:365]
+WARNING: [Synth 8-7071] port 'S_AXI_ACP_ARESETN' of module 'processing_system7_v5_5_processing_system7' is unconnected for instance 'inst' [d:/Projects/prj/AMD/bad_apple_7020_lcd/lcd_7020.gen/sources_1/bd/zynq_7/ip/zynq_7_processing_system7_0_0/synth/zynq_7_processing_system7_0_0.v:365]
+WARNING: [Synth 8-7071] port 'S_AXI_HP0_ARESETN' of module 'processing_system7_v5_5_processing_system7' is unconnected for instance 'inst' [d:/Projects/prj/AMD/bad_apple_7020_lcd/lcd_7020.gen/sources_1/bd/zynq_7/ip/zynq_7_processing_system7_0_0/synth/zynq_7_processing_system7_0_0.v:365]
+WARNING: [Synth 8-7071] port 'S_AXI_HP1_ARESETN' of module 'processing_system7_v5_5_processing_system7' is unconnected for instance 'inst' [d:/Projects/prj/AMD/bad_apple_7020_lcd/lcd_7020.gen/sources_1/bd/zynq_7/ip/zynq_7_processing_system7_0_0/synth/zynq_7_processing_system7_0_0.v:365]
+WARNING: [Synth 8-7071] port 'S_AXI_HP2_ARESETN' of module 'processing_system7_v5_5_processing_system7' is unconnected for instance 'inst' [d:/Projects/prj/AMD/bad_apple_7020_lcd/lcd_7020.gen/sources_1/bd/zynq_7/ip/zynq_7_processing_system7_0_0/synth/zynq_7_processing_system7_0_0.v:365]
+WARNING: [Synth 8-7071] port 'S_AXI_HP3_ARESETN' of module 'processing_system7_v5_5_processing_system7' is unconnected for instance 'inst' [d:/Projects/prj/AMD/bad_apple_7020_lcd/lcd_7020.gen/sources_1/bd/zynq_7/ip/zynq_7_processing_system7_0_0/synth/zynq_7_processing_system7_0_0.v:365]
+WARNING: [Synth 8-7071] port 'DMA0_RSTN' of module 'processing_system7_v5_5_processing_system7' is unconnected for instance 'inst' [d:/Projects/prj/AMD/bad_apple_7020_lcd/lcd_7020.gen/sources_1/bd/zynq_7/ip/zynq_7_processing_system7_0_0/synth/zynq_7_processing_system7_0_0.v:365]
+WARNING: [Synth 8-7071] port 'DMA1_RSTN' of module 'processing_system7_v5_5_processing_system7' is unconnected for instance 'inst' [d:/Projects/prj/AMD/bad_apple_7020_lcd/lcd_7020.gen/sources_1/bd/zynq_7/ip/zynq_7_processing_system7_0_0/synth/zynq_7_processing_system7_0_0.v:365]
+WARNING: [Synth 8-7071] port 'DMA2_RSTN' of module 'processing_system7_v5_5_processing_system7' is unconnected for instance 'inst' [d:/Projects/prj/AMD/bad_apple_7020_lcd/lcd_7020.gen/sources_1/bd/zynq_7/ip/zynq_7_processing_system7_0_0/synth/zynq_7_processing_system7_0_0.v:365]
+WARNING: [Synth 8-7071] port 'DMA3_RSTN' of module 'processing_system7_v5_5_processing_system7' is unconnected for instance 'inst' [d:/Projects/prj/AMD/bad_apple_7020_lcd/lcd_7020.gen/sources_1/bd/zynq_7/ip/zynq_7_processing_system7_0_0/synth/zynq_7_processing_system7_0_0.v:365]
+WARNING: [Synth 8-7023] instance 'inst' of module 'processing_system7_v5_5_processing_system7' has 685 connections declared, but only 672 given [d:/Projects/prj/AMD/bad_apple_7020_lcd/lcd_7020.gen/sources_1/bd/zynq_7/ip/zynq_7_processing_system7_0_0/synth/zynq_7_processing_system7_0_0.v:365]
+INFO: [Synth 8-6155] done synthesizing module 'zynq_7_processing_system7_0_0' (0#1) [d:/Projects/prj/AMD/bad_apple_7020_lcd/lcd_7020.gen/sources_1/bd/zynq_7/ip/zynq_7_processing_system7_0_0/synth/zynq_7_processing_system7_0_0.v:53]
+WARNING: [Synth 8-7071] port 'M_AXI_GP0_ARVALID' of module 'zynq_7_processing_system7_0_0' is unconnected for instance 'processing_system7_0' [d:/Projects/prj/AMD/bad_apple_7020_lcd/lcd_7020.gen/sources_1/bd/zynq_7/synth/zynq_7.v:151]
+WARNING: [Synth 8-7071] port 'M_AXI_GP0_AWVALID' of module 'zynq_7_processing_system7_0_0' is unconnected for instance 'processing_system7_0' [d:/Projects/prj/AMD/bad_apple_7020_lcd/lcd_7020.gen/sources_1/bd/zynq_7/synth/zynq_7.v:151]
+WARNING: [Synth 8-7071] port 'M_AXI_GP0_BREADY' of module 'zynq_7_processing_system7_0_0' is unconnected for instance 'processing_system7_0' [d:/Projects/prj/AMD/bad_apple_7020_lcd/lcd_7020.gen/sources_1/bd/zynq_7/synth/zynq_7.v:151]
+WARNING: [Synth 8-7071] port 'M_AXI_GP0_RREADY' of module 'zynq_7_processing_system7_0_0' is unconnected for instance 'processing_system7_0' [d:/Projects/prj/AMD/bad_apple_7020_lcd/lcd_7020.gen/sources_1/bd/zynq_7/synth/zynq_7.v:151]
+WARNING: [Synth 8-7071] port 'M_AXI_GP0_WLAST' of module 'zynq_7_processing_system7_0_0' is unconnected for instance 'processing_system7_0' [d:/Projects/prj/AMD/bad_apple_7020_lcd/lcd_7020.gen/sources_1/bd/zynq_7/synth/zynq_7.v:151]
+WARNING: [Synth 8-7071] port 'M_AXI_GP0_WVALID' of module 'zynq_7_processing_system7_0_0' is unconnected for instance 'processing_system7_0' [d:/Projects/prj/AMD/bad_apple_7020_lcd/lcd_7020.gen/sources_1/bd/zynq_7/synth/zynq_7.v:151]
+WARNING: [Synth 8-7071] port 'M_AXI_GP0_ARID' of module 'zynq_7_processing_system7_0_0' is unconnected for instance 'processing_system7_0' [d:/Projects/prj/AMD/bad_apple_7020_lcd/lcd_7020.gen/sources_1/bd/zynq_7/synth/zynq_7.v:151]
+WARNING: [Synth 8-7071] port 'M_AXI_GP0_AWID' of module 'zynq_7_processing_system7_0_0' is unconnected for instance 'processing_system7_0' [d:/Projects/prj/AMD/bad_apple_7020_lcd/lcd_7020.gen/sources_1/bd/zynq_7/synth/zynq_7.v:151]
+WARNING: [Synth 8-7071] port 'M_AXI_GP0_WID' of module 'zynq_7_processing_system7_0_0' is unconnected for instance 'processing_system7_0' [d:/Projects/prj/AMD/bad_apple_7020_lcd/lcd_7020.gen/sources_1/bd/zynq_7/synth/zynq_7.v:151]
+WARNING: [Synth 8-7071] port 'M_AXI_GP0_ARBURST' of module 'zynq_7_processing_system7_0_0' is unconnected for instance 'processing_system7_0' [d:/Projects/prj/AMD/bad_apple_7020_lcd/lcd_7020.gen/sources_1/bd/zynq_7/synth/zynq_7.v:151]
+WARNING: [Synth 8-7071] port 'M_AXI_GP0_ARLOCK' of module 'zynq_7_processing_system7_0_0' is unconnected for instance 'processing_system7_0' [d:/Projects/prj/AMD/bad_apple_7020_lcd/lcd_7020.gen/sources_1/bd/zynq_7/synth/zynq_7.v:151]
+WARNING: [Synth 8-7071] port 'M_AXI_GP0_ARSIZE' of module 'zynq_7_processing_system7_0_0' is unconnected for instance 'processing_system7_0' [d:/Projects/prj/AMD/bad_apple_7020_lcd/lcd_7020.gen/sources_1/bd/zynq_7/synth/zynq_7.v:151]
+WARNING: [Synth 8-7071] port 'M_AXI_GP0_AWBURST' of module 'zynq_7_processing_system7_0_0' is unconnected for instance 'processing_system7_0' [d:/Projects/prj/AMD/bad_apple_7020_lcd/lcd_7020.gen/sources_1/bd/zynq_7/synth/zynq_7.v:151]
+WARNING: [Synth 8-7071] port 'M_AXI_GP0_AWLOCK' of module 'zynq_7_processing_system7_0_0' is unconnected for instance 'processing_system7_0' [d:/Projects/prj/AMD/bad_apple_7020_lcd/lcd_7020.gen/sources_1/bd/zynq_7/synth/zynq_7.v:151]
+WARNING: [Synth 8-7071] port 'M_AXI_GP0_AWSIZE' of module 'zynq_7_processing_system7_0_0' is unconnected for instance 'processing_system7_0' [d:/Projects/prj/AMD/bad_apple_7020_lcd/lcd_7020.gen/sources_1/bd/zynq_7/synth/zynq_7.v:151]
+WARNING: [Synth 8-7071] port 'M_AXI_GP0_ARPROT' of module 'zynq_7_processing_system7_0_0' is unconnected for instance 'processing_system7_0' [d:/Projects/prj/AMD/bad_apple_7020_lcd/lcd_7020.gen/sources_1/bd/zynq_7/synth/zynq_7.v:151]
+WARNING: [Synth 8-7071] port 'M_AXI_GP0_AWPROT' of module 'zynq_7_processing_system7_0_0' is unconnected for instance 'processing_system7_0' [d:/Projects/prj/AMD/bad_apple_7020_lcd/lcd_7020.gen/sources_1/bd/zynq_7/synth/zynq_7.v:151]
+WARNING: [Synth 8-7071] port 'M_AXI_GP0_ARADDR' of module 'zynq_7_processing_system7_0_0' is unconnected for instance 'processing_system7_0' [d:/Projects/prj/AMD/bad_apple_7020_lcd/lcd_7020.gen/sources_1/bd/zynq_7/synth/zynq_7.v:151]
+WARNING: [Synth 8-7071] port 'M_AXI_GP0_AWADDR' of module 'zynq_7_processing_system7_0_0' is unconnected for instance 'processing_system7_0' [d:/Projects/prj/AMD/bad_apple_7020_lcd/lcd_7020.gen/sources_1/bd/zynq_7/synth/zynq_7.v:151]
+WARNING: [Synth 8-7071] port 'M_AXI_GP0_WDATA' of module 'zynq_7_processing_system7_0_0' is unconnected for instance 'processing_system7_0' [d:/Projects/prj/AMD/bad_apple_7020_lcd/lcd_7020.gen/sources_1/bd/zynq_7/synth/zynq_7.v:151]
+WARNING: [Synth 8-7071] port 'M_AXI_GP0_ARCACHE' of module 'zynq_7_processing_system7_0_0' is unconnected for instance 'processing_system7_0' [d:/Projects/prj/AMD/bad_apple_7020_lcd/lcd_7020.gen/sources_1/bd/zynq_7/synth/zynq_7.v:151]
+WARNING: [Synth 8-7071] port 'M_AXI_GP0_ARLEN' of module 'zynq_7_processing_system7_0_0' is unconnected for instance 'processing_system7_0' [d:/Projects/prj/AMD/bad_apple_7020_lcd/lcd_7020.gen/sources_1/bd/zynq_7/synth/zynq_7.v:151]
+WARNING: [Synth 8-7071] port 'M_AXI_GP0_ARQOS' of module 'zynq_7_processing_system7_0_0' is unconnected for instance 'processing_system7_0' [d:/Projects/prj/AMD/bad_apple_7020_lcd/lcd_7020.gen/sources_1/bd/zynq_7/synth/zynq_7.v:151]
+WARNING: [Synth 8-7071] port 'M_AXI_GP0_AWCACHE' of module 'zynq_7_processing_system7_0_0' is unconnected for instance 'processing_system7_0' [d:/Projects/prj/AMD/bad_apple_7020_lcd/lcd_7020.gen/sources_1/bd/zynq_7/synth/zynq_7.v:151]
+WARNING: [Synth 8-7071] port 'M_AXI_GP0_AWLEN' of module 'zynq_7_processing_system7_0_0' is unconnected for instance 'processing_system7_0' [d:/Projects/prj/AMD/bad_apple_7020_lcd/lcd_7020.gen/sources_1/bd/zynq_7/synth/zynq_7.v:151]
+WARNING: [Synth 8-7071] port 'M_AXI_GP0_AWQOS' of module 'zynq_7_processing_system7_0_0' is unconnected for instance 'processing_system7_0' [d:/Projects/prj/AMD/bad_apple_7020_lcd/lcd_7020.gen/sources_1/bd/zynq_7/synth/zynq_7.v:151]
+WARNING: [Synth 8-7071] port 'M_AXI_GP0_WSTRB' of module 'zynq_7_processing_system7_0_0' is unconnected for instance 'processing_system7_0' [d:/Projects/prj/AMD/bad_apple_7020_lcd/lcd_7020.gen/sources_1/bd/zynq_7/synth/zynq_7.v:151]
+WARNING: [Synth 8-7071] port 'FCLK_RESET0_N' of module 'zynq_7_processing_system7_0_0' is unconnected for instance 'processing_system7_0' [d:/Projects/prj/AMD/bad_apple_7020_lcd/lcd_7020.gen/sources_1/bd/zynq_7/synth/zynq_7.v:151]
+WARNING: [Synth 8-7023] instance 'processing_system7_0' of module 'zynq_7_processing_system7_0_0' has 79 connections declared, but only 51 given [d:/Projects/prj/AMD/bad_apple_7020_lcd/lcd_7020.gen/sources_1/bd/zynq_7/synth/zynq_7.v:151]
+INFO: [Synth 8-6155] done synthesizing module 'zynq_7' (0#1) [d:/Projects/prj/AMD/bad_apple_7020_lcd/lcd_7020.gen/sources_1/bd/zynq_7/synth/zynq_7.v:12]
+INFO: [Synth 8-6155] done synthesizing module 'zynq_7_wrapper' (0#1) [D:/Projects/prj/AMD/bad_apple_7020_lcd/lcd_7020.srcs/sources_1/imports/hdl/zynq_7_wrapper.v:12]
+INFO: [Synth 8-6157] synthesizing module 'rst_gen' [D:/Projects/prj/AMD/bad_apple_7020_lcd/lcd_7020.srcs/sources_1/new/rst_gen.v:22]
+INFO: [Synth 8-6155] done synthesizing module 'rst_gen' (0#1) [D:/Projects/prj/AMD/bad_apple_7020_lcd/lcd_7020.srcs/sources_1/new/rst_gen.v:22]
+INFO: [Synth 8-6157] synthesizing module 'pl_anti_jitter' [D:/Projects/prj/AMD/bad_apple_7020_lcd/lcd_7020.srcs/sources_1/new/pl_anti_jitter.v:23]
 	Parameter TIMS_1S bound to: 50000000 - type: integer 
 	Parameter TIMS_DLY bound to: 2500000 - type: integer 
-INFO: [Synth 8-6155] done synthesizing module 'pl_anti_jitter' (0#1) [D:/Projects/prj/AMD/lcd_7020/zynq_7020_lcd/lcd_7020.srcs/sources_1/new/pl_anti_jitter.v:23]
-INFO: [Synth 8-6155] done synthesizing module 'top' (0#1) [D:/Projects/prj/AMD/lcd_7020/zynq_7020_lcd/lcd_7020.srcs/sources_1/new/top.v:23]
-WARNING: [Synth 8-3848] Net SPI_0_0_io1_i in module/entity zynq_7_wrapper does not have driver. [D:/Projects/prj/AMD/lcd_7020/zynq_7020_lcd/lcd_7020.srcs/sources_1/imports/hdl/zynq_7_wrapper.v:118]
-WARNING: [Synth 8-6014] Unused sequential element st_busy_reg was removed.  [D:/Projects/prj/AMD/lcd_7020/zynq_7020_lcd/lcd_7020.srcs/sources_1/new/pl_anti_jitter.v:52]
+INFO: [Synth 8-6155] done synthesizing module 'pl_anti_jitter' (0#1) [D:/Projects/prj/AMD/bad_apple_7020_lcd/lcd_7020.srcs/sources_1/new/pl_anti_jitter.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'top' (0#1) [D:/Projects/prj/AMD/bad_apple_7020_lcd/lcd_7020.srcs/sources_1/new/top.v:23]
+WARNING: [Synth 8-3848] Net SPI_0_0_io1_i in module/entity zynq_7_wrapper does not have driver. [D:/Projects/prj/AMD/bad_apple_7020_lcd/lcd_7020.srcs/sources_1/imports/hdl/zynq_7_wrapper.v:118]
+WARNING: [Synth 8-6014] Unused sequential element st_busy_reg was removed.  [D:/Projects/prj/AMD/bad_apple_7020_lcd/lcd_7020.srcs/sources_1/new/pl_anti_jitter.v:52]
 WARNING: [Synth 8-7129] Port ENET0_GMII_COL in module processing_system7_v5_5_processing_system7 is either unconnected or has no load
 WARNING: [Synth 8-7129] Port ENET0_GMII_CRS in module processing_system7_v5_5_processing_system7 is either unconnected or has no load
 WARNING: [Synth 8-7129] Port ENET0_GMII_RX_DV in module processing_system7_v5_5_processing_system7 is either unconnected or has no load
@@ -183,67 +183,67 @@ WARNING: [Synth 8-7129] Port FTMD_TRACEIN_ATID[2] in module processing_system7_v
 WARNING: [Synth 8-7129] Port FTMD_TRACEIN_ATID[1] in module processing_system7_v5_5_processing_system7 is either unconnected or has no load
 WARNING: [Synth 8-7129] Port FTMD_TRACEIN_ATID[0] in module processing_system7_v5_5_processing_system7 is either unconnected or has no load
 ---------------------------------------------------------------------------------
-Finished RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 2494.844 ; gain = 508.824
+Finished RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 2494.980 ; gain = 508.973
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 2512.766 ; gain = 526.746
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 2512.887 ; gain = 526.879
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 2512.766 ; gain = 526.746
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 2512.887 ; gain = 526.879
 ---------------------------------------------------------------------------------
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.021 . Memory (MB): peak = 2524.781 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.021 . Memory (MB): peak = 2524.906 ; gain = 0.000
 INFO: [Netlist 29-17] Analyzing 8 Unisim elements for replacement
 INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
 INFO: [Project 1-570] Preparing netlist for logic optimization
 
 Processing XDC Constraints
 Initializing timing engine
-Parsing XDC File [d:/Projects/prj/AMD/lcd_7020/zynq_7020_lcd/lcd_7020.gen/sources_1/bd/zynq_7/ip/zynq_7_processing_system7_0_0/zynq_7_processing_system7_0_0.xdc] for cell 'zynq_inst/zynq_7_i/processing_system7_0/inst'
-Finished Parsing XDC File [d:/Projects/prj/AMD/lcd_7020/zynq_7020_lcd/lcd_7020.gen/sources_1/bd/zynq_7/ip/zynq_7_processing_system7_0_0/zynq_7_processing_system7_0_0.xdc] for cell 'zynq_inst/zynq_7_i/processing_system7_0/inst'
-INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [d:/Projects/prj/AMD/lcd_7020/zynq_7020_lcd/lcd_7020.gen/sources_1/bd/zynq_7/ip/zynq_7_processing_system7_0_0/zynq_7_processing_system7_0_0.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/top_propImpl.xdc].
+Parsing XDC File [d:/Projects/prj/AMD/bad_apple_7020_lcd/lcd_7020.gen/sources_1/bd/zynq_7/ip/zynq_7_processing_system7_0_0/zynq_7_processing_system7_0_0.xdc] for cell 'zynq_inst/zynq_7_i/processing_system7_0/inst'
+Finished Parsing XDC File [d:/Projects/prj/AMD/bad_apple_7020_lcd/lcd_7020.gen/sources_1/bd/zynq_7/ip/zynq_7_processing_system7_0_0/zynq_7_processing_system7_0_0.xdc] for cell 'zynq_inst/zynq_7_i/processing_system7_0/inst'
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [d:/Projects/prj/AMD/bad_apple_7020_lcd/lcd_7020.gen/sources_1/bd/zynq_7/ip/zynq_7_processing_system7_0_0/zynq_7_processing_system7_0_0.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/top_propImpl.xdc].
 Resolution: To avoid this warning, move constraints listed in [.Xil/top_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
-Parsing XDC File [D:/Projects/prj/AMD/lcd_7020/zynq_7020_lcd/lcd_7020.srcs/constrs_1/new/zynq_7_wrapper.xdc]
-Finished Parsing XDC File [D:/Projects/prj/AMD/lcd_7020/zynq_7020_lcd/lcd_7020.srcs/constrs_1/new/zynq_7_wrapper.xdc]
-INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [D:/Projects/prj/AMD/lcd_7020/zynq_7020_lcd/lcd_7020.srcs/constrs_1/new/zynq_7_wrapper.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/top_propImpl.xdc].
+Parsing XDC File [D:/Projects/prj/AMD/bad_apple_7020_lcd/lcd_7020.srcs/constrs_1/new/zynq_7_wrapper.xdc]
+Finished Parsing XDC File [D:/Projects/prj/AMD/bad_apple_7020_lcd/lcd_7020.srcs/constrs_1/new/zynq_7_wrapper.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [D:/Projects/prj/AMD/bad_apple_7020_lcd/lcd_7020.srcs/constrs_1/new/zynq_7_wrapper.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/top_propImpl.xdc].
 Resolution: To avoid this warning, move constraints listed in [.Xil/top_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
-Parsing XDC File [D:/Projects/prj/AMD/lcd_7020/zynq_7020_lcd/lcd_7020.srcs/constrs_1/new/zynq_7_pl.xdc]
-Finished Parsing XDC File [D:/Projects/prj/AMD/lcd_7020/zynq_7020_lcd/lcd_7020.srcs/constrs_1/new/zynq_7_pl.xdc]
-Parsing XDC File [D:/Projects/prj/AMD/lcd_7020/zynq_7020_lcd/lcd_7020.runs/synth_1/dont_touch.xdc]
-Finished Parsing XDC File [D:/Projects/prj/AMD/lcd_7020/zynq_7020_lcd/lcd_7020.runs/synth_1/dont_touch.xdc]
-INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [D:/Projects/prj/AMD/lcd_7020/zynq_7020_lcd/lcd_7020.runs/synth_1/dont_touch.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/top_propImpl.xdc].
+Parsing XDC File [D:/Projects/prj/AMD/bad_apple_7020_lcd/lcd_7020.srcs/constrs_1/new/zynq_7_pl.xdc]
+Finished Parsing XDC File [D:/Projects/prj/AMD/bad_apple_7020_lcd/lcd_7020.srcs/constrs_1/new/zynq_7_pl.xdc]
+Parsing XDC File [D:/Projects/prj/AMD/bad_apple_7020_lcd/lcd_7020.runs/synth_1/dont_touch.xdc]
+Finished Parsing XDC File [D:/Projects/prj/AMD/bad_apple_7020_lcd/lcd_7020.runs/synth_1/dont_touch.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [D:/Projects/prj/AMD/bad_apple_7020_lcd/lcd_7020.runs/synth_1/dont_touch.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/top_propImpl.xdc].
 Resolution: To avoid this warning, move constraints listed in [.Xil/top_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
 Completed Processing XDC Constraints
 
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2558.801 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2558.930 ; gain = 0.000
 INFO: [Project 1-111] Unisim Transformation Summary:
   A total of 8 instances were transformed.
   IOBUF => IOBUF (IBUF, OBUFT): 8 instances
 
-Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.003 . Memory (MB): peak = 2558.801 ; gain = 0.000
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.004 . Memory (MB): peak = 2558.930 ; gain = 0.000
 INFO: [Designutils 20-5440] No compile time benefit to using incremental synthesis; A full resynthesis will be run
 INFO: [Designutils 20-4379] Flow is switching to default flow due to incremental criteria not met. If you would like to alter this behaviour and have the flow terminate instead, please set the following parameter config_implementation {autoIncr.Synth.RejectBehavior Terminate}
 INFO: [Synth 8-11241] undeclared symbol 'REGCCE', assumed default net type 'wire' [D:/AMD/Vivado/2022.2/data/verilog/src/unimacro/BRAM_SINGLE_MACRO.v:2170]
 ---------------------------------------------------------------------------------
-Finished Constraint Validation : Time (s): cpu = 00:00:10 ; elapsed = 00:00:11 . Memory (MB): peak = 2558.801 ; gain = 572.781
+Finished Constraint Validation : Time (s): cpu = 00:00:12 ; elapsed = 00:00:13 . Memory (MB): peak = 2558.930 ; gain = 572.922
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Loading Part and Timing Information
 ---------------------------------------------------------------------------------
 Loading part: xc7z020clg484-1
 ---------------------------------------------------------------------------------
-Finished Loading Part and Timing Information : Time (s): cpu = 00:00:10 ; elapsed = 00:00:11 . Memory (MB): peak = 2558.801 ; gain = 572.781
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:12 ; elapsed = 00:00:13 . Memory (MB): peak = 2558.930 ; gain = 572.922
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Applying 'set_property' XDC Constraints
 ---------------------------------------------------------------------------------
-Applied set_property KEEP_HIERARCHY = SOFT for zynq_inst/zynq_7_i/processing_system7_0/inst. (constraint file  D:/Projects/prj/AMD/lcd_7020/zynq_7020_lcd/lcd_7020.runs/synth_1/dont_touch.xdc, line 15).
+Applied set_property KEEP_HIERARCHY = SOFT for zynq_inst/zynq_7_i/processing_system7_0/inst. (constraint file  D:/Projects/prj/AMD/bad_apple_7020_lcd/lcd_7020.runs/synth_1/dont_touch.xdc, line 15).
 Applied set_property KEEP_HIERARCHY = SOFT for zynq_inst/zynq_7_i. (constraint file  auto generated constraint).
 Applied set_property KEEP_HIERARCHY = SOFT for zynq_inst/zynq_7_i/processing_system7_0. (constraint file  auto generated constraint).
 ---------------------------------------------------------------------------------
-Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:11 ; elapsed = 00:00:11 . Memory (MB): peak = 2558.801 ; gain = 572.781
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:12 ; elapsed = 00:00:14 . Memory (MB): peak = 2558.930 ; gain = 572.922
 ---------------------------------------------------------------------------------
 INFO: [Synth 8-802] inferred FSM for state register 'st_curr_reg' in module 'pl_anti_jitter'
 ---------------------------------------------------------------------------------------------------
@@ -256,7 +256,7 @@ INFO: [Synth 8-802] inferred FSM for state register 'st_curr_reg' in module 'pl_
 ---------------------------------------------------------------------------------------------------
 INFO: [Synth 8-3898] No Re-encoding of one hot register 'st_curr_reg' in module 'pl_anti_jitter'
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:11 ; elapsed = 00:00:12 . Memory (MB): peak = 2558.801 ; gain = 572.781
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:13 ; elapsed = 00:00:14 . Memory (MB): peak = 2558.930 ; gain = 572.922
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start RTL Component Statistics 
@@ -316,25 +316,25 @@ WARNING: [Synth 8-7129] Port ENET1_GMII_RXD[4] in module processing_system7_v5_5
 WARNING: [Synth 8-7129] Port ENET1_GMII_RXD[3] in module processing_system7_v5_5_processing_system7 is either unconnected or has no load
 INFO: [Common 17-14] Message 'Synth 8-7129' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
 ---------------------------------------------------------------------------------
-Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:13 ; elapsed = 00:00:14 . Memory (MB): peak = 2558.801 ; gain = 572.781
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:15 ; elapsed = 00:00:16 . Memory (MB): peak = 2558.930 ; gain = 572.922
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Applying XDC Timing Constraints
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:16 ; elapsed = 00:00:17 . Memory (MB): peak = 2631.879 ; gain = 645.859
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:18 ; elapsed = 00:00:20 . Memory (MB): peak = 2626.633 ; gain = 640.625
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Timing Optimization
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Timing Optimization : Time (s): cpu = 00:00:17 ; elapsed = 00:00:18 . Memory (MB): peak = 2691.363 ; gain = 705.344
+Finished Timing Optimization : Time (s): cpu = 00:00:19 ; elapsed = 00:00:20 . Memory (MB): peak = 2686.949 ; gain = 700.941
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Technology Mapping
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Technology Mapping : Time (s): cpu = 00:00:17 ; elapsed = 00:00:18 . Memory (MB): peak = 2691.418 ; gain = 705.398
+Finished Technology Mapping : Time (s): cpu = 00:00:19 ; elapsed = 00:00:20 . Memory (MB): peak = 2686.988 ; gain = 700.980
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start IO Insertion
@@ -352,37 +352,37 @@ Start Final Netlist Cleanup
 Finished Final Netlist Cleanup
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished IO Insertion : Time (s): cpu = 00:00:20 ; elapsed = 00:00:21 . Memory (MB): peak = 2691.418 ; gain = 705.398
+Finished IO Insertion : Time (s): cpu = 00:00:22 ; elapsed = 00:00:23 . Memory (MB): peak = 2686.988 ; gain = 700.980
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Instances
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Instances : Time (s): cpu = 00:00:20 ; elapsed = 00:00:21 . Memory (MB): peak = 2691.418 ; gain = 705.398
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:22 ; elapsed = 00:00:23 . Memory (MB): peak = 2686.988 ; gain = 700.980
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Rebuilding User Hierarchy
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:20 ; elapsed = 00:00:21 . Memory (MB): peak = 2691.418 ; gain = 705.398
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:22 ; elapsed = 00:00:23 . Memory (MB): peak = 2686.988 ; gain = 700.980
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Ports
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Ports : Time (s): cpu = 00:00:20 ; elapsed = 00:00:21 . Memory (MB): peak = 2691.418 ; gain = 705.398
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:22 ; elapsed = 00:00:23 . Memory (MB): peak = 2686.988 ; gain = 700.980
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:20 ; elapsed = 00:00:21 . Memory (MB): peak = 2691.418 ; gain = 705.398
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:22 ; elapsed = 00:00:23 . Memory (MB): peak = 2686.988 ; gain = 700.980
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Nets
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Nets : Time (s): cpu = 00:00:20 ; elapsed = 00:00:21 . Memory (MB): peak = 2691.418 ; gain = 705.398
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:22 ; elapsed = 00:00:23 . Memory (MB): peak = 2686.988 ; gain = 700.980
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Writing Synthesis Report
@@ -416,18 +416,18 @@ Report Cell Usage:
 |16    |OBUF   |     1|
 +------+-------+------+
 ---------------------------------------------------------------------------------
-Finished Writing Synthesis Report : Time (s): cpu = 00:00:20 ; elapsed = 00:00:21 . Memory (MB): peak = 2691.418 ; gain = 705.398
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:22 ; elapsed = 00:00:23 . Memory (MB): peak = 2686.988 ; gain = 700.980
 ---------------------------------------------------------------------------------
 Synthesis finished with 0 errors, 0 critical warnings and 80 warnings.
-Synthesis Optimization Runtime : Time (s): cpu = 00:00:14 ; elapsed = 00:00:19 . Memory (MB): peak = 2691.418 ; gain = 659.363
-Synthesis Optimization Complete : Time (s): cpu = 00:00:20 ; elapsed = 00:00:21 . Memory (MB): peak = 2691.418 ; gain = 705.398
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:15 ; elapsed = 00:00:21 . Memory (MB): peak = 2686.988 ; gain = 654.938
+Synthesis Optimization Complete : Time (s): cpu = 00:00:22 ; elapsed = 00:00:24 . Memory (MB): peak = 2686.988 ; gain = 700.980
 INFO: [Project 1-571] Translating synthesized netlist
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.019 . Memory (MB): peak = 2691.418 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.016 . Memory (MB): peak = 2686.988 ; gain = 0.000
 INFO: [Netlist 29-17] Analyzing 20 Unisim elements for replacement
 INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
 INFO: [Project 1-570] Preparing netlist for logic optimization
 INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2704.883 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2700.484 ; gain = 0.000
 INFO: [Project 1-111] Unisim Transformation Summary:
   A total of 8 instances were transformed.
   IOBUF => IOBUF (IBUF, OBUFT): 8 instances
@@ -436,7 +436,7 @@ Synth Design complete, checksum: e587f31b
 INFO: [Common 17-83] Releasing license: Synthesis
 56 Infos, 148 Warnings, 0 Critical Warnings and 0 Errors encountered.
 synth_design completed successfully
-synth_design: Time (s): cpu = 00:00:24 ; elapsed = 00:00:25 . Memory (MB): peak = 2704.883 ; gain = 1122.887
-INFO: [Common 17-1381] The checkpoint 'D:/Projects/prj/AMD/lcd_7020/zynq_7020_lcd/lcd_7020.runs/synth_1/top.dcp' has been generated.
+synth_design: Time (s): cpu = 00:00:26 ; elapsed = 00:00:28 . Memory (MB): peak = 2700.484 ; gain = 1119.457
+INFO: [Common 17-1381] The checkpoint 'D:/Projects/prj/AMD/bad_apple_7020_lcd/lcd_7020.runs/synth_1/top.dcp' has been generated.
 INFO: [runtcl-4] Executing : report_utilization -file top_utilization_synth.rpt -pb top_utilization_synth.pb
-INFO: [Common 17-206] Exiting Vivado at Mon Nov 18 22:20:42 2024...
+INFO: [Common 17-206] Exiting Vivado at Sun Jan 19 00:15:58 2025...

@@ -1,0 +1,4 @@
+domain_path: D:\Projects\prj\AMD\bad_apple_7020_lcd\worksapce_new\platform\zynq_fsbl\zynq_fsbl_bsp
+app_src_dir: D:\AMD\Vitis\2024.2\data\embeddedsw\lib\sw_apps\zynq_fsbl
+template: zynq_fsbl
+lang: c

@@ -1,8 +1,0 @@
-#ifndef __INTR_IO_INIT_H
-#define __INTR_IO_INIT_H
-
-extern XGpioPs_Config *ConfigPtr;
-
-void IntrIoInit(void);
-
-#endif

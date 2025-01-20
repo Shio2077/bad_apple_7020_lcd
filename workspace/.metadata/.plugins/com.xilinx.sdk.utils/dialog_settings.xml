@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
-	<item key="scw_hwspec" value="D:\Projects\prj\AMD\lcd_7020\zynq_7020_lcd"/>
-	<item key="scw_hwspec_file_selection" value="D:\Projects\prj\AMD\zynq_merg_v1"/>
+	<item key="scw_hwspec" value="D:\Projects\prj\AMD\bad_apple_7020_lcd"/>
+	<item key="scw_hwspec_file_selection" value="D:\Projects\prj\AMD\bad_apple_7020_lcd"/>
 </section>

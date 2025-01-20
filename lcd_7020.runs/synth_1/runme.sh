@@ -24,7 +24,7 @@ else
 fi
 export LD_LIBRARY_PATH
 
-HD_PWD='D:/Projects/prj/AMD/lcd_7020/zynq_7020_lcd/lcd_7020.runs/synth_1'
+HD_PWD='D:/Projects/prj/AMD/bad_apple_7020_lcd/lcd_7020.runs/synth_1'
 cd "$HD_PWD"
 
 HD_LOG=runme.log

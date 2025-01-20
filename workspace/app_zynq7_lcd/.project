@@ -3,7 +3,6 @@
 	<name>app_zynq7_lcd</name>
 	<comment>Created by Vitis v2022.2</comment>
 	<projects>
-		<project>zynq7_lcd</project>
 	</projects>
 	<buildSpec>
 		<buildCommand>

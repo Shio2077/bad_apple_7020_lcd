@@ -1,0 +1,14 @@
+create libxil.a
+addlib D:/Projects/prj/AMD/bad_apple_7020_lcd/worksapce_new/platform/zynq_fsbl/zynq_fsbl_bsp/libsrc/build_configs/gen_bsp/libsrc/xadcps/src/libxadcps.a
+addlib D:/Projects/prj/AMD/bad_apple_7020_lcd/worksapce_new/platform/zynq_fsbl/zynq_fsbl_bsp/libsrc/build_configs/gen_bsp/libsrc/spips/src/libspips.a
+addlib D:/Projects/prj/AMD/bad_apple_7020_lcd/worksapce_new/platform/zynq_fsbl/zynq_fsbl_bsp/libsrc/build_configs/gen_bsp/libsrc/sdps/src/libsdps.a
+addlib D:/Projects/prj/AMD/bad_apple_7020_lcd/worksapce_new/platform/zynq_fsbl/zynq_fsbl_bsp/libsrc/build_configs/gen_bsp/libsrc/scuwdt/src/libscuwdt.a
+addlib D:/Projects/prj/AMD/bad_apple_7020_lcd/worksapce_new/platform/zynq_fsbl/zynq_fsbl_bsp/libsrc/build_configs/gen_bsp/libsrc/scutimer/src/libscutimer.a
+addlib D:/Projects/prj/AMD/bad_apple_7020_lcd/worksapce_new/platform/zynq_fsbl/zynq_fsbl_bsp/libsrc/build_configs/gen_bsp/libsrc/scugic/src/libscugic.a
+addlib D:/Projects/prj/AMD/bad_apple_7020_lcd/worksapce_new/platform/zynq_fsbl/zynq_fsbl_bsp/libsrc/build_configs/gen_bsp/libsrc/qspips/src/libqspips.a
+addlib D:/Projects/prj/AMD/bad_apple_7020_lcd/worksapce_new/platform/zynq_fsbl/zynq_fsbl_bsp/libsrc/build_configs/gen_bsp/libsrc/gpiops/src/libgpiops.a
+addlib D:/Projects/prj/AMD/bad_apple_7020_lcd/worksapce_new/platform/zynq_fsbl/zynq_fsbl_bsp/libsrc/build_configs/gen_bsp/libsrc/dmaps/src/libdmaps.a
+addlib D:/Projects/prj/AMD/bad_apple_7020_lcd/worksapce_new/platform/zynq_fsbl/zynq_fsbl_bsp/libsrc/build_configs/gen_bsp/libsrc/devcfg/src/libdevcfg.a
+addlib D:/Projects/prj/AMD/bad_apple_7020_lcd/worksapce_new/platform/zynq_fsbl/zynq_fsbl_bsp/libsrc/build_configs/gen_bsp/libsrc/coresightps_dcc/src/libcoresightps_dcc.a
+save
+end

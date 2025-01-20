@@ -1,120 +1,72 @@
-// For LCD Display App
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include "xil_types.h"
+#include "xil_cache.h"
 #include "xparameters.h"
-#include "xgpiops.h"
-#include "xstatus.h"
-#include "xplatform_info.h"
-#include "xspips.h"
-#include <xil_printf.h>
 
-// For Interrupt Handler App
-#include "xil_exception.h"
-#include "xscugic.h"
-#include "unistd.h"
+#include "sleep.h"
+#include "ff.h"
 
-#include "../includes/pic.h"
-#include "../includes/lcd_init.h"
-#include "../includes/lcd_io_init.h"
-#include "../includes/lcd_drv.h"
-#include "../includes/intr_io_init.h"
-#include "../includes/global_defines.h"
+#define WIDTH  800
+#define HEIGHT 480
+
+//#define VDMA_BASEADDR	XPAR_AXI_VDMA_0_BASEADDR
+
+#define VIDEO_BASEADDR0 0x01000000
+#define VIDEO_BASEADDR1 VIDEO_BASEADDR0+WIDTH*HEIGHT*3
 
 
-XGpioPs Gpio;	/* The driver instance for GPIO Device. */
-XSpiPs SpiInstance;
-XScuGic Intc;
-XGpioPs_Config *ConfigPtr;
-XScuGic_Config *IntcConfig;
-
-void delay(unsigned char i){
-	volatile int Delay;
-	volatile int k;
-	for(k=0;k<i;k++)
-	for (Delay = 0; Delay < 10000; Delay++);
-}
-
-
-
-void Address_set(unsigned int x1,unsigned int y1,unsigned int x2,unsigned int y2)
+void load_sd_bmp(u8 *frame,unsigned char mode)
 {
-	LCD_WR_REG(0x2a);
-	LCD_WR_DATA(x1);
-	LCD_WR_DATA(x2);
-	LCD_WR_REG(0x2b);
-	LCD_WR_DATA(y1+34);
-	LCD_WR_DATA(y2+34);
-	LCD_WR_REG(0x2c);
+	static 	FATFS fatfs;
+	FIL 	fil;
+	u8		bmp_head[54];
+	UINT 	*bmp_width,*bmp_height;
+	UINT 	br;
+	int 	i;
+
+	f_mount(&fatfs,"",1);
+
+	if(mode==0)f_open(&fil,"A.bmp",FA_READ);
+	else f_open(&fil,"B.bmp",FA_READ);
+
+	f_lseek(&fil,0);
+	f_read(&fil,bmp_head,54,&br);
+
+	bmp_width  = (UINT *)(bmp_head + 0x12);
+	bmp_height = (UINT *)(bmp_head + 0x16);
+
+	for(i=*bmp_height-1;i>=0;i--){
+		f_read(&fil,frame+i*(*bmp_width)*3,(*bmp_width)*3,&br);
+	}
+
+
+	f_close(&fil);
+
+	Xil_DCacheFlush();
 }
 
-u16 char2u16_data(unsigned char msc, unsigned char lsc){
-	u16 tmp = ((u16)msc) << 8;
-	return tmp + (u16)lsc;
-}
+//void VDMA_init(){
+//  Xil_Out32((VDMA_BASEADDR + 0x000), 0x00000001);
+//  Xil_Out32((VDMA_BASEADDR + 0x05c), VIDEO_BASEADDR0);
+//  Xil_Out32((VDMA_BASEADDR + 0x060), VIDEO_BASEADDR1);
+//  Xil_Out32((VDMA_BASEADDR + 0x058), (WIDTH*3));
+//  Xil_Out32((VDMA_BASEADDR + 0x054), (WIDTH*3));
+//  Xil_Out32((VDMA_BASEADDR + 0x050),  HEIGHT);
+//  Xil_Out32((VDMA_BASEADDR + 0x028),  0X00000000);
+//}
 
-void LCD_Test()
-{
-    Address_set(0,0,320-1,172-1);
-/*
-    for(u16 i = 0; i < 172; ++i){
-        for(u16 j = 0; j < 320; ++j){
-        	if(i<=43)
-        		{
-        		if(j < 80) LCD_WR_DATA(YELLOW);
-        		else if(j < 160) LCD_WR_DATA(BLUE);
-        		else if(j < 240) LCD_WR_DATA(BROWN);
-        		else  LCD_WR_DATA(RED);
-        		}
-        	else if (i <= 86)
-    		{
-    		if(j < 80) LCD_WR_DATA(CYAN);
-    		else if(j < 160) LCD_WR_DATA(GRAY);
-    		else if(j < 240) LCD_WR_DATA(MAGENTA);
-    		else  LCD_WR_DATA(BLUE);
-    		}
-        	else if (i <= 129)
-    		{
-    		if(j < 80) LCD_WR_DATA(BLUE);
-    		else if(j < 160) LCD_WR_DATA(GREEN);
-    		else if(j < 240) LCD_WR_DATA(BRRED);
-    		else  LCD_WR_DATA(BLACK);
-    		}
-        	else
-    		{
-    		if(j < 80) LCD_WR_DATA(WHITE);
-    		else if(j < 160) LCD_WR_DATA(GBLUE);
-    		else if(j < 240) LCD_WR_DATA(GRED);
-    		else  LCD_WR_DATA(GREEN);
-    		}
-        }
-    }
-*/
-//    delay(100);
-    u32 pic_idx = 0;
-    for(u32 i = 0; i < 172; ++i){
-    	for(u32 j = 0; j < 320; ++j){
-        	if(j>=305){
-        			LCD_WR_DATA(BLACK);
-        		}
-        	else{
-        		LCD_WR_DATA(char2u16_data(gImage_pic[pic_idx], gImage_pic[++pic_idx]));
-        		++pic_idx;// = pic_idx + 2;
-        	}
-        }
-    }
-    delay(1000);
-}
+int main(void) {
 
+	load_sd_bmp((u8*)VIDEO_BASEADDR0,0);
+	load_sd_bmp((u8*)VIDEO_BASEADDR1,1);
+	//VDMA_init();
 
-int main(void)
-{
-	Lcd_Gpio_Init();
-	Lcd_Spi_Init();
-
-	Lcd_Init();
-	IntrIoInit();
-
-	while(1){
-	    LCD_Test();
-	};
-
-	return XST_SUCCESS;
+//	while(1){
+//		Xil_Out32((VDMA_BASEADDR + 0x028),  0x00000000);
+//		sleep(1);
+//		Xil_Out32((VDMA_BASEADDR + 0x028),  0x00000001);
+//		sleep(1);
+//	}
 }

@@ -1,10 +1,0 @@
-2024-11-15T14:33:54.262239300255-14:33:54 **** Incremental Build of configuration Release for project app_zynq7_lcd_system ****
-000-make all 
-000-Generating bif file for the system project
-000-generate_system_bif.bat 63310 D:/Projects/prj/AMD/lcd_7020/zynq_7020_lcd/workspace/zynq7_lcd/export/zynq7_lcd/zynq7_lcd.xpfm standalone_domain D:/Projects/prj/AMD/lcd_7020/zynq_7020_lcd/workspace/app_zynq7_lcd_system/Release/system.bif
-000-sdcard_gen --xpfm D:/Projects/prj/AMD/lcd_7020/zynq_7020_lcd/workspace/zynq7_lcd/export/zynq7_lcd/zynq7_lcd.xpfm --sys_config zynq7_lcd --bif D:/Projects/prj/AMD/lcd_7020/zynq_7020_lcd/workspace/app_zynq7_lcd_system/Release/system.bif --bitstream D:/Projects/prj/AMD/lcd_7020/zynq_7020_lcd/workspace/app_zynq7_lcd/_ide/bitstream/zynq_7_wrapper_new.bit --elf D:/Projects/prj/AMD/lcd_7020/zynq_7020_lcd/workspace/app_zynq7_lcd/Release/app_zynq7_lcd.elf,ps7_cortexa9_0
-000-creating BOOT.BIN using D:/Projects/prj/AMD/lcd_7020/zynq_7020_lcd/workspace/app_zynq7_lcd/_ide/bitstream/zynq_7_wrapper_new.bit
-000-Running D:/AMD/Vitis/2022.2/bin/bootgen  -image D:/Projects/prj/AMD/lcd_7020/zynq_7020_lcd/workspace/app_zynq7_lcd_system/Release/sd_card_temp/boot.bif -w -o i BOOT.BIN
-00255-
-14:33:58 Build Finished (took 4s.690ms)
-

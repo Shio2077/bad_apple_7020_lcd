@@ -2159,3 +2159,505 @@ con
 17:47:56 INFO  : Successfully done query RDI_DATADIR 
 17:47:56 INFO  : Registering command handlers for Vitis TCF services
 17:47:56 INFO  : Platform repository initialization has completed.
+08:51:27 DEBUG : Logs will be stored at 'D:/Projects/prj/AMD/bad_apple_7020_lcd/workspace/IDE.log'.
+08:51:27 INFO  : Launching XSCT server: xsct.bat -n  -interactive D:\Projects\prj\AMD\bad_apple_7020_lcd\workspace\temp_xsdb_launch_script.tcl
+08:51:30 INFO  : XSCT server has started successfully.
+08:51:30 INFO  : Successfully done setting XSCT server connection channel  
+08:51:30 INFO  : plnx-install-location is set to ''
+08:51:30 INFO  : Successfully done setting workspace for the tool. 
+08:51:31 INFO  : Platform repository initialization has completed.
+08:51:44 INFO  : Registering command handlers for Vitis TCF services
+08:51:44 WARN  : Failed to identify the type of project 'RemoteSystemsTempFiles'. Skipping...
+08:51:44 WARN  : The following projects could not be identified as Vitis projects and will not be managed by the tool:
+	RemoteSystemsTempFiles
+08:51:48 INFO  : Successfully done query RDI_DATADIR 
+09:33:52 ERROR : (XSDB Server)ERROR: [Hsi 55-1594] Core gpiops of version 3.10 not found in repositories
+
+09:33:52 ERROR : (XSDB Server)ERROR: [Hsi 55-1594] Core standalone of version 8.0 not found in repositories
+ERROR: [Hsi 55-1594] Core xilffs of version 4.8 not found in repositories
+ERROR: [Hsi 55-1592] Current Software Design is not set
+ERROR: [Hsi 55-1592] Current Software Design is not set
+
+09:33:52 ERROR : (XSDB Server)ERROR: [Hsi 55-1594] Core gpiops of version 3.10 not found in repositories
+
+09:33:52 ERROR : (XSDB Server)ERROR: [Hsi 55-1594] Core standalone of version 8.0 not found in repositories
+ERROR: [Hsi 55-1594] Core xilffs of version 4.8 not found in repositories
+
+09:33:52 ERROR : (XSDB Server)ERROR: [Hsi 55-1592] Current Software Design is not set
+
+09:33:52 ERROR : (XSDB Server)ERROR: [Hsi 55-1592] Current Software Design is not set
+
+09:33:52 ERROR : (XSDB Server)ERROR: [Hsi 55-1594] Core gpiops of version 3.10 not found in repositories
+
+09:33:52 ERROR : (XSDB Server)ERROR: [Hsi 55-1594] Core standalone of version 8.0 not found in repositories
+
+09:33:52 ERROR : (XSDB Server)ERROR: [Hsi 55-1594] Core xilffs of version 4.8 not found in repositories
+
+09:33:52 ERROR : (XSDB Server)ERROR: [Hsi 55-1592] Current Software Design is not set
+
+09:33:52 ERROR : (XSDB Server)ERROR: [Hsi 55-1592] Current Software Design is not set
+
+09:33:52 ERROR : (XSDB Server)ERROR: [Hsi 55-1594] Core gpiops of version 3.10 not found in repositories
+
+09:33:52 ERROR : (XSDB Server)ERROR: [Hsi 55-1594] Core standalone of version 8.0 not found in repositories
+
+09:33:52 ERROR : (XSDB Server)ERROR: [Hsi 55-1594] Core xilffs of version 4.8 not found in repositories
+
+09:33:52 ERROR : (XSDB Server)ERROR: [Hsi 55-1594] Core gpiops of version 3.10 not found in repositories
+
+09:33:52 ERROR : (XSDB Server)ERROR: [Hsi 55-1594] Core standalone of version 8.0 not found in repositories
+
+09:33:52 ERROR : (XSDB Server)ERROR: [Hsi 55-1594] Core xilffs of version 4.8 not found in repositories
+
+09:33:52 ERROR : (XSDB Server)ERROR: [Hsi 55-1594] Core gpiops of version 3.10 not found in repositories
+
+09:33:52 ERROR : (XSDB Server)ERROR: [Hsi 55-1594] Core standalone of version 8.0 not found in repositories
+
+09:33:52 ERROR : (XSDB Server)ERROR: [Hsi 55-1594] Core xilffs of version 4.8 not found in repositories
+
+09:33:57 ERROR : Failed to execute command 'platform read {D:\Projects\prj\AMD\bad_apple_7020_lcd\workspace\zynq7_lcd\platform.spr}'. Click on details for more information.
+09:34:01 ERROR : (XSDB Server)ERROR: [Hsi 55-1571] The design file D:/Projects/prj/AMD/bad_apple_7020_lcd/workspace/zynq7_lcd/hw/zynq_7_wrapper_new.xsa is already opened
+
+09:34:01 ERROR : (XSDB Server)ERROR: [Hsi 55-1594] Core gpiops of version 3.10 not found in repositories
+
+09:34:01 ERROR : (XSDB Server)ERROR: [Hsi 55-1594] Core standalone of version 8.0 not found in repositories
+ERROR: [Hsi 55-1594] Core xilffs of version 4.8 not found in repositories
+ERROR: [Hsi 55-1592] Current Software Design is not set
+
+09:34:01 ERROR : (XSDB Server)ERROR: [Hsi 55-1592] Current Software Design is not set
+
+09:34:01 ERROR : (XSDB Server)ERROR: [Hsi 55-1594] Core gpiops of version 3.10 not found in repositories
+
+09:34:01 ERROR : (XSDB Server)ERROR: [Hsi 55-1594] Core standalone of version 8.0 not found in repositories
+
+09:34:01 ERROR : (XSDB Server)ERROR: [Hsi 55-1594] Core xilffs of version 4.8 not found in repositories
+
+09:34:01 ERROR : (XSDB Server)ERROR: [Hsi 55-1592] Current Software Design is not set
+
+09:34:01 ERROR : (XSDB Server)ERROR: [Hsi 55-1592] Current Software Design is not set
+
+09:34:01 ERROR : (XSDB Server)ERROR: [Hsi 55-1594] Core gpiops of version 3.10 not found in repositories
+
+09:34:01 ERROR : (XSDB Server)ERROR: [Hsi 55-1594] Core standalone of version 8.0 not found in repositories
+
+09:34:01 ERROR : (XSDB Server)ERROR: [Hsi 55-1594] Core xilffs of version 4.8 not found in repositories
+
+09:34:01 ERROR : (XSDB Server)ERROR: [Hsi 55-1592] Current Software Design is not set
+
+09:34:01 ERROR : (XSDB Server)ERROR: [Hsi 55-1592] Current Software Design is not set
+
+09:34:01 ERROR : (XSDB Server)ERROR: [Hsi 55-1594] Core gpiops of version 3.10 not found in repositories
+
+09:34:01 ERROR : (XSDB Server)ERROR: [Hsi 55-1594] Core standalone of version 8.0 not found in repositories
+
+09:34:01 ERROR : (XSDB Server)ERROR: [Hsi 55-1594] Core xilffs of version 4.8 not found in repositories
+
+09:34:01 ERROR : (XSDB Server)ERROR: [Hsi 55-1594] Core gpiops of version 3.10 not found in repositories
+
+09:34:01 ERROR : (XSDB Server)ERROR: [Hsi 55-1594] Core standalone of version 8.0 not found in repositories
+
+09:34:01 ERROR : (XSDB Server)ERROR: [Hsi 55-1594] Core xilffs of version 4.8 not found in repositories
+
+09:34:01 ERROR : (XSDB Server)ERROR: [Hsi 55-1594] Core gpiops of version 3.10 not found in repositories
+
+09:34:01 ERROR : (XSDB Server)ERROR: [Hsi 55-1594] Core standalone of version 8.0 not found in repositories
+
+09:34:01 ERROR : (XSDB Server)ERROR: [Hsi 55-1594] Core xilffs of version 4.8 not found in repositories
+
+09:34:03 ERROR : (XSDB Server)ERROR: [Hsi 55-1594] Core gpiops of version 3.10 not found in repositories
+
+09:34:03 ERROR : (XSDB Server)ERROR: [Hsi 55-1594] Core standalone of version 8.0 not found in repositories
+ERROR: [Hsi 55-1594] Core xilffs of version 4.8 not found in repositories
+ERROR: [Hsi 55-1592] Current Software Design is not set
+ERROR: [Hsi 55-1592] Current Software Design is not set
+
+09:34:03 ERROR : (XSDB Server)ERROR: [Hsi 55-1594] Core gpiops of version 3.10 not found in repositories
+
+09:34:03 ERROR : (XSDB Server)ERROR: [Hsi 55-1594] Core standalone of version 8.0 not found in repositories
+
+09:34:03 ERROR : (XSDB Server)ERROR: [Hsi 55-1594] Core xilffs of version 4.8 not found in repositories
+
+09:34:03 ERROR : (XSDB Server)ERROR: [Hsi 55-1592] Current Software Design is not set
+
+09:34:03 ERROR : (XSDB Server)ERROR: [Hsi 55-1592] Current Software Design is not set
+
+09:34:03 ERROR : (XSDB Server)ERROR: [Hsi 55-1594] Core gpiops of version 3.10 not found in repositories
+
+09:34:03 ERROR : (XSDB Server)ERROR: [Hsi 55-1594] Core standalone of version 8.0 not found in repositories
+
+09:34:03 ERROR : (XSDB Server)ERROR: [Hsi 55-1594] Core xilffs of version 4.8 not found in repositories
+
+09:34:03 ERROR : (XSDB Server)ERROR: [Hsi 55-1592] Current Software Design is not set
+
+09:34:03 ERROR : (XSDB Server)ERROR: [Hsi 55-1592] Current Software Design is not set
+
+09:34:03 ERROR : (XSDB Server)ERROR: [Hsi 55-1594] Core gpiops of version 3.10 not found in repositories
+
+09:34:03 ERROR : (XSDB Server)ERROR: [Hsi 55-1594] Core standalone of version 8.0 not found in repositories
+
+09:34:03 ERROR : (XSDB Server)ERROR: [Hsi 55-1594] Core xilffs of version 4.8 not found in repositories
+
+09:34:03 ERROR : (XSDB Server)ERROR: [Hsi 55-1594] Core gpiops of version 3.10 not found in repositories
+
+09:34:03 ERROR : (XSDB Server)ERROR: [Hsi 55-1594] Core standalone of version 8.0 not found in repositories
+
+09:34:03 ERROR : (XSDB Server)ERROR: [Hsi 55-1594] Core xilffs of version 4.8 not found in repositories
+
+09:34:03 ERROR : (XSDB Server)ERROR: [Hsi 55-1594] Core gpiops of version 3.10 not found in repositories
+
+09:34:03 ERROR : (XSDB Server)ERROR: [Hsi 55-1594] Core standalone of version 8.0 not found in repositories
+
+09:34:03 ERROR : (XSDB Server)ERROR: [Hsi 55-1594] Core xilffs of version 4.8 not found in repositories
+
+09:34:03 ERROR : Failed to execute command 'platform active {zynq7_lcd}'. Click on details for more information.
+09:34:42 ERROR : Failed to update hardware specification for project 'zynq7_lcd'.
+Reason: Failed to execute command 'platform config -updatehw {D:/Projects/prj/AMD/bad_apple_7020_lcd/top.xsa}'. Click on details for more information.
+09:35:05 ERROR : (XSDB Server)ERROR: [Hsi 55-1594] Core gpiops of version 3.10 not found in repositories
+
+09:35:05 ERROR : (XSDB Server)ERROR: [Hsi 55-1594] Core standalone of version 8.0 not found in repositories
+ERROR: [Hsi 55-1594] Core xilffs of version 4.8 not found in repositories
+ERROR: [Hsi 55-1592] Current Software Design is not set
+ERROR: [Hsi 55-1592] Current Software Design is not set
+
+09:35:05 ERROR : (XSDB Server)ERROR: [Hsi 55-1594] Core gpiops of version 3.10 not found in repositories
+
+09:35:05 ERROR : (XSDB Server)ERROR: [Hsi 55-1594] Core standalone of version 8.0 not found in repositories
+
+09:35:05 ERROR : (XSDB Server)ERROR: [Hsi 55-1594] Core xilffs of version 4.8 not found in repositories
+
+09:35:05 ERROR : (XSDB Server)ERROR: [Hsi 55-1592] Current Software Design is not set
+
+09:35:05 ERROR : (XSDB Server)ERROR: [Hsi 55-1592] Current Software Design is not set
+
+09:35:05 ERROR : (XSDB Server)ERROR: [Hsi 55-1594] Core gpiops of version 3.10 not found in repositories
+
+09:35:05 ERROR : (XSDB Server)ERROR: [Hsi 55-1594] Core standalone of version 8.0 not found in repositories
+
+09:35:05 ERROR : (XSDB Server)ERROR: [Hsi 55-1594] Core xilffs of version 4.8 not found in repositories
+
+09:35:05 ERROR : (XSDB Server)ERROR: [Hsi 55-1592] Current Software Design is not set
+
+09:35:05 ERROR : (XSDB Server)ERROR: [Hsi 55-1592] Current Software Design is not set
+
+09:35:05 ERROR : (XSDB Server)ERROR: [Hsi 55-1594] Core gpiops of version 3.10 not found in repositories
+
+09:35:05 ERROR : (XSDB Server)ERROR: [Hsi 55-1594] Core standalone of version 8.0 not found in repositories
+
+09:35:05 ERROR : (XSDB Server)ERROR: [Hsi 55-1594] Core xilffs of version 4.8 not found in repositories
+
+09:35:05 ERROR : (XSDB Server)ERROR: [Hsi 55-1594] Core gpiops of version 3.10 not found in repositories
+
+09:35:05 ERROR : (XSDB Server)ERROR: [Hsi 55-1594] Core standalone of version 8.0 not found in repositories
+
+09:35:05 ERROR : (XSDB Server)ERROR: [Hsi 55-1594] Core xilffs of version 4.8 not found in repositories
+
+09:35:05 ERROR : (XSDB Server)ERROR: [Hsi 55-1594] Core gpiops of version 3.10 not found in repositories
+
+09:35:05 ERROR : (XSDB Server)ERROR: [Hsi 55-1594] Core standalone of version 8.0 not found in repositories
+
+09:35:05 ERROR : (XSDB Server)ERROR: [Hsi 55-1594] Core xilffs of version 4.8 not found in repositories
+
+09:35:10 ERROR : Failed to execute command 'platform read {D:\Projects\prj\AMD\bad_apple_7020_lcd\workspace\zynq7_lcd\platform.spr}'. Click on details for more information.
+15:32:28 DEBUG : Logs will be stored at 'D:/Projects/prj/AMD/bad_apple_7020_lcd/workspace/IDE.log'.
+15:32:29 INFO  : Launching XSCT server: xsct.bat -n  -interactive D:\Projects\prj\AMD\bad_apple_7020_lcd\workspace\temp_xsdb_launch_script.tcl
+15:32:32 INFO  : XSCT server has started successfully.
+15:32:32 INFO  : plnx-install-location is set to ''
+15:32:32 INFO  : Successfully done setting XSCT server connection channel  
+15:32:32 INFO  : Successfully done setting workspace for the tool. 
+15:32:32 INFO  : Registering command handlers for Vitis TCF services
+15:32:32 INFO  : Platform repository initialization has completed.
+15:32:32 INFO  : Successfully done query RDI_DATADIR 
+15:32:56 INFO  : Checking for BSP changes to sync application flags for project 'app_zynq7_lcd'...
+15:32:57 ERROR : (XSDB Server)ERROR: [Hsi 55-1594] Core gpiops of version 3.10 not found in repositories
+
+15:32:57 ERROR : (XSDB Server)ERROR: [Hsi 55-1594] Core standalone of version 8.0 not found in repositories
+ERROR: [Hsi 55-1594] Core xilffs of version 4.8 not found in repositories
+
+15:32:57 ERROR : (XSDB Server)ERROR: [Hsi 55-1452] Error: running open_sw_design.
+
+15:32:57 ERROR :  [Common 17-39] 'hsi::open_sw_design' failed due to earlier errors.
+15:32:57 ERROR : (XSDB Server)ERROR: [Hsi 55-1594] Core gpiops of version 3.10 not found in repositories
+
+15:32:57 ERROR : (XSDB Server)ERROR: [Hsi 55-1594] Core standalone of version 8.0 not found in repositories
+ERROR: [Hsi 55-1594] Core xilffs of version 4.8 not found in repositories
+ERROR: [Hsi 55-1452] Error: running open_sw_design.
+
+15:32:57 INFO  : Unable to read in MSS file D:\Projects\prj\AMD\lcd_7020\zynq_7020_lcd\workspace\zynq7_lcd\export\zynq7_lcd\sw\zynq7_lcd\standalone_domain\system.mss : null
+15:32:57 WARN  : Failed to closesw "D:/Projects/prj/AMD/lcd_7020/zynq_7020_lcd/workspace/zynq7_lcd/export/zynq7_lcd/sw/zynq7_lcd/standalone_domain/system.mss"
+Reason: Cannot close sw design 'D:/Projects/prj/AMD/lcd_7020/zynq_7020_lcd/workspace/zynq7_lcd/export/zynq7_lcd/sw/zynq7_lcd/standalone_domain/system.mss'.
+Design is not opened in the current session.
+
+
+15:42:53 ERROR : (XSDB Server)ERROR: [Hsi 55-1594] Core gpiops of version 3.10 not found in repositories
+
+15:42:53 ERROR : (XSDB Server)ERROR: [Hsi 55-1594] Core standalone of version 8.0 not found in repositories
+ERROR: [Hsi 55-1594] Core xilffs of version 4.8 not found in repositories
+ERROR: [Hsi 55-1592] Current Software Design is not set
+ERROR: [Hsi 55-1592] Current Software Design is not set
+
+15:42:53 ERROR : (XSDB Server)ERROR: [Hsi 55-1594] Core gpiops of version 3.10 not found in repositories
+
+15:42:53 ERROR : (XSDB Server)ERROR: [Hsi 55-1594] Core standalone of version 8.0 not found in repositories
+
+15:42:53 ERROR : (XSDB Server)ERROR: [Hsi 55-1594] Core xilffs of version 4.8 not found in repositories
+
+15:42:53 ERROR : (XSDB Server)ERROR: [Hsi 55-1592] Current Software Design is not set
+
+15:42:53 ERROR : (XSDB Server)ERROR: [Hsi 55-1592] Current Software Design is not set
+
+15:42:53 ERROR : (XSDB Server)ERROR: [Hsi 55-1594] Core gpiops of version 3.10 not found in repositories
+
+15:42:53 ERROR : (XSDB Server)ERROR: [Hsi 55-1594] Core standalone of version 8.0 not found in repositories
+
+15:42:53 ERROR : (XSDB Server)ERROR: [Hsi 55-1594] Core xilffs of version 4.8 not found in repositories
+
+15:42:53 ERROR : (XSDB Server)ERROR: [Hsi 55-1592] Current Software Design is not set
+
+15:42:53 ERROR : (XSDB Server)ERROR: [Hsi 55-1592] Current Software Design is not set
+
+15:42:53 ERROR : (XSDB Server)ERROR: [Hsi 55-1594] Core gpiops of version 3.10 not found in repositories
+
+15:42:53 ERROR : (XSDB Server)ERROR: [Hsi 55-1594] Core standalone of version 8.0 not found in repositories
+
+15:42:53 ERROR : (XSDB Server)ERROR: [Hsi 55-1594] Core xilffs of version 4.8 not found in repositories
+
+15:42:53 ERROR : (XSDB Server)ERROR: [Hsi 55-1594] Core gpiops of version 3.10 not found in repositories
+
+15:42:53 ERROR : (XSDB Server)ERROR: [Hsi 55-1594] Core standalone of version 8.0 not found in repositories
+
+15:42:53 ERROR : (XSDB Server)ERROR: [Hsi 55-1594] Core xilffs of version 4.8 not found in repositories
+
+15:42:53 ERROR : (XSDB Server)ERROR: [Hsi 55-1594] Core gpiops of version 3.10 not found in repositories
+
+15:42:53 ERROR : (XSDB Server)ERROR: [Hsi 55-1594] Core standalone of version 8.0 not found in repositories
+
+15:42:53 ERROR : (XSDB Server)ERROR: [Hsi 55-1594] Core xilffs of version 4.8 not found in repositories
+
+15:42:55 ERROR : (XSDB Server)ERROR: [Hsi 55-1571] The design file D:/Projects/prj/AMD/bad_apple_7020_lcd/workspace/zynq7_lcd/hw/zynq_7_wrapper_new.xsa is already opened
+
+15:42:55 ERROR : (XSDB Server)ERROR: [Hsi 55-1594] Core gpiops of version 3.10 not found in repositories
+
+15:42:55 ERROR : (XSDB Server)ERROR: [Hsi 55-1594] Core standalone of version 8.0 not found in repositories
+ERROR: [Hsi 55-1594] Core xilffs of version 4.8 not found in repositories
+ERROR: [Hsi 55-1592] Current Software Design is not set
+ERROR: [Hsi 55-1592] Current Software Design is not set
+
+15:42:55 ERROR : (XSDB Server)ERROR: [Hsi 55-1594] Core gpiops of version 3.10 not found in repositories
+
+15:42:55 ERROR : (XSDB Server)ERROR: [Hsi 55-1594] Core standalone of version 8.0 not found in repositories
+ERROR: [Hsi 55-1594] Core xilffs of version 4.8 not found in repositories
+
+15:42:55 ERROR : (XSDB Server)ERROR: [Hsi 55-1592] Current Software Design is not set
+
+15:42:55 ERROR : (XSDB Server)ERROR: [Hsi 55-1592] Current Software Design is not set
+
+15:42:55 ERROR : (XSDB Server)ERROR: [Hsi 55-1594] Core gpiops of version 3.10 not found in repositories
+
+15:42:55 ERROR : (XSDB Server)ERROR: [Hsi 55-1594] Core standalone of version 8.0 not found in repositories
+
+15:42:55 ERROR : (XSDB Server)ERROR: [Hsi 55-1594] Core xilffs of version 4.8 not found in repositories
+
+15:42:55 ERROR : (XSDB Server)ERROR: [Hsi 55-1592] Current Software Design is not set
+
+15:42:55 ERROR : (XSDB Server)ERROR: [Hsi 55-1592] Current Software Design is not set
+
+15:42:55 ERROR : (XSDB Server)ERROR: [Hsi 55-1594] Core gpiops of version 3.10 not found in repositories
+
+15:42:55 ERROR : (XSDB Server)ERROR: [Hsi 55-1594] Core standalone of version 8.0 not found in repositories
+
+15:42:55 ERROR : (XSDB Server)ERROR: [Hsi 55-1594] Core xilffs of version 4.8 not found in repositories
+
+15:42:55 ERROR : (XSDB Server)ERROR: [Hsi 55-1594] Core gpiops of version 3.10 not found in repositories
+
+15:42:55 ERROR : (XSDB Server)ERROR: [Hsi 55-1594] Core standalone of version 8.0 not found in repositories
+ERROR: [Hsi 55-1594] Core xilffs of version 4.8 not found in repositories
+
+15:42:55 ERROR : (XSDB Server)ERROR: [Hsi 55-1594] Core gpiops of version 3.10 not found in repositories
+
+15:42:55 ERROR : (XSDB Server)ERROR: [Hsi 55-1594] Core standalone of version 8.0 not found in repositories
+
+15:42:55 ERROR : (XSDB Server)ERROR: [Hsi 55-1594] Core xilffs of version 4.8 not found in repositories
+
+15:42:56 ERROR : Failed to execute command 'platform read {D:\Projects\prj\AMD\bad_apple_7020_lcd\workspace\zynq7_lcd\platform.spr}'. Click on details for more information.
+15:42:56 ERROR : (XSDB Server)ERROR: [Hsi 55-1594] Core gpiops of version 3.10 not found in repositories
+
+15:42:56 ERROR : (XSDB Server)ERROR: [Hsi 55-1594] Core standalone of version 8.0 not found in repositories
+ERROR: [Hsi 55-1594] Core xilffs of version 4.8 not found in repositories
+ERROR: [Hsi 55-1592] Current Software Design is not set
+ERROR: [Hsi 55-1592] Current Software Design is not set
+
+15:42:56 ERROR : (XSDB Server)ERROR: [Hsi 55-1594] Core gpiops of version 3.10 not found in repositories
+
+15:42:56 ERROR : (XSDB Server)ERROR: [Hsi 55-1594] Core standalone of version 8.0 not found in repositories
+
+15:42:56 ERROR : (XSDB Server)ERROR: [Hsi 55-1594] Core xilffs of version 4.8 not found in repositories
+
+15:42:56 ERROR : (XSDB Server)ERROR: [Hsi 55-1592] Current Software Design is not set
+
+15:42:56 ERROR : (XSDB Server)ERROR: [Hsi 55-1592] Current Software Design is not set
+
+15:42:56 ERROR : (XSDB Server)ERROR: [Hsi 55-1594] Core gpiops of version 3.10 not found in repositories
+
+15:42:56 ERROR : (XSDB Server)ERROR: [Hsi 55-1594] Core standalone of version 8.0 not found in repositories
+
+15:42:56 ERROR : (XSDB Server)ERROR: [Hsi 55-1594] Core xilffs of version 4.8 not found in repositories
+
+15:42:56 ERROR : (XSDB Server)ERROR: [Hsi 55-1592] Current Software Design is not set
+
+15:42:56 ERROR : (XSDB Server)ERROR: [Hsi 55-1592] Current Software Design is not set
+
+15:42:56 ERROR : (XSDB Server)ERROR: [Hsi 55-1594] Core gpiops of version 3.10 not found in repositories
+
+15:42:56 ERROR : (XSDB Server)ERROR: [Hsi 55-1594] Core standalone of version 8.0 not found in repositories
+
+15:42:56 ERROR : (XSDB Server)ERROR: [Hsi 55-1594] Core xilffs of version 4.8 not found in repositories
+
+15:42:56 ERROR : (XSDB Server)ERROR: [Hsi 55-1594] Core gpiops of version 3.10 not found in repositories
+
+15:42:56 ERROR : (XSDB Server)ERROR: [Hsi 55-1594] Core standalone of version 8.0 not found in repositories
+
+15:42:56 ERROR : (XSDB Server)ERROR: [Hsi 55-1594] Core xilffs of version 4.8 not found in repositories
+
+15:42:56 ERROR : (XSDB Server)ERROR: [Hsi 55-1594] Core gpiops of version 3.10 not found in repositories
+
+15:42:56 ERROR : (XSDB Server)ERROR: [Hsi 55-1594] Core standalone of version 8.0 not found in repositories
+ERROR: [Hsi 55-1594] Core xilffs of version 4.8 not found in repositories
+
+15:42:56 ERROR : Failed to execute command 'platform active {zynq7_lcd}'. Click on details for more information.
+15:42:56 ERROR : Failed to read xsa path
+15:43:09 ERROR : Failed to execute command 'domain active {zynq_fsbl}'. Click on details for more information.
+15:43:18 ERROR : (XSDB Server)ERROR: [Hsi 55-1448] Error: running current_hw_design.
+
+15:43:18 WARN  : Failed to closehw "D:/Projects/prj/AMD/bad_apple_7020_lcd/workspace/zynq7_lcd/hw/zynq_7_wrapper_new.xsa"
+Reason: ERROR: [Common 17-39] 'hsi::close_hw_design' failed due to earlier errors.
+
+15:44:38 INFO  : Result from executing command 'getProjects': zynq_7020_badapple_lcd
+15:44:38 INFO  : Result from executing command 'getPlatforms': xilinx_vck190_base_202420_1|D:/AMD/Vitis/2024.2/base_platforms/xilinx_vck190_base_202420_1/xilinx_vck190_base_202420_1.xpfm;xilinx_vck190_base_dfx_202420_1|D:/AMD/Vitis/2024.2/base_platforms/xilinx_vck190_base_dfx_202420_1/xilinx_vck190_base_dfx_202420_1.xpfm;xilinx_vek280_base_202420_1|D:/AMD/Vitis/2024.2/base_platforms/xilinx_vek280_base_202420_1/xilinx_vek280_base_202420_1.xpfm;xilinx_vmk180_base_202420_1|D:/AMD/Vitis/2024.2/base_platforms/xilinx_vmk180_base_202420_1/xilinx_vmk180_base_202420_1.xpfm;xilinx_zcu102_base_202420_1|D:/AMD/Vitis/2024.2/base_platforms/xilinx_zcu102_base_202420_1/xilinx_zcu102_base_202420_1.xpfm;xilinx_zcu102_base_dfx_202420_1|D:/AMD/Vitis/2024.2/base_platforms/xilinx_zcu102_base_dfx_202420_1/xilinx_zcu102_base_dfx_202420_1.xpfm;xilinx_zcu104_base_202420_1|D:/AMD/Vitis/2024.2/base_platforms/xilinx_zcu104_base_202420_1/xilinx_zcu104_base_202420_1.xpfm;zynq7_lcd|D:/Projects/prj/AMD/lcd_7020/zynq_7020_lcd/workspace/zynq7_lcd/export/zynq7_lcd/zynq7_lcd.xpfm
+15:46:34 ERROR : (XSDB Server)rm: lstat¡®*.o¡¯Ê§°Ü: Invalid argument
+
+15:46:34 ERROR : (XSDB Server)make: *** [Makefile:42: clean] Error 1
+
+15:47:02 INFO  : Checking for BSP changes to sync application flags for project 'app_zynq7_lcd'...
+15:47:02 ERROR :  [Common 17-39] 'hsi::open_sw_design' failed due to earlier errors.
+15:47:02 INFO  : Unable to read in MSS file D:\Projects\prj\AMD\lcd_7020\zynq_7020_lcd\workspace\zynq7_lcd\export\zynq7_lcd\sw\zynq7_lcd\standalone_domain\system.mss : null
+15:47:02 WARN  : Failed to closesw "D:/Projects/prj/AMD/lcd_7020/zynq_7020_lcd/workspace/zynq7_lcd/export/zynq7_lcd/sw/zynq7_lcd/standalone_domain/system.mss"
+Reason: Cannot close sw design 'D:/Projects/prj/AMD/lcd_7020/zynq_7020_lcd/workspace/zynq7_lcd/export/zynq7_lcd/sw/zynq7_lcd/standalone_domain/system.mss'.
+Design is not opened in the current session.
+
+
+15:47:18 INFO  : Checking for BSP changes to sync application flags for project 'app_zynq7_lcd'...
+15:47:18 ERROR :  [Common 17-39] 'hsi::open_sw_design' failed due to earlier errors.
+15:47:18 INFO  : Unable to read in MSS file D:\Projects\prj\AMD\lcd_7020\zynq_7020_lcd\workspace\zynq7_lcd\export\zynq7_lcd\sw\zynq7_lcd\standalone_domain\system.mss : null
+15:47:18 WARN  : Failed to closesw "D:/Projects/prj/AMD/lcd_7020/zynq_7020_lcd/workspace/zynq7_lcd/export/zynq7_lcd/sw/zynq7_lcd/standalone_domain/system.mss"
+Reason: Cannot close sw design 'D:/Projects/prj/AMD/lcd_7020/zynq_7020_lcd/workspace/zynq7_lcd/export/zynq7_lcd/sw/zynq7_lcd/standalone_domain/system.mss'.
+Design is not opened in the current session.
+
+
+15:47:52 ERROR : Error occurred while generating bsp sources for the domain 'zynq_fsbl'.
+15:47:58 INFO  : No changes in MSS file content so sources will not be generated.
+15:48:09 INFO  : Result from executing command 'removePlatformRepo': 
+15:48:09 INFO  : Build configuration of 'app_zynq7_lcd_system' is updated to 'Release'
+15:48:09 INFO  : Build configuration of system project is automatically updated to 'Release'.
+15:48:33 INFO  : Result from executing command 'removePlatformRepo': 
+15:48:50 ERROR : Error from executing command 'removePlatformRepo': ERROR: No valid directory exists at given path.
+15:49:03 INFO  : Result from executing command 'removePlatformRepo': 
+15:49:16 ERROR : (XSDB Server)rm: lstat¡®*.o¡¯Ê§°Ü: Invalid argument
+
+15:49:16 ERROR : (XSDB Server)make: *** [Makefile:42: clean] Error 1
+
+15:49:25 ERROR : Error from executing command 'removePlatformRepo': ERROR: No valid directory exists at given path.
+15:49:45 INFO  : Result from executing command 'getProjects': zynq_7020_badapple_lcd
+15:49:45 INFO  : Result from executing command 'getPlatforms': xilinx_vck190_base_202420_1|D:/AMD/Vitis/2024.2/base_platforms/xilinx_vck190_base_202420_1/xilinx_vck190_base_202420_1.xpfm;xilinx_vck190_base_dfx_202420_1|D:/AMD/Vitis/2024.2/base_platforms/xilinx_vck190_base_dfx_202420_1/xilinx_vck190_base_dfx_202420_1.xpfm;xilinx_vek280_base_202420_1|D:/AMD/Vitis/2024.2/base_platforms/xilinx_vek280_base_202420_1/xilinx_vek280_base_202420_1.xpfm;xilinx_vmk180_base_202420_1|D:/AMD/Vitis/2024.2/base_platforms/xilinx_vmk180_base_202420_1/xilinx_vmk180_base_202420_1.xpfm;xilinx_zcu102_base_202420_1|D:/AMD/Vitis/2024.2/base_platforms/xilinx_zcu102_base_202420_1/xilinx_zcu102_base_202420_1.xpfm;xilinx_zcu102_base_dfx_202420_1|D:/AMD/Vitis/2024.2/base_platforms/xilinx_zcu102_base_dfx_202420_1/xilinx_zcu102_base_dfx_202420_1.xpfm;xilinx_zcu104_base_202420_1|D:/AMD/Vitis/2024.2/base_platforms/xilinx_zcu104_base_202420_1/xilinx_zcu104_base_202420_1.xpfm;zynq7_lcd|D:/Projects/prj/AMD/lcd_7020/zynq_7020_lcd/workspace/zynq7_lcd/export/zynq7_lcd/zynq7_lcd.xpfm
+15:49:55 INFO  : Build configuration of 'app_zynq7_lcd_system' is updated to 'Debug'
+15:49:55 INFO  : Build configuration of system project is automatically updated to 'Debug'.
+15:49:55 INFO  : Checking for BSP changes to sync application flags for project 'app_zynq7_lcd'...
+15:49:55 ERROR :  [Common 17-39] 'hsi::open_sw_design' failed due to earlier errors.
+15:49:55 INFO  : Unable to read in MSS file D:\Projects\prj\AMD\lcd_7020\zynq_7020_lcd\workspace\zynq7_lcd\export\zynq7_lcd\sw\zynq7_lcd\standalone_domain\system.mss : null
+15:49:55 WARN  : Failed to closesw "D:/Projects/prj/AMD/lcd_7020/zynq_7020_lcd/workspace/zynq7_lcd/export/zynq7_lcd/sw/zynq7_lcd/standalone_domain/system.mss"
+Reason: Cannot close sw design 'D:/Projects/prj/AMD/lcd_7020/zynq_7020_lcd/workspace/zynq7_lcd/export/zynq7_lcd/sw/zynq7_lcd/standalone_domain/system.mss'.
+Design is not opened in the current session.
+
+
+16:01:50 INFO  : Checking for BSP changes to sync application flags for project 'app_zynq7_lcd'...
+16:01:50 ERROR :  [Common 17-39] 'hsi::open_sw_design' failed due to earlier errors.
+16:01:50 INFO  : Unable to read in MSS file D:\Projects\prj\AMD\lcd_7020\zynq_7020_lcd\workspace\zynq7_lcd\export\zynq7_lcd\sw\zynq7_lcd\standalone_domain\system.mss : null
+16:01:50 WARN  : Failed to closesw "D:/Projects/prj/AMD/lcd_7020/zynq_7020_lcd/workspace/zynq7_lcd/export/zynq7_lcd/sw/zynq7_lcd/standalone_domain/system.mss"
+Reason: Cannot close sw design 'D:/Projects/prj/AMD/lcd_7020/zynq_7020_lcd/workspace/zynq7_lcd/export/zynq7_lcd/sw/zynq7_lcd/standalone_domain/system.mss'.
+Design is not opened in the current session.
+
+
+16:04:08 INFO  : Checking for BSP changes to sync application flags for project 'app_zynq7_lcd'...
+16:04:08 ERROR :  [Common 17-39] 'hsi::open_sw_design' failed due to earlier errors.
+16:04:08 INFO  : Unable to read in MSS file D:\Projects\prj\AMD\lcd_7020\zynq_7020_lcd\workspace\zynq7_lcd\export\zynq7_lcd\sw\zynq7_lcd\standalone_domain\system.mss : null
+16:04:08 WARN  : Failed to closesw "D:/Projects/prj/AMD/lcd_7020/zynq_7020_lcd/workspace/zynq7_lcd/export/zynq7_lcd/sw/zynq7_lcd/standalone_domain/system.mss"
+Reason: Cannot close sw design 'D:/Projects/prj/AMD/lcd_7020/zynq_7020_lcd/workspace/zynq7_lcd/export/zynq7_lcd/sw/zynq7_lcd/standalone_domain/system.mss'.
+Design is not opened in the current session.
+
+
+16:05:30 ERROR : (XSDB Server)rm: lstat¡®*.o¡¯Ê§°Ü: Invalid argument
+
+16:05:30 ERROR : (XSDB Server)make: *** [Makefile:42: clean] Error 1
+
+16:05:50 INFO  : No changes in MSS file content so sources will not be generated.
+16:10:47 INFO  : Checking for BSP changes to sync application flags for project 'app_zynq7_lcd'...
+16:10:47 ERROR :  [Common 17-39] 'hsi::open_sw_design' failed due to earlier errors.
+16:10:47 INFO  : Unable to read in MSS file D:\Projects\prj\AMD\lcd_7020\zynq_7020_lcd\workspace\zynq7_lcd\export\zynq7_lcd\sw\zynq7_lcd\standalone_domain\system.mss : null
+16:10:47 WARN  : Failed to closesw "D:/Projects/prj/AMD/lcd_7020/zynq_7020_lcd/workspace/zynq7_lcd/export/zynq7_lcd/sw/zynq7_lcd/standalone_domain/system.mss"
+Reason: Cannot close sw design 'D:/Projects/prj/AMD/lcd_7020/zynq_7020_lcd/workspace/zynq7_lcd/export/zynq7_lcd/sw/zynq7_lcd/standalone_domain/system.mss'.
+Design is not opened in the current session.
+
+
+16:13:23 INFO  : Build configuration of 'app_zynq7_lcd_system' is updated to 'Release'
+16:13:23 INFO  : Build configuration of system project is automatically updated to 'Release'.
+16:13:23 INFO  : Checking for BSP changes to sync application flags for project 'app_zynq7_lcd'...
+16:13:23 ERROR :  [Common 17-39] 'hsi::open_sw_design' failed due to earlier errors.
+16:13:23 INFO  : Unable to read in MSS file D:\Projects\prj\AMD\lcd_7020\zynq_7020_lcd\workspace\zynq7_lcd\export\zynq7_lcd\sw\zynq7_lcd\standalone_domain\system.mss : null
+16:13:23 WARN  : Failed to closesw "D:/Projects/prj/AMD/lcd_7020/zynq_7020_lcd/workspace/zynq7_lcd/export/zynq7_lcd/sw/zynq7_lcd/standalone_domain/system.mss"
+Reason: Cannot close sw design 'D:/Projects/prj/AMD/lcd_7020/zynq_7020_lcd/workspace/zynq7_lcd/export/zynq7_lcd/sw/zynq7_lcd/standalone_domain/system.mss'.
+Design is not opened in the current session.
+
+
+16:13:44 ERROR : An unexpected exception occurred in the module 'Linker Script'
+16:14:43 INFO  : Checking for BSP changes to sync application flags for project 'app_zynq7_lcd'...
+16:14:43 ERROR :  [Common 17-39] 'hsi::open_sw_design' failed due to earlier errors.
+16:14:43 INFO  : Unable to read in MSS file D:\Projects\prj\AMD\lcd_7020\zynq_7020_lcd\workspace\zynq7_lcd\export\zynq7_lcd\sw\zynq7_lcd\standalone_domain\system.mss : null
+16:14:43 WARN  : Failed to closesw "D:/Projects/prj/AMD/lcd_7020/zynq_7020_lcd/workspace/zynq7_lcd/export/zynq7_lcd/sw/zynq7_lcd/standalone_domain/system.mss"
+Reason: Cannot close sw design 'D:/Projects/prj/AMD/lcd_7020/zynq_7020_lcd/workspace/zynq7_lcd/export/zynq7_lcd/sw/zynq7_lcd/standalone_domain/system.mss'.
+Design is not opened in the current session.
+
+
+16:15:21 INFO  : Checking for BSP changes to sync application flags for project 'app_zynq7_lcd'...
+16:15:21 ERROR :  [Common 17-39] 'hsi::open_sw_design' failed due to earlier errors.
+16:15:21 INFO  : Unable to read in MSS file D:\Projects\prj\AMD\lcd_7020\zynq_7020_lcd\workspace\zynq7_lcd\export\zynq7_lcd\sw\zynq7_lcd\standalone_domain\system.mss : null
+16:15:21 WARN  : Failed to closesw "D:/Projects/prj/AMD/lcd_7020/zynq_7020_lcd/workspace/zynq7_lcd/export/zynq7_lcd/sw/zynq7_lcd/standalone_domain/system.mss"
+Reason: Cannot close sw design 'D:/Projects/prj/AMD/lcd_7020/zynq_7020_lcd/workspace/zynq7_lcd/export/zynq7_lcd/sw/zynq7_lcd/standalone_domain/system.mss'.
+Design is not opened in the current session.
+
+
+16:22:31 INFO  : Build configuration of 'app_zynq7_lcd_system' is updated to 'Debug'
+16:22:31 INFO  : Build configuration of system project is automatically updated to 'Debug'.
+16:22:31 INFO  : Checking for BSP changes to sync application flags for project 'app_zynq7_lcd'...
+16:22:31 ERROR :  [Common 17-39] 'hsi::open_sw_design' failed due to earlier errors.
+16:22:31 INFO  : Unable to read in MSS file D:\Projects\prj\AMD\lcd_7020\zynq_7020_lcd\workspace\zynq7_lcd\export\zynq7_lcd\sw\zynq7_lcd\standalone_domain\system.mss : null
+16:22:31 WARN  : Failed to closesw "D:/Projects/prj/AMD/lcd_7020/zynq_7020_lcd/workspace/zynq7_lcd/export/zynq7_lcd/sw/zynq7_lcd/standalone_domain/system.mss"
+Reason: Cannot close sw design 'D:/Projects/prj/AMD/lcd_7020/zynq_7020_lcd/workspace/zynq7_lcd/export/zynq7_lcd/sw/zynq7_lcd/standalone_domain/system.mss'.
+Design is not opened in the current session.
+
+
+16:29:17 INFO  : Checking for BSP changes to sync application flags for project 'app_zynq7_lcd'...
+16:29:17 ERROR :  [Common 17-39] 'hsi::open_sw_design' failed due to earlier errors.
+16:29:17 INFO  : Unable to read in MSS file D:\Projects\prj\AMD\lcd_7020\zynq_7020_lcd\workspace\zynq7_lcd\export\zynq7_lcd\sw\zynq7_lcd\standalone_domain\system.mss : null
+16:29:17 WARN  : Failed to closesw "D:/Projects/prj/AMD/lcd_7020/zynq_7020_lcd/workspace/zynq7_lcd/export/zynq7_lcd/sw/zynq7_lcd/standalone_domain/system.mss"
+Reason: Cannot close sw design 'D:/Projects/prj/AMD/lcd_7020/zynq_7020_lcd/workspace/zynq7_lcd/export/zynq7_lcd/sw/zynq7_lcd/standalone_domain/system.mss'.
+Design is not opened in the current session.
+
+
+17:39:04 DEBUG : Logs will be stored at 'D:/Projects/prj/AMD/bad_apple_7020_lcd/workspace/IDE.log'.
+17:39:05 INFO  : Launching XSCT server: xsct.bat -n  -interactive D:\Projects\prj\AMD\bad_apple_7020_lcd\workspace\temp_xsdb_launch_script.tcl
+17:39:09 INFO  : Registering command handlers for Vitis TCF services
+17:39:09 INFO  : Platform repository initialization has completed.
+17:39:09 INFO  : XSCT server has started successfully.
+17:39:09 INFO  : Successfully done setting XSCT server connection channel  
+17:39:09 INFO  : plnx-install-location is set to ''
+17:39:13 INFO  : Successfully done setting workspace for the tool. 
+17:39:13 INFO  : Successfully done query RDI_DATADIR 
