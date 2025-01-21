@@ -1,10 +1,9 @@
 LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/arch=x86_64
 LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/name=Local
-LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/os=win32
-configDescList=org.eclipse.launchbar.core.descriptorType.default\:SystemDebugger_app_zynq7_lcd_system,org.eclipse.launchbar.core.descriptorType.default\:Debugger_app_zynq7_lcd-Default,org.eclipse.launchbar.core.descriptorType.default\:Debugger_app_zynq7_lcd-Default_1
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/os=linux
+configDescList=org.eclipse.launchbar.core.descriptorType.default\:Debugger_bad_apple_app-GDB,org.eclipse.launchbar.core.descriptorType.default\:Debugger_bad_apple_app-Default_1,org.eclipse.launchbar.core.descriptorType.default\:Debugger_bad_apple_app-Default
 eclipse.preferences.version=1
-org.eclipse.launchbar.core.descriptorType.default\:Debugger_app_zynq7_lcd-Default/activeLaunchMode=run
-org.eclipse.launchbar.core.descriptorType.default\:Debugger_app_zynq7_lcd-Default/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local
-org.eclipse.launchbar.core.descriptorType.default\:Debugger_app_zynq7_lcd-Default_1/activeLaunchMode=embdebug
-org.eclipse.launchbar.core.descriptorType.default\:SystemDebugger_app_zynq7_lcd_system/activeLaunchMode=run
-org.eclipse.launchbar.core.descriptorType.default\:SystemDebugger_app_zynq7_lcd_system/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local
+org.eclipse.launchbar.core.descriptorType.default\:Debugger_bad_apple_app-Default/activeLaunchMode=debug
+org.eclipse.launchbar.core.descriptorType.default\:Debugger_bad_apple_app-Default/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local
+org.eclipse.launchbar.core.descriptorType.default\:Debugger_bad_apple_app-GDB/activeLaunchMode=embrun
+org.eclipse.launchbar.core.descriptorType.default\:Debugger_bad_apple_app-GDB/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local

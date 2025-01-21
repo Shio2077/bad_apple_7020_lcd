@@ -1,0 +1,90 @@
+17:18:19 **** Build of configuration Debug for project bad_apple_app ****
+make all 
+make --no-print-directory pre-build
+a9-linaro-pre-build-step
+ 
+make --no-print-directory main-build
+Building file: ../src/main.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I/home/hydrangea/project/AMD/bad_apple_7020_lcd/worksapce_new/bad_apple_7020_new_platform/export/bad_apple_7020_new_platform/sw/bad_apple_7020_new_platform/standalone_domain/bspinclude/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'uart_ps_send':
+../src/main.c:69:30: warning: pointer targets in passing argument 2 of 'XUartPs_Send' differ in signedness [-Wpointer-sign]
+   69 |     XUartPs_Send(&Uart_Ps_0, "\n\r", 2);
+      |                              ^~~~~~
+      |                              |
+      |                              char *
+In file included from ../src/main.c:36:
+/home/hydrangea/project/AMD/bad_apple_7020_lcd/worksapce_new/bad_apple_7020_new_platform/export/bad_apple_7020_new_platform/sw/bad_apple_7020_new_platform/standalone_domain/bspinclude/include/xuartps.h:449:43: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+  449 | u32 XUartPs_Send(XUartPs *InstancePtr,u8 *BufferPtr,
+      |                                       ~~~~^~~~~~~~~
+../src/main.c: In function 'read_frame':
+../src/main.c:104:22: warning: pointer targets in passing argument 1 of 'uart_ps_send' differ in signedness [-Wpointer-sign]
+  104 |         uart_ps_send("f_open failed\n", 14);
+      |                      ^~~~~~~~~~~~~~~~~
+      |                      |
+      |                      char *
+../src/main.c:63:23: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+   63 | void uart_ps_send(u8* data, u32 size){
+      |                   ~~~~^~~~
+../src/main.c:111:22: warning: pointer targets in passing argument 1 of 'uart_ps_send' differ in signedness [-Wpointer-sign]
+  111 |         uart_ps_send("f_read failed\n", 14);
+      |                      ^~~~~~~~~~~~~~~~~
+      |                      |
+      |                      char *
+../src/main.c:63:23: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+   63 | void uart_ps_send(u8* data, u32 size){
+      |                   ~~~~^~~~
+../src/main.c: In function 'LCD_Test':
+../src/main.c:148:18: warning: pointer targets in passing argument 1 of 'uart_ps_send' differ in signedness [-Wpointer-sign]
+  148 |     uart_ps_send("LCD_Test\n", 9);
+      |                  ^~~~~~~~~~~~
+      |                  |
+      |                  char *
+../src/main.c:63:23: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+   63 | void uart_ps_send(u8* data, u32 size){
+      |                   ~~~~^~~~
+../src/main.c:164:22: warning: pointer targets in passing argument 1 of 'uart_ps_send' differ in signedness [-Wpointer-sign]
+  164 |         uart_ps_send("malloc failed\n\r", 15);
+      |                      ^~~~~~~~~~~~~~~~~~~
+      |                      |
+      |                      char *
+../src/main.c:63:23: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+   63 | void uart_ps_send(u8* data, u32 size){
+      |                   ~~~~^~~~
+../src/main.c:180:79: warning: operation on 'pix_idx' may be undefined [-Wsequence-point]
+  180 |                     LCD_WR_DATA(char2u16_data(frame2disp[pix_idx], frame2disp[++pix_idx]));
+      |                                                                               ^~~~~~~~~
+../src/main.c:149:13: warning: variable 'res' set but not used [-Wunused-but-set-variable]
+  149 |     FRESULT res;
+      |             ^~~
+Finished building: ../src/main.c
+ 
+Building file: ../includes/lcd_drv.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"includes/lcd_drv.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I/home/hydrangea/project/AMD/bad_apple_7020_lcd/worksapce_new/bad_apple_7020_new_platform/export/bad_apple_7020_new_platform/sw/bad_apple_7020_new_platform/standalone_domain/bspinclude/include -MMD -MP -MF"includes/lcd_drv.d" -MT"includes/lcd_drv.o" -o "includes/lcd_drv.o" "../includes/lcd_drv.c"
+Finished building: ../includes/lcd_drv.c
+ 
+Building file: ../includes/lcd_init.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"includes/lcd_init.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I/home/hydrangea/project/AMD/bad_apple_7020_lcd/worksapce_new/bad_apple_7020_new_platform/export/bad_apple_7020_new_platform/sw/bad_apple_7020_new_platform/standalone_domain/bspinclude/include -MMD -MP -MF"includes/lcd_init.d" -MT"includes/lcd_init.o" -o "includes/lcd_init.o" "../includes/lcd_init.c"
+Finished building: ../includes/lcd_init.c
+ 
+Building file: ../includes/lcd_io_init.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"includes/lcd_io_init.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I/home/hydrangea/project/AMD/bad_apple_7020_lcd/worksapce_new/bad_apple_7020_new_platform/export/bad_apple_7020_new_platform/sw/bad_apple_7020_new_platform/standalone_domain/bspinclude/include -MMD -MP -MF"includes/lcd_io_init.d" -MT"includes/lcd_io_init.o" -o "includes/lcd_io_init.o" "../includes/lcd_io_init.c"
+Finished building: ../includes/lcd_io_init.c
+ 
+Building target: bad_apple_app.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L/home/hydrangea/project/AMD/bad_apple_7020_lcd/worksapce_new/bad_apple_7020_new_platform/export/bad_apple_7020_new_platform/sw/bad_apple_7020_new_platform/standalone_domain/bsplib/lib -o "bad_apple_app.elf" ./src/main.o  ./includes/lcd_drv.o ./includes/lcd_init.o ./includes/lcd_io_init.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxilffs,-lxil,-lgcc,-lc,--end-group
+Finished building target: bad_apple_app.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size bad_apple_app.elf  |tee "bad_apple_app.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 130872	   2288	4212512	4345672	 424f48	bad_apple_app.elf
+Finished building: bad_apple_app.elf.size
+ 
+
+17:18:20 Build Finished (took 635ms)
+

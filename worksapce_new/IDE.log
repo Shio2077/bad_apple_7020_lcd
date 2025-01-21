@@ -1,0 +1,1117 @@
+16:17:46 DEBUG : Logs will be stored at '/home/hydrangea/project/AMD/bad_apple_7020_lcd/worksapce_new/IDE.log'.
+16:17:47 INFO  : Launching XSCT server: xsct -n  -interactive /home/hydrangea/project/AMD/bad_apple_7020_lcd/worksapce_new/temp_xsdb_launch_script.tcl
+16:17:47 INFO  : Registering command handlers for Vitis TCF services
+16:17:47 INFO  : Platform repository initialization has completed.
+16:17:49 INFO  : XSCT server has started successfully.
+16:17:49 INFO  : plnx-install-location is set to ''
+16:17:49 INFO  : Successfully done setting XSCT server connection channel  
+16:17:49 INFO  : Successfully done query RDI_DATADIR 
+16:17:49 INFO  : Successfully done setting workspace for the tool. 
+16:19:14 DEBUG : Logs will be stored at '/home/hydrangea/project/AMD/bad_apple_7020_lcd/worksapce_new/IDE.log'.
+16:19:15 INFO  : Launching XSCT server: xsct -n  -interactive /home/hydrangea/project/AMD/bad_apple_7020_lcd/worksapce_new/temp_xsdb_launch_script.tcl
+16:19:15 INFO  : Registering command handlers for Vitis TCF services
+16:19:16 INFO  : Platform repository initialization has completed.
+16:19:17 INFO  : XSCT server has started successfully.
+16:19:17 INFO  : plnx-install-location is set to ''
+16:19:17 INFO  : Successfully done setting XSCT server connection channel  
+16:19:17 INFO  : Successfully done query RDI_DATADIR 
+16:19:17 INFO  : Successfully done setting workspace for the tool. 
+16:20:10 INFO  : Result from executing command 'getProjects': bad_apple_7020_new_platform
+16:20:10 INFO  : Result from executing command 'getPlatforms': xilinx_vck190_base_202220_1|/tools/AMD/Vitis/2022.2/base_platforms/xilinx_vck190_base_202220_1/xilinx_vck190_base_202220_1.xpfm;xilinx_vck190_base_dfx_202220_1|/tools/AMD/Vitis/2022.2/base_platforms/xilinx_vck190_base_dfx_202220_1/xilinx_vck190_base_dfx_202220_1.xpfm;xilinx_vmk180_base_202220_1|/tools/AMD/Vitis/2022.2/base_platforms/xilinx_vmk180_base_202220_1/xilinx_vmk180_base_202220_1.xpfm;xilinx_zcu102_base_202220_1|/tools/AMD/Vitis/2022.2/base_platforms/xilinx_zcu102_base_202220_1/xilinx_zcu102_base_202220_1.xpfm;xilinx_zcu102_base_dfx_202220_1|/tools/AMD/Vitis/2022.2/base_platforms/xilinx_zcu102_base_dfx_202220_1/xilinx_zcu102_base_dfx_202220_1.xpfm;xilinx_zcu104_base_202220_1|/tools/AMD/Vitis/2022.2/base_platforms/xilinx_zcu104_base_202220_1/xilinx_zcu104_base_202220_1.xpfm
+16:22:22 INFO  : Result from executing command 'getProjects': bad_apple_7020_new_platform
+16:22:22 INFO  : Result from executing command 'getPlatforms': bad_apple_7020_new_platform|/home/hydrangea/project/AMD/bad_apple_7020_lcd/worksapce_new/bad_apple_7020_new_platform/export/bad_apple_7020_new_platform/bad_apple_7020_new_platform.xpfm;xilinx_vck190_base_202220_1|/tools/AMD/Vitis/2022.2/base_platforms/xilinx_vck190_base_202220_1/xilinx_vck190_base_202220_1.xpfm;xilinx_vck190_base_dfx_202220_1|/tools/AMD/Vitis/2022.2/base_platforms/xilinx_vck190_base_dfx_202220_1/xilinx_vck190_base_dfx_202220_1.xpfm;xilinx_vmk180_base_202220_1|/tools/AMD/Vitis/2022.2/base_platforms/xilinx_vmk180_base_202220_1/xilinx_vmk180_base_202220_1.xpfm;xilinx_zcu102_base_202220_1|/tools/AMD/Vitis/2022.2/base_platforms/xilinx_zcu102_base_202220_1/xilinx_zcu102_base_202220_1.xpfm;xilinx_zcu102_base_dfx_202220_1|/tools/AMD/Vitis/2022.2/base_platforms/xilinx_zcu102_base_dfx_202220_1/xilinx_zcu102_base_dfx_202220_1.xpfm;xilinx_zcu104_base_202220_1|/tools/AMD/Vitis/2022.2/base_platforms/xilinx_zcu104_base_202220_1/xilinx_zcu104_base_202220_1.xpfm
+16:22:26 INFO  : Checking for BSP changes to sync application flags for project 'bad_apple_new_app'...
+16:22:27 INFO  : Updating application flags with new BSP settings...
+16:22:27 INFO  : Successfully updated application flags for project bad_apple_new_app.
+16:25:12 INFO  : Result from executing command 'removePlatformRepo': 
+16:25:22 INFO  : Result from executing command 'getProjects': bad_apple_7020_new_platform
+16:25:22 INFO  : Result from executing command 'getPlatforms': xilinx_vck190_base_202220_1|/tools/AMD/Vitis/2022.2/base_platforms/xilinx_vck190_base_202220_1/xilinx_vck190_base_202220_1.xpfm;xilinx_vck190_base_dfx_202220_1|/tools/AMD/Vitis/2022.2/base_platforms/xilinx_vck190_base_dfx_202220_1/xilinx_vck190_base_dfx_202220_1.xpfm;xilinx_vmk180_base_202220_1|/tools/AMD/Vitis/2022.2/base_platforms/xilinx_vmk180_base_202220_1/xilinx_vmk180_base_202220_1.xpfm;xilinx_zcu102_base_202220_1|/tools/AMD/Vitis/2022.2/base_platforms/xilinx_zcu102_base_202220_1/xilinx_zcu102_base_202220_1.xpfm;xilinx_zcu102_base_dfx_202220_1|/tools/AMD/Vitis/2022.2/base_platforms/xilinx_zcu102_base_dfx_202220_1/xilinx_zcu102_base_dfx_202220_1.xpfm;xilinx_zcu104_base_202220_1|/tools/AMD/Vitis/2022.2/base_platforms/xilinx_zcu104_base_202220_1/xilinx_zcu104_base_202220_1.xpfm
+16:25:29 INFO  : Checking for BSP changes to sync application flags for project 'bad_apple_new_app'...
+16:26:42 INFO  : Hardware specification for platform project 'bad_apple_7020_new_platform' is updated.
+16:26:53 INFO  : Result from executing command 'removePlatformRepo': 
+16:27:05 INFO  : Result from executing command 'getProjects': bad_apple_7020_new_platform
+16:27:05 INFO  : Result from executing command 'getPlatforms': xilinx_vck190_base_202220_1|/tools/AMD/Vitis/2022.2/base_platforms/xilinx_vck190_base_202220_1/xilinx_vck190_base_202220_1.xpfm;xilinx_vck190_base_dfx_202220_1|/tools/AMD/Vitis/2022.2/base_platforms/xilinx_vck190_base_dfx_202220_1/xilinx_vck190_base_dfx_202220_1.xpfm;xilinx_vmk180_base_202220_1|/tools/AMD/Vitis/2022.2/base_platforms/xilinx_vmk180_base_202220_1/xilinx_vmk180_base_202220_1.xpfm;xilinx_zcu102_base_202220_1|/tools/AMD/Vitis/2022.2/base_platforms/xilinx_zcu102_base_202220_1/xilinx_zcu102_base_202220_1.xpfm;xilinx_zcu102_base_dfx_202220_1|/tools/AMD/Vitis/2022.2/base_platforms/xilinx_zcu102_base_dfx_202220_1/xilinx_zcu102_base_dfx_202220_1.xpfm;xilinx_zcu104_base_202220_1|/tools/AMD/Vitis/2022.2/base_platforms/xilinx_zcu104_base_202220_1/xilinx_zcu104_base_202220_1.xpfm
+16:27:28 INFO  : Checking for BSP changes to sync application flags for project 'bad_apple_new_app'...
+16:27:29 INFO  : Updating application flags with new BSP settings...
+16:27:29 ERROR : Failed to update application flags from BSP for 'bad_apple_new_app'. Reason: null
+java.lang.NullPointerException: null
+	at com.xilinx.sdk.sw.internal.SwDb.getComponentAppCompilerFlags(SwDb.java:761) ~[com.xilinx.sdk.sw_1.0.0.202210132147.jar:?]
+	at com.xilinx.sdx.sw.internal.SDxSwPlatform.getSwPlatformCompilerFlags(SDxSwPlatform.java:1177) ~[com.xilinx.sdx.sw_1.0.0.202210132147.jar:?]
+	at com.xilinx.sdx.sdk.core.build.AppSwBuildOptionsHelper.inferSwPlatformFlags(AppSwBuildOptionsHelper.java:54) ~[com.xilinx.sdx.sdk.core_1.0.0.202210132147.jar:?]
+	at com.xilinx.sdx.sdk.core.build.AppSwBuildOptionsHelper.updateBuildOptions(AppSwBuildOptionsHelper.java:46) ~[com.xilinx.sdx.sdk.core_1.0.0.202210132147.jar:?]
+	at com.xilinx.sdx.sdk.core.build.SdkMakefileGenerationListener.updateSwBuildOptions(SdkMakefileGenerationListener.java:215) ~[com.xilinx.sdx.sdk.core_1.0.0.202210132147.jar:?]
+	at com.xilinx.sdx.sdk.core.build.SdkMakefileGenerationListener.syncAppFlags(SdkMakefileGenerationListener.java:99) [com.xilinx.sdx.sdk.core_1.0.0.202210132147.jar:?]
+	at com.xilinx.sdx.sdk.core.build.SdkMakefileGenerationListener.preMakefileGeneration(SdkMakefileGenerationListener.java:48) [com.xilinx.sdx.sdk.core_1.0.0.202210132147.jar:?]
+	at com.xilinx.sdk.managedbuilder.XilinxGnuMakefileGenerator.notifyPreMakefileGenerationListeners(XilinxGnuMakefileGenerator.java:91) [com.xilinx.sdk.managedbuilder_1.0.0.202210132147.jar:?]
+	at com.xilinx.sdk.managedbuilder.XilinxGnuMakefileGenerator.generateMakefiles(XilinxGnuMakefileGenerator.java:40) [com.xilinx.sdk.managedbuilder_1.0.0.202210132147.jar:?]
+	at org.eclipse.cdt.managedbuilder.internal.core.CommonBuilder.performMakefileGeneration(CommonBuilder.java:1008) [org.eclipse.cdt.managedbuilder.core_8.6.0.201802261533.jar:?]
+	at org.eclipse.cdt.managedbuilder.internal.core.CommonBuilder.performPrebuildGeneration(CommonBuilder.java:873) [org.eclipse.cdt.managedbuilder.core_8.6.0.201802261533.jar:?]
+	at org.eclipse.cdt.managedbuilder.internal.core.CommonBuilder.build(CommonBuilder.java:748) [org.eclipse.cdt.managedbuilder.core_8.6.0.201802261533.jar:?]
+	at org.eclipse.cdt.managedbuilder.internal.core.CommonBuilder.build(CommonBuilder.java:510) [org.eclipse.cdt.managedbuilder.core_8.6.0.201802261533.jar:?]
+	at org.eclipse.cdt.managedbuilder.internal.core.CommonBuilder.build(CommonBuilder.java:459) [org.eclipse.cdt.managedbuilder.core_8.6.0.201802261533.jar:?]
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:832) [org.eclipse.core.resources_3.13.700.v20200209-1624.jar:?]
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45) [org.eclipse.equinox.common_3.11.0.v20200206-0817.jar:?]
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:220) [org.eclipse.core.resources_3.13.700.v20200209-1624.jar:?]
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:263) [org.eclipse.core.resources_3.13.700.v20200209-1624.jar:?]
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:316) [org.eclipse.core.resources_3.13.700.v20200209-1624.jar:?]
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45) [org.eclipse.equinox.common_3.11.0.v20200206-0817.jar:?]
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:319) [org.eclipse.core.resources_3.13.700.v20200209-1624.jar:?]
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:371) [org.eclipse.core.resources_3.13.700.v20200209-1624.jar:?]
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:392) [org.eclipse.core.resources_3.13.700.v20200209-1624.jar:?]
+	at org.eclipse.core.internal.resources.Workspace.buildInternal(Workspace.java:515) [org.eclipse.core.resources_3.13.700.v20200209-1624.jar:?]
+	at org.eclipse.core.internal.resources.Workspace.build(Workspace.java:412) [org.eclipse.core.resources_3.13.700.v20200209-1624.jar:?]
+	at org.eclipse.ui.actions.BuildAction$1.runInWorkspace(BuildAction.java:291) [org.eclipse.ui.ide_3.17.0.v20200217-1511.jar:?]
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:42) [org.eclipse.core.resources_3.13.700.v20200209-1624.jar:?]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63) [org.eclipse.core.jobs_3.10.700.v20200106-1020.jar:?]
+16:27:30 INFO  : The hardware specification used by project 'bad_apple_new_app' is out of sync with the platform. Resource files extracted from the hardware specification will be updated.
+16:27:30 INFO  : The file '/home/hydrangea/project/AMD/bad_apple_7020_lcd/worksapce_new/bad_apple_new_app/_ide/bitstream/top.bit' stored in project is removed.
+16:27:30 INFO  : The updated bitstream files are copied from platform to folder '/home/hydrangea/project/AMD/bad_apple_7020_lcd/worksapce_new/bad_apple_new_app/_ide/bitstream' in project 'bad_apple_new_app'.
+16:27:30 INFO  : The file '/home/hydrangea/project/AMD/bad_apple_7020_lcd/worksapce_new/bad_apple_new_app/_ide/psinit/ps7_init.tcl' stored in project is removed.
+16:27:33 INFO  : The updated ps init files are copied from platform to folder '/home/hydrangea/project/AMD/bad_apple_7020_lcd/worksapce_new/bad_apple_new_app/_ide/psinit' in project 'bad_apple_new_app'.
+16:27:41 INFO  : Checking for BSP changes to sync application flags for project 'bad_apple_new_app'...
+16:27:41 INFO  : Updating application flags with new BSP settings...
+16:27:41 ERROR : Failed to update application flags from BSP for 'bad_apple_new_app'. Reason: null
+java.lang.NullPointerException: null
+	at com.xilinx.sdk.sw.internal.SwDb.getComponentAppCompilerFlags(SwDb.java:761) ~[com.xilinx.sdk.sw_1.0.0.202210132147.jar:?]
+	at com.xilinx.sdx.sw.internal.SDxSwPlatform.getSwPlatformCompilerFlags(SDxSwPlatform.java:1177) ~[com.xilinx.sdx.sw_1.0.0.202210132147.jar:?]
+	at com.xilinx.sdx.sdk.core.build.AppSwBuildOptionsHelper.inferSwPlatformFlags(AppSwBuildOptionsHelper.java:54) ~[com.xilinx.sdx.sdk.core_1.0.0.202210132147.jar:?]
+	at com.xilinx.sdx.sdk.core.build.AppSwBuildOptionsHelper.updateBuildOptions(AppSwBuildOptionsHelper.java:46) ~[com.xilinx.sdx.sdk.core_1.0.0.202210132147.jar:?]
+	at com.xilinx.sdx.sdk.core.build.SdkMakefileGenerationListener.updateSwBuildOptions(SdkMakefileGenerationListener.java:215) ~[com.xilinx.sdx.sdk.core_1.0.0.202210132147.jar:?]
+	at com.xilinx.sdx.sdk.core.build.SdkMakefileGenerationListener.syncAppFlags(SdkMakefileGenerationListener.java:99) [com.xilinx.sdx.sdk.core_1.0.0.202210132147.jar:?]
+	at com.xilinx.sdx.sdk.core.build.SdkMakefileGenerationListener.preMakefileGeneration(SdkMakefileGenerationListener.java:48) [com.xilinx.sdx.sdk.core_1.0.0.202210132147.jar:?]
+	at com.xilinx.sdk.managedbuilder.XilinxGnuMakefileGenerator.notifyPreMakefileGenerationListeners(XilinxGnuMakefileGenerator.java:91) [com.xilinx.sdk.managedbuilder_1.0.0.202210132147.jar:?]
+	at com.xilinx.sdk.managedbuilder.XilinxGnuMakefileGenerator.generateMakefiles(XilinxGnuMakefileGenerator.java:40) [com.xilinx.sdk.managedbuilder_1.0.0.202210132147.jar:?]
+	at org.eclipse.cdt.managedbuilder.internal.core.CommonBuilder.performMakefileGeneration(CommonBuilder.java:1008) [org.eclipse.cdt.managedbuilder.core_8.6.0.201802261533.jar:?]
+	at org.eclipse.cdt.managedbuilder.internal.core.CommonBuilder.performPrebuildGeneration(CommonBuilder.java:873) [org.eclipse.cdt.managedbuilder.core_8.6.0.201802261533.jar:?]
+	at org.eclipse.cdt.managedbuilder.internal.core.CommonBuilder.build(CommonBuilder.java:748) [org.eclipse.cdt.managedbuilder.core_8.6.0.201802261533.jar:?]
+	at org.eclipse.cdt.managedbuilder.internal.core.CommonBuilder.build(CommonBuilder.java:510) [org.eclipse.cdt.managedbuilder.core_8.6.0.201802261533.jar:?]
+	at org.eclipse.cdt.managedbuilder.internal.core.CommonBuilder.build(CommonBuilder.java:459) [org.eclipse.cdt.managedbuilder.core_8.6.0.201802261533.jar:?]
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:832) [org.eclipse.core.resources_3.13.700.v20200209-1624.jar:?]
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45) [org.eclipse.equinox.common_3.11.0.v20200206-0817.jar:?]
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:220) [org.eclipse.core.resources_3.13.700.v20200209-1624.jar:?]
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:263) [org.eclipse.core.resources_3.13.700.v20200209-1624.jar:?]
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:316) [org.eclipse.core.resources_3.13.700.v20200209-1624.jar:?]
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45) [org.eclipse.equinox.common_3.11.0.v20200206-0817.jar:?]
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:319) [org.eclipse.core.resources_3.13.700.v20200209-1624.jar:?]
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:371) [org.eclipse.core.resources_3.13.700.v20200209-1624.jar:?]
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:392) [org.eclipse.core.resources_3.13.700.v20200209-1624.jar:?]
+	at org.eclipse.core.internal.resources.Workspace.buildInternal(Workspace.java:515) [org.eclipse.core.resources_3.13.700.v20200209-1624.jar:?]
+	at org.eclipse.core.internal.resources.Workspace.build(Workspace.java:412) [org.eclipse.core.resources_3.13.700.v20200209-1624.jar:?]
+	at org.eclipse.ui.actions.BuildAction$1.runInWorkspace(BuildAction.java:291) [org.eclipse.ui.ide_3.17.0.v20200217-1511.jar:?]
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:42) [org.eclipse.core.resources_3.13.700.v20200209-1624.jar:?]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63) [org.eclipse.core.jobs_3.10.700.v20200106-1020.jar:?]
+16:29:45 ERROR : Failed to redirect connection to hardware server on host '10.0.0.2' and port '3121'.
+Reason: Connection refused
+16:29:45 INFO  : ----------------XSDB Script----------------
+connect -path [list tcp::1534 tcp:10.0.0.2:3121]
+----------------End of Script----------------
+
+16:29:45 ERROR : Failed to redirect connection to hardware server on host '10.0.0.2' and port '3121'.
+Reason: Connection refused
+16:29:56 ERROR : Failed to redirect connection to hardware server on host '10.0.0.2' and port '3121'.
+Reason: Connection refused
+16:29:56 INFO  : ----------------XSDB Script----------------
+connect -path [list tcp::1534 tcp:10.0.0.2:3121]
+----------------End of Script----------------
+
+16:29:56 ERROR : Failed to redirect connection to hardware server on host '10.0.0.2' and port '3121'.
+Reason: Connection refused
+16:30:16 ERROR : Failed to redirect connection to hardware server on host '10.0.0.2' and port '3121'.
+Reason: Connection refused
+16:30:16 INFO  : ----------------XSDB Script----------------
+connect -path [list tcp::1534 tcp:10.0.0.2:3121]
+----------------End of Script----------------
+
+16:30:16 ERROR : Failed to redirect connection to hardware server on host '10.0.0.2' and port '3121'.
+Reason: Connection refused
+16:30:27 ERROR : Failed to redirect connection to hardware server on host '10.0.0.2' and port '3121'.
+Reason: Connection refused
+16:30:27 INFO  : ----------------XSDB Script----------------
+connect -path [list tcp::1534 tcp:10.0.0.2:3121]
+----------------End of Script----------------
+
+16:30:27 ERROR : Failed to redirect connection to hardware server on host '10.0.0.2' and port '3121'.
+Reason: Connection refused
+16:30:51 INFO  : Connected to target on host '10.0.0.8' and port '3121'.
+16:31:41 INFO  : Connected through redirection to target on host '10.0.0.8' and port '3121'.
+16:31:41 WARN  : IDE version '2022.2.0' doesn't match hw_server version '2022.2.2'. Some debug features may not work.
+16:31:44 INFO  : Jtag cable 'Digilent JTAG-SMT3 210357A7D00EA' is selected.
+16:31:44 INFO  : 'jtag frequency' command is executed.
+16:31:44 INFO  : Context for 'APU' is selected.
+16:31:45 INFO  : System reset is completed.
+16:31:48 INFO  : 'after 3000' command is executed.
+16:31:48 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-SMT3 210357A7D00EA" && level==0 && jtag_device_ctx=="jsn-JTAG-SMT3-210357A7D00EA-23727093-0"}' command is executed.
+16:31:50 INFO  : Device configured successfully with "/home/hydrangea/project/AMD/bad_apple_7020_lcd/worksapce_new/bad_apple_new_app/_ide/bitstream/top.bit"
+16:31:50 INFO  : Context for 'APU' is selected.
+16:31:50 INFO  : Hardware design and registers information is loaded from '/home/hydrangea/project/AMD/bad_apple_7020_lcd/worksapce_new/bad_apple_7020_new_platform/export/bad_apple_7020_new_platform/hw/top.xsa'.
+16:31:50 INFO  : 'configparams force-mem-access 1' command is executed.
+16:31:50 INFO  : Context for 'APU' is selected.
+16:31:50 INFO  : Sourcing of '/home/hydrangea/project/AMD/bad_apple_7020_lcd/worksapce_new/bad_apple_new_app/_ide/psinit/ps7_init.tcl' is done.
+16:31:51 INFO  : 'ps7_init' command is executed.
+16:31:51 INFO  : 'ps7_post_config' command is executed.
+16:31:51 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+16:31:51 INFO  : The application '/home/hydrangea/project/AMD/bad_apple_7020_lcd/worksapce_new/bad_apple_new_app/Debug/bad_apple_new_app.elf' is downloaded to processor 'ps7_cortexa9_0'.
+16:31:51 INFO  : 'configparams force-mem-access 0' command is executed.
+16:31:51 INFO  : ----------------XSDB Script----------------
+connect -path [list tcp::1534 tcp:10.0.0.8:3121]
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent JTAG-SMT3 210357A7D00EA" && level==0 && jtag_device_ctx=="jsn-JTAG-SMT3-210357A7D00EA-23727093-0"}
+fpga -file /home/hydrangea/project/AMD/bad_apple_7020_lcd/worksapce_new/bad_apple_new_app/_ide/bitstream/top.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw /home/hydrangea/project/AMD/bad_apple_7020_lcd/worksapce_new/bad_apple_7020_new_platform/export/bad_apple_7020_new_platform/hw/top.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source /home/hydrangea/project/AMD/bad_apple_7020_lcd/worksapce_new/bad_apple_new_app/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow /home/hydrangea/project/AMD/bad_apple_7020_lcd/worksapce_new/bad_apple_new_app/Debug/bad_apple_new_app.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+16:31:51 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+16:31:51 INFO  : 'con' command is executed.
+16:31:51 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+16:31:51 INFO  : Launch script is exported to file '/home/hydrangea/project/AMD/bad_apple_7020_lcd/worksapce_new/bad_apple_new_app_system/_ide/scripts/debugger_bad_apple_new_app-default.tcl'
+16:32:24 INFO  : Disconnected from the channel tcfchan#13.
+16:32:25 INFO  : Connected through redirection to target on host '10.0.0.8' and port '3121'.
+16:32:25 WARN  : IDE version '2022.2.0' doesn't match hw_server version '2022.2.2'. Some debug features may not work.
+16:32:25 INFO  : Jtag cable 'Digilent JTAG-SMT3 210357A7D00EA' is selected.
+16:32:25 INFO  : 'jtag frequency' command is executed.
+16:32:25 INFO  : Context for 'APU' is selected.
+16:32:25 INFO  : System reset is completed.
+16:32:28 INFO  : 'after 3000' command is executed.
+16:32:28 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-SMT3 210357A7D00EA" && level==0 && jtag_device_ctx=="jsn-JTAG-SMT3-210357A7D00EA-23727093-0"}' command is executed.
+16:32:30 INFO  : Device configured successfully with "/home/hydrangea/project/AMD/bad_apple_7020_lcd/worksapce_new/bad_apple_new_app/_ide/bitstream/top.bit"
+16:32:30 INFO  : Context for 'APU' is selected.
+16:32:30 INFO  : Hardware design and registers information is loaded from '/home/hydrangea/project/AMD/bad_apple_7020_lcd/worksapce_new/bad_apple_7020_new_platform/export/bad_apple_7020_new_platform/hw/top.xsa'.
+16:32:30 INFO  : 'configparams force-mem-access 1' command is executed.
+16:32:30 INFO  : Context for 'APU' is selected.
+16:32:30 INFO  : Sourcing of '/home/hydrangea/project/AMD/bad_apple_7020_lcd/worksapce_new/bad_apple_new_app/_ide/psinit/ps7_init.tcl' is done.
+16:32:31 INFO  : 'ps7_init' command is executed.
+16:32:31 INFO  : 'ps7_post_config' command is executed.
+16:32:31 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+16:32:31 INFO  : The application '/home/hydrangea/project/AMD/bad_apple_7020_lcd/worksapce_new/bad_apple_new_app/Debug/bad_apple_new_app.elf' is downloaded to processor 'ps7_cortexa9_0'.
+16:32:31 INFO  : 'configparams force-mem-access 0' command is executed.
+16:32:31 INFO  : ----------------XSDB Script----------------
+connect -path [list tcp::1534 tcp:10.0.0.8:3121]
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent JTAG-SMT3 210357A7D00EA" && level==0 && jtag_device_ctx=="jsn-JTAG-SMT3-210357A7D00EA-23727093-0"}
+fpga -file /home/hydrangea/project/AMD/bad_apple_7020_lcd/worksapce_new/bad_apple_new_app/_ide/bitstream/top.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw /home/hydrangea/project/AMD/bad_apple_7020_lcd/worksapce_new/bad_apple_7020_new_platform/export/bad_apple_7020_new_platform/hw/top.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source /home/hydrangea/project/AMD/bad_apple_7020_lcd/worksapce_new/bad_apple_new_app/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow /home/hydrangea/project/AMD/bad_apple_7020_lcd/worksapce_new/bad_apple_new_app/Debug/bad_apple_new_app.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+16:32:31 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+16:32:31 INFO  : 'con' command is executed.
+16:32:31 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+16:32:31 INFO  : Launch script is exported to file '/home/hydrangea/project/AMD/bad_apple_7020_lcd/worksapce_new/bad_apple_new_app_system/_ide/scripts/debugger_bad_apple_new_app-default.tcl'
+16:32:42 INFO  : Disconnected from the channel tcfchan#14.
+16:32:43 INFO  : Connected through redirection to target on host '10.0.0.8' and port '3121'.
+16:32:43 WARN  : IDE version '2022.2.0' doesn't match hw_server version '2022.2.2'. Some debug features may not work.
+16:32:43 INFO  : Jtag cable 'Digilent JTAG-SMT3 210357A7D00EA' is selected.
+16:32:43 INFO  : 'jtag frequency' command is executed.
+16:32:43 INFO  : Context for 'APU' is selected.
+16:32:43 INFO  : System reset is completed.
+16:32:46 INFO  : 'after 3000' command is executed.
+16:32:46 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-SMT3 210357A7D00EA" && level==0 && jtag_device_ctx=="jsn-JTAG-SMT3-210357A7D00EA-23727093-0"}' command is executed.
+16:32:48 INFO  : Device configured successfully with "/home/hydrangea/project/AMD/bad_apple_7020_lcd/worksapce_new/bad_apple_new_app/_ide/bitstream/top.bit"
+16:32:49 INFO  : Context for 'APU' is selected.
+16:32:49 INFO  : Hardware design and registers information is loaded from '/home/hydrangea/project/AMD/bad_apple_7020_lcd/worksapce_new/bad_apple_7020_new_platform/export/bad_apple_7020_new_platform/hw/top.xsa'.
+16:32:49 INFO  : 'configparams force-mem-access 1' command is executed.
+16:32:49 INFO  : Context for 'APU' is selected.
+16:32:49 INFO  : Sourcing of '/home/hydrangea/project/AMD/bad_apple_7020_lcd/worksapce_new/bad_apple_new_app/_ide/psinit/ps7_init.tcl' is done.
+16:32:49 INFO  : 'ps7_init' command is executed.
+16:32:49 INFO  : 'ps7_post_config' command is executed.
+16:32:49 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+16:32:50 INFO  : The application '/home/hydrangea/project/AMD/bad_apple_7020_lcd/worksapce_new/bad_apple_new_app/Debug/bad_apple_new_app.elf' is downloaded to processor 'ps7_cortexa9_0'.
+16:32:50 INFO  : 'configparams force-mem-access 0' command is executed.
+16:32:50 INFO  : ----------------XSDB Script----------------
+connect -path [list tcp::1534 tcp:10.0.0.8:3121]
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent JTAG-SMT3 210357A7D00EA" && level==0 && jtag_device_ctx=="jsn-JTAG-SMT3-210357A7D00EA-23727093-0"}
+fpga -file /home/hydrangea/project/AMD/bad_apple_7020_lcd/worksapce_new/bad_apple_new_app/_ide/bitstream/top.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw /home/hydrangea/project/AMD/bad_apple_7020_lcd/worksapce_new/bad_apple_7020_new_platform/export/bad_apple_7020_new_platform/hw/top.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source /home/hydrangea/project/AMD/bad_apple_7020_lcd/worksapce_new/bad_apple_new_app/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow /home/hydrangea/project/AMD/bad_apple_7020_lcd/worksapce_new/bad_apple_new_app/Debug/bad_apple_new_app.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+16:32:50 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+16:32:50 INFO  : 'con' command is executed.
+16:32:50 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+16:32:50 INFO  : Launch script is exported to file '/home/hydrangea/project/AMD/bad_apple_7020_lcd/worksapce_new/bad_apple_new_app_system/_ide/scripts/debugger_bad_apple_new_app-default.tcl'
+16:33:23 INFO  : Disconnected from the channel tcfchan#15.
+16:33:24 INFO  : Connected through redirection to target on host '10.0.0.8' and port '3121'.
+16:33:24 WARN  : IDE version '2022.2.0' doesn't match hw_server version '2022.2.2'. Some debug features may not work.
+16:33:24 INFO  : Jtag cable 'Digilent JTAG-SMT3 210357A7D00EA' is selected.
+16:33:24 INFO  : 'jtag frequency' command is executed.
+16:33:24 INFO  : Context for 'APU' is selected.
+16:33:24 INFO  : System reset is completed.
+16:33:27 INFO  : 'after 3000' command is executed.
+16:33:27 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-SMT3 210357A7D00EA" && level==0 && jtag_device_ctx=="jsn-JTAG-SMT3-210357A7D00EA-23727093-0"}' command is executed.
+16:33:30 INFO  : Device configured successfully with "/home/hydrangea/project/AMD/bad_apple_7020_lcd/worksapce_new/bad_apple_new_app/_ide/bitstream/top.bit"
+16:33:30 INFO  : Context for 'APU' is selected.
+16:33:30 INFO  : Hardware design and registers information is loaded from '/home/hydrangea/project/AMD/bad_apple_7020_lcd/worksapce_new/bad_apple_7020_new_platform/export/bad_apple_7020_new_platform/hw/top.xsa'.
+16:33:30 INFO  : 'configparams force-mem-access 1' command is executed.
+16:33:30 INFO  : Context for 'APU' is selected.
+16:33:30 INFO  : Sourcing of '/home/hydrangea/project/AMD/bad_apple_7020_lcd/worksapce_new/bad_apple_new_app/_ide/psinit/ps7_init.tcl' is done.
+16:33:30 INFO  : 'ps7_init' command is executed.
+16:33:30 INFO  : 'ps7_post_config' command is executed.
+16:33:30 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+16:33:31 INFO  : The application '/home/hydrangea/project/AMD/bad_apple_7020_lcd/worksapce_new/bad_apple_new_app/Debug/bad_apple_new_app.elf' is downloaded to processor 'ps7_cortexa9_0'.
+16:33:31 INFO  : 'configparams force-mem-access 0' command is executed.
+16:33:31 INFO  : ----------------XSDB Script----------------
+connect -path [list tcp::1534 tcp:10.0.0.8:3121]
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent JTAG-SMT3 210357A7D00EA" && level==0 && jtag_device_ctx=="jsn-JTAG-SMT3-210357A7D00EA-23727093-0"}
+fpga -file /home/hydrangea/project/AMD/bad_apple_7020_lcd/worksapce_new/bad_apple_new_app/_ide/bitstream/top.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw /home/hydrangea/project/AMD/bad_apple_7020_lcd/worksapce_new/bad_apple_7020_new_platform/export/bad_apple_7020_new_platform/hw/top.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source /home/hydrangea/project/AMD/bad_apple_7020_lcd/worksapce_new/bad_apple_new_app/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow /home/hydrangea/project/AMD/bad_apple_7020_lcd/worksapce_new/bad_apple_new_app/Debug/bad_apple_new_app.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+16:33:31 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+16:33:31 INFO  : 'con' command is executed.
+16:33:31 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+16:33:31 INFO  : Launch script is exported to file '/home/hydrangea/project/AMD/bad_apple_7020_lcd/worksapce_new/bad_apple_new_app_system/_ide/scripts/debugger_bad_apple_new_app-default.tcl'
+16:35:17 INFO  : Disconnected from the channel tcfchan#16.
+16:35:18 INFO  : Connected through redirection to target on host '10.0.0.8' and port '3121'.
+16:35:18 WARN  : IDE version '2022.2.0' doesn't match hw_server version '2022.2.2'. Some debug features may not work.
+16:35:18 INFO  : Jtag cable 'Digilent JTAG-SMT3 210357A7D00EA' is selected.
+16:35:18 INFO  : 'jtag frequency' command is executed.
+16:35:18 INFO  : Context for 'APU' is selected.
+16:35:18 INFO  : System reset is completed.
+16:35:21 INFO  : 'after 3000' command is executed.
+16:35:21 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-SMT3 210357A7D00EA" && level==0 && jtag_device_ctx=="jsn-JTAG-SMT3-210357A7D00EA-23727093-0"}' command is executed.
+16:35:24 INFO  : Device configured successfully with "/home/hydrangea/project/AMD/bad_apple_7020_lcd/worksapce_new/bad_apple_new_app/_ide/bitstream/top.bit"
+16:35:24 INFO  : Context for 'APU' is selected.
+16:35:24 INFO  : Hardware design and registers information is loaded from '/home/hydrangea/project/AMD/bad_apple_7020_lcd/worksapce_new/bad_apple_7020_new_platform/export/bad_apple_7020_new_platform/hw/top.xsa'.
+16:35:24 INFO  : 'configparams force-mem-access 1' command is executed.
+16:35:24 INFO  : Context for 'APU' is selected.
+16:35:24 INFO  : Sourcing of '/home/hydrangea/project/AMD/bad_apple_7020_lcd/worksapce_new/bad_apple_new_app/_ide/psinit/ps7_init.tcl' is done.
+16:35:25 INFO  : 'ps7_init' command is executed.
+16:35:25 INFO  : 'ps7_post_config' command is executed.
+16:35:25 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+16:35:25 INFO  : The application '/home/hydrangea/project/AMD/bad_apple_7020_lcd/worksapce_new/bad_apple_new_app/Debug/bad_apple_new_app.elf' is downloaded to processor 'ps7_cortexa9_0'.
+16:35:25 INFO  : 'configparams force-mem-access 0' command is executed.
+16:35:25 INFO  : ----------------XSDB Script----------------
+connect -path [list tcp::1534 tcp:10.0.0.8:3121]
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent JTAG-SMT3 210357A7D00EA" && level==0 && jtag_device_ctx=="jsn-JTAG-SMT3-210357A7D00EA-23727093-0"}
+fpga -file /home/hydrangea/project/AMD/bad_apple_7020_lcd/worksapce_new/bad_apple_new_app/_ide/bitstream/top.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw /home/hydrangea/project/AMD/bad_apple_7020_lcd/worksapce_new/bad_apple_7020_new_platform/export/bad_apple_7020_new_platform/hw/top.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source /home/hydrangea/project/AMD/bad_apple_7020_lcd/worksapce_new/bad_apple_new_app/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow /home/hydrangea/project/AMD/bad_apple_7020_lcd/worksapce_new/bad_apple_new_app/Debug/bad_apple_new_app.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+16:35:25 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+16:35:25 INFO  : 'con' command is executed.
+16:35:25 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+16:35:25 INFO  : Launch script is exported to file '/home/hydrangea/project/AMD/bad_apple_7020_lcd/worksapce_new/bad_apple_new_app_system/_ide/scripts/debugger_bad_apple_new_app-default.tcl'
+16:38:01 INFO  : Disconnected from the channel tcfchan#17.
+16:38:03 INFO  : Connected through redirection to target on host '10.0.0.8' and port '3121'.
+16:38:03 WARN  : IDE version '2022.2.0' doesn't match hw_server version '2022.2.2'. Some debug features may not work.
+16:38:03 INFO  : Jtag cable 'Digilent JTAG-SMT3 210357A7D00EA' is selected.
+16:38:03 INFO  : 'jtag frequency' command is executed.
+16:38:03 INFO  : Context for 'APU' is selected.
+16:38:03 INFO  : System reset is completed.
+16:38:06 INFO  : 'after 3000' command is executed.
+16:38:06 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-SMT3 210357A7D00EA" && level==0 && jtag_device_ctx=="jsn-JTAG-SMT3-210357A7D00EA-23727093-0"}' command is executed.
+16:38:08 INFO  : Device configured successfully with "/home/hydrangea/project/AMD/bad_apple_7020_lcd/worksapce_new/bad_apple_new_app/_ide/bitstream/top.bit"
+16:38:08 INFO  : Context for 'APU' is selected.
+16:38:08 INFO  : Hardware design and registers information is loaded from '/home/hydrangea/project/AMD/bad_apple_7020_lcd/worksapce_new/bad_apple_7020_new_platform/export/bad_apple_7020_new_platform/hw/top.xsa'.
+16:38:08 INFO  : 'configparams force-mem-access 1' command is executed.
+16:38:08 INFO  : Context for 'APU' is selected.
+16:38:08 INFO  : Sourcing of '/home/hydrangea/project/AMD/bad_apple_7020_lcd/worksapce_new/bad_apple_new_app/_ide/psinit/ps7_init.tcl' is done.
+16:38:09 INFO  : 'ps7_init' command is executed.
+16:38:09 INFO  : 'ps7_post_config' command is executed.
+16:38:09 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+16:38:09 INFO  : The application '/home/hydrangea/project/AMD/bad_apple_7020_lcd/worksapce_new/bad_apple_new_app/Debug/bad_apple_new_app.elf' is downloaded to processor 'ps7_cortexa9_0'.
+16:38:09 INFO  : 'configparams force-mem-access 0' command is executed.
+16:38:09 INFO  : ----------------XSDB Script----------------
+connect -path [list tcp::1534 tcp:10.0.0.8:3121]
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent JTAG-SMT3 210357A7D00EA" && level==0 && jtag_device_ctx=="jsn-JTAG-SMT3-210357A7D00EA-23727093-0"}
+fpga -file /home/hydrangea/project/AMD/bad_apple_7020_lcd/worksapce_new/bad_apple_new_app/_ide/bitstream/top.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw /home/hydrangea/project/AMD/bad_apple_7020_lcd/worksapce_new/bad_apple_7020_new_platform/export/bad_apple_7020_new_platform/hw/top.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source /home/hydrangea/project/AMD/bad_apple_7020_lcd/worksapce_new/bad_apple_new_app/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow /home/hydrangea/project/AMD/bad_apple_7020_lcd/worksapce_new/bad_apple_new_app/Debug/bad_apple_new_app.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+16:38:09 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+16:38:09 INFO  : 'con' command is executed.
+16:38:09 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+16:38:09 INFO  : Launch script is exported to file '/home/hydrangea/project/AMD/bad_apple_7020_lcd/worksapce_new/bad_apple_new_app_system/_ide/scripts/debugger_bad_apple_new_app-default.tcl'
+16:40:43 INFO  : Result from executing command 'removePlatformRepo': 
+16:40:48 ERROR : Internal exception while opening bsp settings dailog.
+java.lang.NullPointerException: null
+	at com.xilinx.sdk.sw.internal.SwDb.getDriversForHwComponent(SwDb.java:587) ~[?:?]
+	at com.xilinx.sdx.sw.ui.internal.SwDriversPresenter.createDriverAssignment(SwDriversPresenter.java:109) ~[?:?]
+	at com.xilinx.sdx.sw.ui.internal.SwDriversPresenter.createDriversFromPlatform(SwDriversPresenter.java:90) ~[?:?]
+	at com.xilinx.sdx.sw.ui.internal.SwDriversPresenter.viewReady(SwDriversPresenter.java:55) ~[?:?]
+	at com.xilinx.sdx.sw.ui.internal.BspSettingsPresenter.viewReady(BspSettingsPresenter.java:111) ~[?:?]
+	at com.xilinx.sdx.sw.ui.internal.BspSettingsView.createDialogArea(BspSettingsView.java:134) ~[?:?]
+	at org.eclipse.jface.dialogs.TitleAreaDialog.createContents(TitleAreaDialog.java:161) ~[org.eclipse.jface_3.19.0.v20200218-1607.jar:?]
+	at org.eclipse.jface.window.Window.create(Window.java:431) ~[org.eclipse.jface_3.19.0.v20200218-1607.jar:?]
+	at org.eclipse.jface.dialogs.Dialog.create(Dialog.java:1094) ~[org.eclipse.jface_3.19.0.v20200218-1607.jar:?]
+	at org.eclipse.jface.window.Window.open(Window.java:788) ~[org.eclipse.jface_3.19.0.v20200218-1607.jar:?]
+	at com.xilinx.sdx.sw.ui.internal.BspSettingsPresenter.open(BspSettingsPresenter.java:99) ~[?:?]
+	at com.xilinx.sdx.sw.ui.BspSettingsFlow.executeFlowInternal(BspSettingsFlow.java:80) ~[?:?]
+	at com.xilinx.sdx.sw.ui.BspSettingsFlow.executeFlow(BspSettingsFlow.java:58) ~[?:?]
+	at com.xilinx.sdx.scw.ui.editor.ScwStandaloneBspSettingsUi.lambda$5(ScwStandaloneBspSettingsUi.java:188) ~[?:?]
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40) ~[org.eclipse.swt.gtk.linux.x86_64_3.114.0.v20200304-0601.jar:?]
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:185) ~[org.eclipse.swt.gtk.linux.x86_64_3.114.0.v20200304-0601.jar:?]
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4930) ~[org.eclipse.swt.gtk.linux.x86_64_3.114.0.v20200304-0601.jar:?]
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:4451) ~[org.eclipse.swt.gtk.linux.x86_64_3.114.0.v20200304-0601.jar:?]
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.block(ModalContext.java:166) ~[org.eclipse.jface_3.19.0.v20200218-1607.jar:?]
+	at org.eclipse.jface.operation.ModalContext.run(ModalContext.java:368) ~[org.eclipse.jface_3.19.0.v20200218-1607.jar:?]
+	at org.eclipse.jface.dialogs.ProgressMonitorDialog.run(ProgressMonitorDialog.java:469) ~[org.eclipse.jface_3.19.0.v20200218-1607.jar:?]
+	at org.eclipse.ui.internal.progress.ProgressMonitorJobsDialog.run(ProgressMonitorJobsDialog.java:237) ~[org.eclipse.ui.workbench_3.118.0.v20200222-0719.jar:?]
+	at org.eclipse.ui.internal.progress.ProgressManager.lambda$26(ProgressManager.java:820) ~[org.eclipse.ui.workbench_3.118.0.v20200222-0719.jar:?]
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:72) ~[org.eclipse.swt.gtk.linux.x86_64_3.114.0.v20200304-0601.jar:?]
+	at org.eclipse.ui.internal.progress.ProgressManager.busyCursorWhile(ProgressManager.java:853) ~[org.eclipse.ui.workbench_3.118.0.v20200222-0719.jar:?]
+	at org.eclipse.ui.internal.progress.ProgressManager.busyCursorWhile(ProgressManager.java:829) ~[org.eclipse.ui.workbench_3.118.0.v20200222-0719.jar:?]
+	at com.xilinx.sdx.scw.ui.editor.ScwStandaloneBspSettingsUi.changeBspSettings(ScwStandaloneBspSettingsUi.java:167) ~[?:?]
+	at com.xilinx.sdx.scw.ui.editor.ScwStandaloneBspSettingsUi.lambda$2(ScwStandaloneBspSettingsUi.java:125) ~[?:?]
+	at org.eclipse.swt.events.SelectionListener$1.widgetSelected(SelectionListener.java:84) ~[org.eclipse.swt.gtk.linux.x86_64_3.114.0.v20200304-0601.jar:?]
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:252) ~[org.eclipse.swt.gtk.linux.x86_64_3.114.0.v20200304-0601.jar:?]
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89) ~[org.eclipse.swt.gtk.linux.x86_64_3.114.0.v20200304-0601.jar:?]
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:5687) ~[org.eclipse.swt.gtk.linux.x86_64_3.114.0.v20200304-0601.jar:?]
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1423) ~[org.eclipse.swt.gtk.linux.x86_64_3.114.0.v20200304-0601.jar:?]
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4955) ~[org.eclipse.swt.gtk.linux.x86_64_3.114.0.v20200304-0601.jar:?]
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:4448) ~[org.eclipse.swt.gtk.linux.x86_64_3.114.0.v20200304-0601.jar:?]
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1160) ~[?:?]
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338) ~[?:?]
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1049) ~[?:?]
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155) ~[org.eclipse.e4.ui.workbench_1.11.200.v20200205-1503.jar:?]
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:658) ~[org.eclipse.ui.workbench_3.118.0.v20200222-0719.jar:?]
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338) [org.eclipse.core.databinding.observable_1.9.0.v20200205-2119.jar:?]
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:557) [org.eclipse.ui.workbench_3.118.0.v20200222-0719.jar:?]
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:154) [org.eclipse.ui.workbench_3.118.0.v20200222-0719.jar:?]
+	at com.xilinx.ide.application.ui.Application.start(Application.java:80) [com.xilinx.ide.application.ui_1.0.0.202210132147.jar:?]
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203) [org.eclipse.equinox.app_1.4.400.v20191212-0743.jar:?]
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137) [org.eclipse.osgi_3.15.200.v20200214-1600.jar:?]
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107) [org.eclipse.osgi_3.15.200.v20200214-1600.jar:?]
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401) [org.eclipse.osgi_3.15.200.v20200214-1600.jar:?]
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255) [org.eclipse.osgi_3.15.200.v20200214-1600.jar:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:566) ~[?:?]
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:657) [org.eclipse.equinox.launcher_1.5.700.v20200207-2156.jar:?]
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594) [org.eclipse.equinox.launcher_1.5.700.v20200207-2156.jar:?]
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1447) [org.eclipse.equinox.launcher_1.5.700.v20200207-2156.jar:?]
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1420) [org.eclipse.equinox.launcher_1.5.700.v20200207-2156.jar:?]
+16:40:51 ERROR : Internal exception while opening bsp settings dailog.
+java.lang.NullPointerException: null
+	at com.xilinx.sdk.sw.internal.SwDb.getDriversForHwComponent(SwDb.java:587) ~[?:?]
+	at com.xilinx.sdx.sw.ui.internal.SwDriversPresenter.createDriverAssignment(SwDriversPresenter.java:109) ~[?:?]
+	at com.xilinx.sdx.sw.ui.internal.SwDriversPresenter.createDriversFromPlatform(SwDriversPresenter.java:90) ~[?:?]
+	at com.xilinx.sdx.sw.ui.internal.SwDriversPresenter.viewReady(SwDriversPresenter.java:55) ~[?:?]
+	at com.xilinx.sdx.sw.ui.internal.BspSettingsPresenter.viewReady(BspSettingsPresenter.java:111) ~[?:?]
+	at com.xilinx.sdx.sw.ui.internal.BspSettingsView.createDialogArea(BspSettingsView.java:134) ~[?:?]
+	at org.eclipse.jface.dialogs.TitleAreaDialog.createContents(TitleAreaDialog.java:161) ~[org.eclipse.jface_3.19.0.v20200218-1607.jar:?]
+	at org.eclipse.jface.window.Window.create(Window.java:431) ~[org.eclipse.jface_3.19.0.v20200218-1607.jar:?]
+	at org.eclipse.jface.dialogs.Dialog.create(Dialog.java:1094) ~[org.eclipse.jface_3.19.0.v20200218-1607.jar:?]
+	at org.eclipse.jface.window.Window.open(Window.java:788) ~[org.eclipse.jface_3.19.0.v20200218-1607.jar:?]
+	at com.xilinx.sdx.sw.ui.internal.BspSettingsPresenter.open(BspSettingsPresenter.java:99) ~[?:?]
+	at com.xilinx.sdx.sw.ui.BspSettingsFlow.executeFlowInternal(BspSettingsFlow.java:80) ~[?:?]
+	at com.xilinx.sdx.sw.ui.BspSettingsFlow.executeFlow(BspSettingsFlow.java:58) ~[?:?]
+	at com.xilinx.sdx.scw.ui.editor.ScwStandaloneBspSettingsUi.lambda$5(ScwStandaloneBspSettingsUi.java:188) ~[?:?]
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40) ~[org.eclipse.swt.gtk.linux.x86_64_3.114.0.v20200304-0601.jar:?]
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:185) ~[org.eclipse.swt.gtk.linux.x86_64_3.114.0.v20200304-0601.jar:?]
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4930) ~[org.eclipse.swt.gtk.linux.x86_64_3.114.0.v20200304-0601.jar:?]
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:4451) ~[org.eclipse.swt.gtk.linux.x86_64_3.114.0.v20200304-0601.jar:?]
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.block(ModalContext.java:166) ~[org.eclipse.jface_3.19.0.v20200218-1607.jar:?]
+	at org.eclipse.jface.operation.ModalContext.run(ModalContext.java:368) ~[org.eclipse.jface_3.19.0.v20200218-1607.jar:?]
+	at org.eclipse.jface.dialogs.ProgressMonitorDialog.run(ProgressMonitorDialog.java:469) ~[org.eclipse.jface_3.19.0.v20200218-1607.jar:?]
+	at org.eclipse.ui.internal.progress.ProgressMonitorJobsDialog.run(ProgressMonitorJobsDialog.java:237) ~[org.eclipse.ui.workbench_3.118.0.v20200222-0719.jar:?]
+	at org.eclipse.ui.internal.progress.ProgressManager.lambda$26(ProgressManager.java:820) ~[org.eclipse.ui.workbench_3.118.0.v20200222-0719.jar:?]
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:72) ~[org.eclipse.swt.gtk.linux.x86_64_3.114.0.v20200304-0601.jar:?]
+	at org.eclipse.ui.internal.progress.ProgressManager.busyCursorWhile(ProgressManager.java:853) ~[org.eclipse.ui.workbench_3.118.0.v20200222-0719.jar:?]
+	at org.eclipse.ui.internal.progress.ProgressManager.busyCursorWhile(ProgressManager.java:829) ~[org.eclipse.ui.workbench_3.118.0.v20200222-0719.jar:?]
+	at com.xilinx.sdx.scw.ui.editor.ScwStandaloneBspSettingsUi.changeBspSettings(ScwStandaloneBspSettingsUi.java:167) ~[?:?]
+	at com.xilinx.sdx.scw.ui.editor.ScwStandaloneBspSettingsUi.lambda$2(ScwStandaloneBspSettingsUi.java:125) ~[?:?]
+	at org.eclipse.swt.events.SelectionListener$1.widgetSelected(SelectionListener.java:84) ~[org.eclipse.swt.gtk.linux.x86_64_3.114.0.v20200304-0601.jar:?]
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:252) ~[org.eclipse.swt.gtk.linux.x86_64_3.114.0.v20200304-0601.jar:?]
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89) ~[org.eclipse.swt.gtk.linux.x86_64_3.114.0.v20200304-0601.jar:?]
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:5687) ~[org.eclipse.swt.gtk.linux.x86_64_3.114.0.v20200304-0601.jar:?]
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1423) ~[org.eclipse.swt.gtk.linux.x86_64_3.114.0.v20200304-0601.jar:?]
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4955) ~[org.eclipse.swt.gtk.linux.x86_64_3.114.0.v20200304-0601.jar:?]
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:4448) ~[org.eclipse.swt.gtk.linux.x86_64_3.114.0.v20200304-0601.jar:?]
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1160) ~[?:?]
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338) ~[?:?]
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1049) ~[?:?]
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155) ~[org.eclipse.e4.ui.workbench_1.11.200.v20200205-1503.jar:?]
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:658) ~[org.eclipse.ui.workbench_3.118.0.v20200222-0719.jar:?]
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338) [org.eclipse.core.databinding.observable_1.9.0.v20200205-2119.jar:?]
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:557) [org.eclipse.ui.workbench_3.118.0.v20200222-0719.jar:?]
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:154) [org.eclipse.ui.workbench_3.118.0.v20200222-0719.jar:?]
+	at com.xilinx.ide.application.ui.Application.start(Application.java:80) [com.xilinx.ide.application.ui_1.0.0.202210132147.jar:?]
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203) [org.eclipse.equinox.app_1.4.400.v20191212-0743.jar:?]
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137) [org.eclipse.osgi_3.15.200.v20200214-1600.jar:?]
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107) [org.eclipse.osgi_3.15.200.v20200214-1600.jar:?]
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401) [org.eclipse.osgi_3.15.200.v20200214-1600.jar:?]
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255) [org.eclipse.osgi_3.15.200.v20200214-1600.jar:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:566) ~[?:?]
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:657) [org.eclipse.equinox.launcher_1.5.700.v20200207-2156.jar:?]
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594) [org.eclipse.equinox.launcher_1.5.700.v20200207-2156.jar:?]
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1447) [org.eclipse.equinox.launcher_1.5.700.v20200207-2156.jar:?]
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1420) [org.eclipse.equinox.launcher_1.5.700.v20200207-2156.jar:?]
+16:40:59 ERROR : Internal exception while opening bsp settings dailog.
+java.lang.NullPointerException: null
+	at com.xilinx.sdk.sw.internal.SwDb.getDriversForHwComponent(SwDb.java:587) ~[?:?]
+	at com.xilinx.sdx.sw.ui.internal.SwDriversPresenter.createDriverAssignment(SwDriversPresenter.java:109) ~[?:?]
+	at com.xilinx.sdx.sw.ui.internal.SwDriversPresenter.createDriversFromPlatform(SwDriversPresenter.java:90) ~[?:?]
+	at com.xilinx.sdx.sw.ui.internal.SwDriversPresenter.viewReady(SwDriversPresenter.java:55) ~[?:?]
+	at com.xilinx.sdx.sw.ui.internal.BspSettingsPresenter.viewReady(BspSettingsPresenter.java:111) ~[?:?]
+	at com.xilinx.sdx.sw.ui.internal.BspSettingsView.createDialogArea(BspSettingsView.java:134) ~[?:?]
+	at org.eclipse.jface.dialogs.TitleAreaDialog.createContents(TitleAreaDialog.java:161) ~[org.eclipse.jface_3.19.0.v20200218-1607.jar:?]
+	at org.eclipse.jface.window.Window.create(Window.java:431) ~[org.eclipse.jface_3.19.0.v20200218-1607.jar:?]
+	at org.eclipse.jface.dialogs.Dialog.create(Dialog.java:1094) ~[org.eclipse.jface_3.19.0.v20200218-1607.jar:?]
+	at org.eclipse.jface.window.Window.open(Window.java:788) ~[org.eclipse.jface_3.19.0.v20200218-1607.jar:?]
+	at com.xilinx.sdx.sw.ui.internal.BspSettingsPresenter.open(BspSettingsPresenter.java:99) ~[?:?]
+	at com.xilinx.sdx.sw.ui.BspSettingsFlow.executeFlowInternal(BspSettingsFlow.java:80) ~[?:?]
+	at com.xilinx.sdx.sw.ui.BspSettingsFlow.executeFlow(BspSettingsFlow.java:58) ~[?:?]
+	at com.xilinx.sdx.scw.ui.editor.ScwStandaloneBspSettingsUi.lambda$5(ScwStandaloneBspSettingsUi.java:188) ~[?:?]
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40) ~[org.eclipse.swt.gtk.linux.x86_64_3.114.0.v20200304-0601.jar:?]
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:185) ~[org.eclipse.swt.gtk.linux.x86_64_3.114.0.v20200304-0601.jar:?]
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4930) ~[org.eclipse.swt.gtk.linux.x86_64_3.114.0.v20200304-0601.jar:?]
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:4451) ~[org.eclipse.swt.gtk.linux.x86_64_3.114.0.v20200304-0601.jar:?]
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.block(ModalContext.java:166) ~[org.eclipse.jface_3.19.0.v20200218-1607.jar:?]
+	at org.eclipse.jface.operation.ModalContext.run(ModalContext.java:368) ~[org.eclipse.jface_3.19.0.v20200218-1607.jar:?]
+	at org.eclipse.jface.dialogs.ProgressMonitorDialog.run(ProgressMonitorDialog.java:469) ~[org.eclipse.jface_3.19.0.v20200218-1607.jar:?]
+	at org.eclipse.ui.internal.progress.ProgressMonitorJobsDialog.run(ProgressMonitorJobsDialog.java:237) ~[org.eclipse.ui.workbench_3.118.0.v20200222-0719.jar:?]
+	at org.eclipse.ui.internal.progress.ProgressManager.lambda$26(ProgressManager.java:820) ~[org.eclipse.ui.workbench_3.118.0.v20200222-0719.jar:?]
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:72) ~[org.eclipse.swt.gtk.linux.x86_64_3.114.0.v20200304-0601.jar:?]
+	at org.eclipse.ui.internal.progress.ProgressManager.busyCursorWhile(ProgressManager.java:853) ~[org.eclipse.ui.workbench_3.118.0.v20200222-0719.jar:?]
+	at org.eclipse.ui.internal.progress.ProgressManager.busyCursorWhile(ProgressManager.java:829) ~[org.eclipse.ui.workbench_3.118.0.v20200222-0719.jar:?]
+	at com.xilinx.sdx.scw.ui.editor.ScwStandaloneBspSettingsUi.changeBspSettings(ScwStandaloneBspSettingsUi.java:167) ~[?:?]
+	at com.xilinx.sdx.scw.ui.editor.ScwStandaloneBspSettingsUi.lambda$2(ScwStandaloneBspSettingsUi.java:125) ~[?:?]
+	at org.eclipse.swt.events.SelectionListener$1.widgetSelected(SelectionListener.java:84) ~[org.eclipse.swt.gtk.linux.x86_64_3.114.0.v20200304-0601.jar:?]
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:252) ~[org.eclipse.swt.gtk.linux.x86_64_3.114.0.v20200304-0601.jar:?]
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89) ~[org.eclipse.swt.gtk.linux.x86_64_3.114.0.v20200304-0601.jar:?]
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:5687) ~[org.eclipse.swt.gtk.linux.x86_64_3.114.0.v20200304-0601.jar:?]
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1423) ~[org.eclipse.swt.gtk.linux.x86_64_3.114.0.v20200304-0601.jar:?]
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4955) ~[org.eclipse.swt.gtk.linux.x86_64_3.114.0.v20200304-0601.jar:?]
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:4448) ~[org.eclipse.swt.gtk.linux.x86_64_3.114.0.v20200304-0601.jar:?]
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1160) ~[?:?]
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338) ~[?:?]
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1049) ~[?:?]
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155) ~[org.eclipse.e4.ui.workbench_1.11.200.v20200205-1503.jar:?]
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:658) ~[org.eclipse.ui.workbench_3.118.0.v20200222-0719.jar:?]
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338) [org.eclipse.core.databinding.observable_1.9.0.v20200205-2119.jar:?]
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:557) [org.eclipse.ui.workbench_3.118.0.v20200222-0719.jar:?]
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:154) [org.eclipse.ui.workbench_3.118.0.v20200222-0719.jar:?]
+	at com.xilinx.ide.application.ui.Application.start(Application.java:80) [com.xilinx.ide.application.ui_1.0.0.202210132147.jar:?]
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203) [org.eclipse.equinox.app_1.4.400.v20191212-0743.jar:?]
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137) [org.eclipse.osgi_3.15.200.v20200214-1600.jar:?]
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107) [org.eclipse.osgi_3.15.200.v20200214-1600.jar:?]
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401) [org.eclipse.osgi_3.15.200.v20200214-1600.jar:?]
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255) [org.eclipse.osgi_3.15.200.v20200214-1600.jar:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:566) ~[?:?]
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:657) [org.eclipse.equinox.launcher_1.5.700.v20200207-2156.jar:?]
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594) [org.eclipse.equinox.launcher_1.5.700.v20200207-2156.jar:?]
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1447) [org.eclipse.equinox.launcher_1.5.700.v20200207-2156.jar:?]
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1420) [org.eclipse.equinox.launcher_1.5.700.v20200207-2156.jar:?]
+16:41:03 ERROR : Internal exception while opening bsp settings dailog.
+java.lang.NullPointerException: null
+	at com.xilinx.sdk.sw.internal.SwDb.getDriversForHwComponent(SwDb.java:587) ~[?:?]
+	at com.xilinx.sdx.sw.ui.internal.SwDriversPresenter.createDriverAssignment(SwDriversPresenter.java:109) ~[?:?]
+	at com.xilinx.sdx.sw.ui.internal.SwDriversPresenter.createDriversFromPlatform(SwDriversPresenter.java:90) ~[?:?]
+	at com.xilinx.sdx.sw.ui.internal.SwDriversPresenter.viewReady(SwDriversPresenter.java:55) ~[?:?]
+	at com.xilinx.sdx.sw.ui.internal.BspSettingsPresenter.viewReady(BspSettingsPresenter.java:111) ~[?:?]
+	at com.xilinx.sdx.sw.ui.internal.BspSettingsView.createDialogArea(BspSettingsView.java:134) ~[?:?]
+	at org.eclipse.jface.dialogs.TitleAreaDialog.createContents(TitleAreaDialog.java:161) ~[org.eclipse.jface_3.19.0.v20200218-1607.jar:?]
+	at org.eclipse.jface.window.Window.create(Window.java:431) ~[org.eclipse.jface_3.19.0.v20200218-1607.jar:?]
+	at org.eclipse.jface.dialogs.Dialog.create(Dialog.java:1094) ~[org.eclipse.jface_3.19.0.v20200218-1607.jar:?]
+	at org.eclipse.jface.window.Window.open(Window.java:788) ~[org.eclipse.jface_3.19.0.v20200218-1607.jar:?]
+	at com.xilinx.sdx.sw.ui.internal.BspSettingsPresenter.open(BspSettingsPresenter.java:99) ~[?:?]
+	at com.xilinx.sdx.sw.ui.BspSettingsFlow.executeFlowInternal(BspSettingsFlow.java:80) ~[?:?]
+	at com.xilinx.sdx.sw.ui.BspSettingsFlow.executeFlow(BspSettingsFlow.java:58) ~[?:?]
+	at com.xilinx.sdx.scw.ui.editor.ScwStandaloneBspSettingsUi.lambda$5(ScwStandaloneBspSettingsUi.java:188) ~[?:?]
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40) ~[org.eclipse.swt.gtk.linux.x86_64_3.114.0.v20200304-0601.jar:?]
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:185) ~[org.eclipse.swt.gtk.linux.x86_64_3.114.0.v20200304-0601.jar:?]
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4930) ~[org.eclipse.swt.gtk.linux.x86_64_3.114.0.v20200304-0601.jar:?]
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:4451) ~[org.eclipse.swt.gtk.linux.x86_64_3.114.0.v20200304-0601.jar:?]
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.block(ModalContext.java:166) ~[org.eclipse.jface_3.19.0.v20200218-1607.jar:?]
+	at org.eclipse.jface.operation.ModalContext.run(ModalContext.java:368) ~[org.eclipse.jface_3.19.0.v20200218-1607.jar:?]
+	at org.eclipse.jface.dialogs.ProgressMonitorDialog.run(ProgressMonitorDialog.java:469) ~[org.eclipse.jface_3.19.0.v20200218-1607.jar:?]
+	at org.eclipse.ui.internal.progress.ProgressMonitorJobsDialog.run(ProgressMonitorJobsDialog.java:237) ~[org.eclipse.ui.workbench_3.118.0.v20200222-0719.jar:?]
+	at org.eclipse.ui.internal.progress.ProgressManager.lambda$26(ProgressManager.java:820) ~[org.eclipse.ui.workbench_3.118.0.v20200222-0719.jar:?]
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:72) ~[org.eclipse.swt.gtk.linux.x86_64_3.114.0.v20200304-0601.jar:?]
+	at org.eclipse.ui.internal.progress.ProgressManager.busyCursorWhile(ProgressManager.java:853) ~[org.eclipse.ui.workbench_3.118.0.v20200222-0719.jar:?]
+	at org.eclipse.ui.internal.progress.ProgressManager.busyCursorWhile(ProgressManager.java:829) ~[org.eclipse.ui.workbench_3.118.0.v20200222-0719.jar:?]
+	at com.xilinx.sdx.scw.ui.editor.ScwStandaloneBspSettingsUi.changeBspSettings(ScwStandaloneBspSettingsUi.java:167) ~[?:?]
+	at com.xilinx.sdx.scw.ui.editor.ScwStandaloneBspSettingsUi.lambda$2(ScwStandaloneBspSettingsUi.java:125) ~[?:?]
+	at org.eclipse.swt.events.SelectionListener$1.widgetSelected(SelectionListener.java:84) ~[org.eclipse.swt.gtk.linux.x86_64_3.114.0.v20200304-0601.jar:?]
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:252) ~[org.eclipse.swt.gtk.linux.x86_64_3.114.0.v20200304-0601.jar:?]
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89) ~[org.eclipse.swt.gtk.linux.x86_64_3.114.0.v20200304-0601.jar:?]
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:5687) ~[org.eclipse.swt.gtk.linux.x86_64_3.114.0.v20200304-0601.jar:?]
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1423) ~[org.eclipse.swt.gtk.linux.x86_64_3.114.0.v20200304-0601.jar:?]
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4955) ~[org.eclipse.swt.gtk.linux.x86_64_3.114.0.v20200304-0601.jar:?]
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:4448) ~[org.eclipse.swt.gtk.linux.x86_64_3.114.0.v20200304-0601.jar:?]
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1160) ~[?:?]
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338) ~[?:?]
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1049) ~[?:?]
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155) ~[org.eclipse.e4.ui.workbench_1.11.200.v20200205-1503.jar:?]
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:658) ~[org.eclipse.ui.workbench_3.118.0.v20200222-0719.jar:?]
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338) [org.eclipse.core.databinding.observable_1.9.0.v20200205-2119.jar:?]
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:557) [org.eclipse.ui.workbench_3.118.0.v20200222-0719.jar:?]
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:154) [org.eclipse.ui.workbench_3.118.0.v20200222-0719.jar:?]
+	at com.xilinx.ide.application.ui.Application.start(Application.java:80) [com.xilinx.ide.application.ui_1.0.0.202210132147.jar:?]
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203) [org.eclipse.equinox.app_1.4.400.v20191212-0743.jar:?]
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137) [org.eclipse.osgi_3.15.200.v20200214-1600.jar:?]
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107) [org.eclipse.osgi_3.15.200.v20200214-1600.jar:?]
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401) [org.eclipse.osgi_3.15.200.v20200214-1600.jar:?]
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255) [org.eclipse.osgi_3.15.200.v20200214-1600.jar:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:566) ~[?:?]
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:657) [org.eclipse.equinox.launcher_1.5.700.v20200207-2156.jar:?]
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594) [org.eclipse.equinox.launcher_1.5.700.v20200207-2156.jar:?]
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1447) [org.eclipse.equinox.launcher_1.5.700.v20200207-2156.jar:?]
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1420) [org.eclipse.equinox.launcher_1.5.700.v20200207-2156.jar:?]
+16:41:13 INFO  : Disconnected from the channel tcfchan#18.
+16:41:27 DEBUG : Logs will be stored at '/home/hydrangea/project/AMD/bad_apple_7020_lcd/worksapce_new/IDE.log'.
+16:41:27 INFO  : Launching XSCT server: xsct -n  -interactive /home/hydrangea/project/AMD/bad_apple_7020_lcd/worksapce_new/temp_xsdb_launch_script.tcl
+16:41:29 INFO  : XSCT server has started successfully.
+16:41:29 INFO  : Successfully done setting XSCT server connection channel  
+16:41:29 INFO  : plnx-install-location is set to ''
+16:41:29 INFO  : Successfully done setting workspace for the tool. 
+16:41:29 INFO  : Successfully done query RDI_DATADIR 
+16:41:29 INFO  : Registering command handlers for Vitis TCF services
+16:41:30 INFO  : Platform repository initialization has completed.
+16:41:52 INFO  : Result from executing command 'getProjects': bad_apple_7020_new_platform
+16:41:52 INFO  : Result from executing command 'getPlatforms': xilinx_vck190_base_202220_1|/tools/AMD/Vitis/2022.2/base_platforms/xilinx_vck190_base_202220_1/xilinx_vck190_base_202220_1.xpfm;xilinx_vck190_base_dfx_202220_1|/tools/AMD/Vitis/2022.2/base_platforms/xilinx_vck190_base_dfx_202220_1/xilinx_vck190_base_dfx_202220_1.xpfm;xilinx_vmk180_base_202220_1|/tools/AMD/Vitis/2022.2/base_platforms/xilinx_vmk180_base_202220_1/xilinx_vmk180_base_202220_1.xpfm;xilinx_zcu102_base_202220_1|/tools/AMD/Vitis/2022.2/base_platforms/xilinx_zcu102_base_202220_1/xilinx_zcu102_base_202220_1.xpfm;xilinx_zcu102_base_dfx_202220_1|/tools/AMD/Vitis/2022.2/base_platforms/xilinx_zcu102_base_dfx_202220_1/xilinx_zcu102_base_dfx_202220_1.xpfm;xilinx_zcu104_base_202220_1|/tools/AMD/Vitis/2022.2/base_platforms/xilinx_zcu104_base_202220_1/xilinx_zcu104_base_202220_1.xpfm
+16:41:56 INFO  : Checking for BSP changes to sync application flags for project 'bad_apple_new_app'...
+16:41:57 INFO  : Updating application flags with new BSP settings...
+16:41:57 INFO  : Successfully updated application flags for project bad_apple_new_app.
+16:44:24 INFO  : No changes in MSS file content so sources will not be generated.
+16:44:28 INFO  : Result from executing command 'getProjects': bad_apple_7020_new_platform
+16:44:28 INFO  : Result from executing command 'getPlatforms': bad_apple_7020_new_platform|/home/hydrangea/project/AMD/bad_apple_7020_lcd/worksapce_new/bad_apple_7020_new_platform/export/bad_apple_7020_new_platform/bad_apple_7020_new_platform.xpfm;xilinx_vck190_base_202220_1|/tools/AMD/Vitis/2022.2/base_platforms/xilinx_vck190_base_202220_1/xilinx_vck190_base_202220_1.xpfm;xilinx_vck190_base_dfx_202220_1|/tools/AMD/Vitis/2022.2/base_platforms/xilinx_vck190_base_dfx_202220_1/xilinx_vck190_base_dfx_202220_1.xpfm;xilinx_vmk180_base_202220_1|/tools/AMD/Vitis/2022.2/base_platforms/xilinx_vmk180_base_202220_1/xilinx_vmk180_base_202220_1.xpfm;xilinx_zcu102_base_202220_1|/tools/AMD/Vitis/2022.2/base_platforms/xilinx_zcu102_base_202220_1/xilinx_zcu102_base_202220_1.xpfm;xilinx_zcu102_base_dfx_202220_1|/tools/AMD/Vitis/2022.2/base_platforms/xilinx_zcu102_base_dfx_202220_1/xilinx_zcu102_base_dfx_202220_1.xpfm;xilinx_zcu104_base_202220_1|/tools/AMD/Vitis/2022.2/base_platforms/xilinx_zcu104_base_202220_1/xilinx_zcu104_base_202220_1.xpfm
+16:44:31 INFO  : Checking for BSP changes to sync application flags for project 'bad_apple_app'...
+16:44:50 ERROR : Failed to redirect connection to hardware server on host '10.0.0.2' and port '3121'.
+Reason: Connection refused
+16:44:50 INFO  : ----------------XSDB Script----------------
+connect -path [list tcp::1534 tcp:10.0.0.2:3121]
+----------------End of Script----------------
+
+16:44:50 ERROR : Failed to redirect connection to hardware server on host '10.0.0.2' and port '3121'.
+Reason: Connection refused
+16:45:08 INFO  : Connected through redirection to target on host '10.0.0.8' and port '3121'.
+16:45:09 WARN  : IDE version '2022.2.0' doesn't match hw_server version '2022.2.2'. Some debug features may not work.
+16:45:09 INFO  : Jtag cable 'Digilent JTAG-SMT3 210357A7D00EA' is selected.
+16:45:09 INFO  : 'jtag frequency' command is executed.
+16:45:09 INFO  : Context for 'APU' is selected.
+16:45:09 INFO  : System reset is completed.
+16:45:12 INFO  : 'after 3000' command is executed.
+16:45:12 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-SMT3 210357A7D00EA" && level==0 && jtag_device_ctx=="jsn-JTAG-SMT3-210357A7D00EA-23727093-0"}' command is executed.
+16:45:15 INFO  : Device configured successfully with "/home/hydrangea/project/AMD/bad_apple_7020_lcd/worksapce_new/bad_apple_app/_ide/bitstream/top.bit"
+16:45:15 INFO  : Context for 'APU' is selected.
+16:45:15 INFO  : Hardware design and registers information is loaded from '/home/hydrangea/project/AMD/bad_apple_7020_lcd/worksapce_new/bad_apple_7020_new_platform/export/bad_apple_7020_new_platform/hw/top.xsa'.
+16:45:15 INFO  : 'configparams force-mem-access 1' command is executed.
+16:45:15 INFO  : Context for 'APU' is selected.
+16:45:15 INFO  : Sourcing of '/home/hydrangea/project/AMD/bad_apple_7020_lcd/worksapce_new/bad_apple_app/_ide/psinit/ps7_init.tcl' is done.
+16:45:16 INFO  : 'ps7_init' command is executed.
+16:45:16 INFO  : 'ps7_post_config' command is executed.
+16:45:16 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+16:45:16 INFO  : The application '/home/hydrangea/project/AMD/bad_apple_7020_lcd/worksapce_new/bad_apple_app/Debug/bad_apple_app.elf' is downloaded to processor 'ps7_cortexa9_0'.
+16:45:16 INFO  : 'configparams force-mem-access 0' command is executed.
+16:45:16 INFO  : ----------------XSDB Script----------------
+connect -path [list tcp::1534 tcp:10.0.0.8:3121]
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent JTAG-SMT3 210357A7D00EA" && level==0 && jtag_device_ctx=="jsn-JTAG-SMT3-210357A7D00EA-23727093-0"}
+fpga -file /home/hydrangea/project/AMD/bad_apple_7020_lcd/worksapce_new/bad_apple_app/_ide/bitstream/top.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw /home/hydrangea/project/AMD/bad_apple_7020_lcd/worksapce_new/bad_apple_7020_new_platform/export/bad_apple_7020_new_platform/hw/top.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source /home/hydrangea/project/AMD/bad_apple_7020_lcd/worksapce_new/bad_apple_app/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow /home/hydrangea/project/AMD/bad_apple_7020_lcd/worksapce_new/bad_apple_app/Debug/bad_apple_app.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+16:45:16 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+16:45:16 INFO  : 'con' command is executed.
+16:45:16 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+16:45:16 INFO  : Launch script is exported to file '/home/hydrangea/project/AMD/bad_apple_7020_lcd/worksapce_new/bad_apple_app_system/_ide/scripts/debugger_bad_apple_app-default.tcl'
+16:45:58 INFO  : Disconnected from the channel tcfchan#5.
+16:45:59 INFO  : Connected through redirection to target on host '10.0.0.8' and port '3121'.
+16:45:59 WARN  : IDE version '2022.2.0' doesn't match hw_server version '2022.2.2'. Some debug features may not work.
+16:46:00 INFO  : Jtag cable 'Digilent JTAG-SMT3 210357A7D00EA' is selected.
+16:46:00 INFO  : 'jtag frequency' command is executed.
+16:46:00 INFO  : Context for 'APU' is selected.
+16:46:00 INFO  : System reset is completed.
+16:46:03 INFO  : 'after 3000' command is executed.
+16:46:03 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-SMT3 210357A7D00EA" && level==0 && jtag_device_ctx=="jsn-JTAG-SMT3-210357A7D00EA-23727093-0"}' command is executed.
+16:46:05 INFO  : Device configured successfully with "/home/hydrangea/project/AMD/bad_apple_7020_lcd/worksapce_new/bad_apple_app/_ide/bitstream/top.bit"
+16:46:05 INFO  : Context for 'APU' is selected.
+16:46:05 INFO  : Hardware design and registers information is loaded from '/home/hydrangea/project/AMD/bad_apple_7020_lcd/worksapce_new/bad_apple_7020_new_platform/export/bad_apple_7020_new_platform/hw/top.xsa'.
+16:46:05 INFO  : 'configparams force-mem-access 1' command is executed.
+16:46:05 INFO  : Context for 'APU' is selected.
+16:46:05 INFO  : Sourcing of '/home/hydrangea/project/AMD/bad_apple_7020_lcd/worksapce_new/bad_apple_app/_ide/psinit/ps7_init.tcl' is done.
+16:46:06 INFO  : 'ps7_init' command is executed.
+16:46:06 INFO  : 'ps7_post_config' command is executed.
+16:46:06 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+16:46:06 INFO  : The application '/home/hydrangea/project/AMD/bad_apple_7020_lcd/worksapce_new/bad_apple_app/Debug/bad_apple_app.elf' is downloaded to processor 'ps7_cortexa9_0'.
+16:46:06 INFO  : 'configparams force-mem-access 0' command is executed.
+16:46:06 INFO  : ----------------XSDB Script----------------
+connect -path [list tcp::1534 tcp:10.0.0.8:3121]
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent JTAG-SMT3 210357A7D00EA" && level==0 && jtag_device_ctx=="jsn-JTAG-SMT3-210357A7D00EA-23727093-0"}
+fpga -file /home/hydrangea/project/AMD/bad_apple_7020_lcd/worksapce_new/bad_apple_app/_ide/bitstream/top.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw /home/hydrangea/project/AMD/bad_apple_7020_lcd/worksapce_new/bad_apple_7020_new_platform/export/bad_apple_7020_new_platform/hw/top.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source /home/hydrangea/project/AMD/bad_apple_7020_lcd/worksapce_new/bad_apple_app/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow /home/hydrangea/project/AMD/bad_apple_7020_lcd/worksapce_new/bad_apple_app/Debug/bad_apple_app.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+16:46:06 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+16:46:06 INFO  : 'con' command is executed.
+16:46:06 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+16:46:06 INFO  : Launch script is exported to file '/home/hydrangea/project/AMD/bad_apple_7020_lcd/worksapce_new/bad_apple_app_system/_ide/scripts/debugger_bad_apple_app-default.tcl'
+16:46:28 INFO  : Disconnected from the channel tcfchan#6.
+16:46:29 INFO  : Connected through redirection to target on host '10.0.0.8' and port '3121'.
+16:46:30 WARN  : IDE version '2022.2.0' doesn't match hw_server version '2022.2.2'. Some debug features may not work.
+16:46:30 INFO  : Jtag cable 'Digilent JTAG-SMT3 210357A7D00EA' is selected.
+16:46:30 INFO  : 'jtag frequency' command is executed.
+16:46:32 INFO  : Context for 'APU' is selected.
+16:46:32 INFO  : System reset is completed.
+16:46:35 INFO  : 'after 3000' command is executed.
+16:46:35 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-SMT3 210357A7D00EA" && level==0 && jtag_device_ctx=="jsn-JTAG-SMT3-210357A7D00EA-23727093-0"}' command is executed.
+16:46:37 INFO  : Device configured successfully with "/home/hydrangea/project/AMD/bad_apple_7020_lcd/worksapce_new/bad_apple_app/_ide/bitstream/top.bit"
+16:46:37 INFO  : Context for 'APU' is selected.
+16:46:37 INFO  : Hardware design and registers information is loaded from '/home/hydrangea/project/AMD/bad_apple_7020_lcd/worksapce_new/bad_apple_7020_new_platform/export/bad_apple_7020_new_platform/hw/top.xsa'.
+16:46:37 INFO  : 'configparams force-mem-access 1' command is executed.
+16:46:37 INFO  : Context for 'APU' is selected.
+16:46:37 INFO  : Sourcing of '/home/hydrangea/project/AMD/bad_apple_7020_lcd/worksapce_new/bad_apple_app/_ide/psinit/ps7_init.tcl' is done.
+16:46:38 INFO  : 'ps7_init' command is executed.
+16:46:38 INFO  : 'ps7_post_config' command is executed.
+16:46:38 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+16:46:38 INFO  : The application '/home/hydrangea/project/AMD/bad_apple_7020_lcd/worksapce_new/bad_apple_app/Debug/bad_apple_app.elf' is downloaded to processor 'ps7_cortexa9_0'.
+16:46:38 INFO  : 'configparams force-mem-access 0' command is executed.
+16:46:38 INFO  : ----------------XSDB Script----------------
+connect -path [list tcp::1534 tcp:10.0.0.8:3121]
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent JTAG-SMT3 210357A7D00EA" && level==0 && jtag_device_ctx=="jsn-JTAG-SMT3-210357A7D00EA-23727093-0"}
+fpga -file /home/hydrangea/project/AMD/bad_apple_7020_lcd/worksapce_new/bad_apple_app/_ide/bitstream/top.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw /home/hydrangea/project/AMD/bad_apple_7020_lcd/worksapce_new/bad_apple_7020_new_platform/export/bad_apple_7020_new_platform/hw/top.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source /home/hydrangea/project/AMD/bad_apple_7020_lcd/worksapce_new/bad_apple_app/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow /home/hydrangea/project/AMD/bad_apple_7020_lcd/worksapce_new/bad_apple_app/Debug/bad_apple_app.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+16:46:38 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+16:46:38 INFO  : 'con' command is executed.
+16:46:38 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+16:46:38 INFO  : Launch script is exported to file '/home/hydrangea/project/AMD/bad_apple_7020_lcd/worksapce_new/bad_apple_app_system/_ide/scripts/debugger_bad_apple_app-default.tcl'
+16:51:19 INFO  : No changes in MSS file content so sources will not be generated.
+16:54:36 INFO  : Checking for BSP changes to sync application flags for project 'bad_apple_app'...
+16:54:41 INFO  : Disconnected from the channel tcfchan#7.
+16:54:42 INFO  : Connected through redirection to target on host '10.0.0.8' and port '3121'.
+16:54:42 WARN  : IDE version '2022.2.0' doesn't match hw_server version '2022.2.2'. Some debug features may not work.
+16:54:42 INFO  : Jtag cable 'Digilent JTAG-SMT3 210357A7D00EA' is selected.
+16:54:42 INFO  : 'jtag frequency' command is executed.
+16:54:43 INFO  : Context for 'APU' is selected.
+16:54:43 INFO  : System reset is completed.
+16:54:46 INFO  : 'after 3000' command is executed.
+16:54:46 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-SMT3 210357A7D00EA" && level==0 && jtag_device_ctx=="jsn-JTAG-SMT3-210357A7D00EA-23727093-0"}' command is executed.
+16:54:48 INFO  : Device configured successfully with "/home/hydrangea/project/AMD/bad_apple_7020_lcd/worksapce_new/bad_apple_app/_ide/bitstream/top.bit"
+16:54:48 INFO  : Context for 'APU' is selected.
+16:54:48 INFO  : Hardware design and registers information is loaded from '/home/hydrangea/project/AMD/bad_apple_7020_lcd/worksapce_new/bad_apple_7020_new_platform/export/bad_apple_7020_new_platform/hw/top.xsa'.
+16:54:48 INFO  : 'configparams force-mem-access 1' command is executed.
+16:54:48 INFO  : Context for 'APU' is selected.
+16:54:48 INFO  : Sourcing of '/home/hydrangea/project/AMD/bad_apple_7020_lcd/worksapce_new/bad_apple_app/_ide/psinit/ps7_init.tcl' is done.
+16:54:50 INFO  : 'ps7_init' command is executed.
+16:54:50 INFO  : 'ps7_post_config' command is executed.
+16:54:50 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+16:54:50 INFO  : The application '/home/hydrangea/project/AMD/bad_apple_7020_lcd/worksapce_new/bad_apple_app/Debug/bad_apple_app.elf' is downloaded to processor 'ps7_cortexa9_0'.
+16:54:50 INFO  : 'configparams force-mem-access 0' command is executed.
+16:54:50 INFO  : ----------------XSDB Script----------------
+connect -path [list tcp::1534 tcp:10.0.0.8:3121]
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent JTAG-SMT3 210357A7D00EA" && level==0 && jtag_device_ctx=="jsn-JTAG-SMT3-210357A7D00EA-23727093-0"}
+fpga -file /home/hydrangea/project/AMD/bad_apple_7020_lcd/worksapce_new/bad_apple_app/_ide/bitstream/top.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw /home/hydrangea/project/AMD/bad_apple_7020_lcd/worksapce_new/bad_apple_7020_new_platform/export/bad_apple_7020_new_platform/hw/top.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source /home/hydrangea/project/AMD/bad_apple_7020_lcd/worksapce_new/bad_apple_app/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow /home/hydrangea/project/AMD/bad_apple_7020_lcd/worksapce_new/bad_apple_app/Debug/bad_apple_app.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+16:54:50 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+16:54:50 INFO  : 'con' command is executed.
+16:54:50 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+16:54:50 INFO  : Launch script is exported to file '/home/hydrangea/project/AMD/bad_apple_7020_lcd/worksapce_new/bad_apple_app_system/_ide/scripts/debugger_bad_apple_app-default.tcl'
+16:55:32 INFO  : Disconnected from the channel tcfchan#8.
+16:55:33 INFO  : Connected through redirection to target on host '10.0.0.8' and port '3121'.
+16:55:33 WARN  : IDE version '2022.2.0' doesn't match hw_server version '2022.2.2'. Some debug features may not work.
+16:55:33 INFO  : Jtag cable 'Digilent JTAG-SMT3 210357A7D00EA' is selected.
+16:55:33 INFO  : 'jtag frequency' command is executed.
+16:55:33 INFO  : Context for 'APU' is selected.
+16:55:33 INFO  : System reset is completed.
+16:55:36 INFO  : 'after 3000' command is executed.
+16:55:36 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-SMT3 210357A7D00EA" && level==0 && jtag_device_ctx=="jsn-JTAG-SMT3-210357A7D00EA-23727093-0"}' command is executed.
+16:55:39 INFO  : Device configured successfully with "/home/hydrangea/project/AMD/bad_apple_7020_lcd/worksapce_new/bad_apple_app/_ide/bitstream/top.bit"
+16:55:39 INFO  : Context for 'APU' is selected.
+16:55:39 INFO  : Hardware design and registers information is loaded from '/home/hydrangea/project/AMD/bad_apple_7020_lcd/worksapce_new/bad_apple_7020_new_platform/export/bad_apple_7020_new_platform/hw/top.xsa'.
+16:55:39 INFO  : 'configparams force-mem-access 1' command is executed.
+16:55:39 INFO  : Context for 'APU' is selected.
+16:55:39 INFO  : Sourcing of '/home/hydrangea/project/AMD/bad_apple_7020_lcd/worksapce_new/bad_apple_app/_ide/psinit/ps7_init.tcl' is done.
+16:55:39 INFO  : 'ps7_init' command is executed.
+16:55:39 INFO  : 'ps7_post_config' command is executed.
+16:55:39 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+16:55:40 INFO  : The application '/home/hydrangea/project/AMD/bad_apple_7020_lcd/worksapce_new/bad_apple_app/Debug/bad_apple_app.elf' is downloaded to processor 'ps7_cortexa9_0'.
+16:55:40 INFO  : 'configparams force-mem-access 0' command is executed.
+16:55:40 INFO  : ----------------XSDB Script----------------
+connect -path [list tcp::1534 tcp:10.0.0.8:3121]
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent JTAG-SMT3 210357A7D00EA" && level==0 && jtag_device_ctx=="jsn-JTAG-SMT3-210357A7D00EA-23727093-0"}
+fpga -file /home/hydrangea/project/AMD/bad_apple_7020_lcd/worksapce_new/bad_apple_app/_ide/bitstream/top.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw /home/hydrangea/project/AMD/bad_apple_7020_lcd/worksapce_new/bad_apple_7020_new_platform/export/bad_apple_7020_new_platform/hw/top.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source /home/hydrangea/project/AMD/bad_apple_7020_lcd/worksapce_new/bad_apple_app/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow /home/hydrangea/project/AMD/bad_apple_7020_lcd/worksapce_new/bad_apple_app/Debug/bad_apple_app.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+16:55:40 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+16:55:40 INFO  : 'con' command is executed.
+16:55:40 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+16:55:40 INFO  : Launch script is exported to file '/home/hydrangea/project/AMD/bad_apple_7020_lcd/worksapce_new/bad_apple_app_system/_ide/scripts/debugger_bad_apple_app-default.tcl'
+16:57:59 INFO  : Disconnected from the channel tcfchan#9.
+16:58:00 INFO  : Connected through redirection to target on host '10.0.0.8' and port '3121'.
+16:58:00 WARN  : IDE version '2022.2.0' doesn't match hw_server version '2022.2.2'. Some debug features may not work.
+16:58:00 INFO  : Jtag cable 'Digilent JTAG-SMT3 210357A7D00EA' is selected.
+16:58:00 INFO  : 'jtag frequency' command is executed.
+16:58:01 INFO  : Context for 'APU' is selected.
+16:58:01 INFO  : System reset is completed.
+16:58:04 INFO  : 'after 3000' command is executed.
+16:58:04 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-SMT3 210357A7D00EA" && level==0 && jtag_device_ctx=="jsn-JTAG-SMT3-210357A7D00EA-23727093-0"}' command is executed.
+16:58:06 INFO  : Device configured successfully with "/home/hydrangea/project/AMD/bad_apple_7020_lcd/worksapce_new/bad_apple_app/_ide/bitstream/top.bit"
+16:58:06 INFO  : Context for 'APU' is selected.
+16:58:06 INFO  : Hardware design and registers information is loaded from '/home/hydrangea/project/AMD/bad_apple_7020_lcd/worksapce_new/bad_apple_7020_new_platform/export/bad_apple_7020_new_platform/hw/top.xsa'.
+16:58:06 INFO  : 'configparams force-mem-access 1' command is executed.
+16:58:06 INFO  : Context for 'APU' is selected.
+16:58:06 INFO  : Sourcing of '/home/hydrangea/project/AMD/bad_apple_7020_lcd/worksapce_new/bad_apple_app/_ide/psinit/ps7_init.tcl' is done.
+16:58:07 INFO  : 'ps7_init' command is executed.
+16:58:07 INFO  : 'ps7_post_config' command is executed.
+16:58:07 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+16:58:07 INFO  : The application '/home/hydrangea/project/AMD/bad_apple_7020_lcd/worksapce_new/bad_apple_app/Debug/bad_apple_app.elf' is downloaded to processor 'ps7_cortexa9_0'.
+16:58:07 INFO  : 'configparams force-mem-access 0' command is executed.
+16:58:07 INFO  : ----------------XSDB Script----------------
+connect -path [list tcp::1534 tcp:10.0.0.8:3121]
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent JTAG-SMT3 210357A7D00EA" && level==0 && jtag_device_ctx=="jsn-JTAG-SMT3-210357A7D00EA-23727093-0"}
+fpga -file /home/hydrangea/project/AMD/bad_apple_7020_lcd/worksapce_new/bad_apple_app/_ide/bitstream/top.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw /home/hydrangea/project/AMD/bad_apple_7020_lcd/worksapce_new/bad_apple_7020_new_platform/export/bad_apple_7020_new_platform/hw/top.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source /home/hydrangea/project/AMD/bad_apple_7020_lcd/worksapce_new/bad_apple_app/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow /home/hydrangea/project/AMD/bad_apple_7020_lcd/worksapce_new/bad_apple_app/Debug/bad_apple_app.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+16:58:07 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+16:58:07 INFO  : 'con' command is executed.
+16:58:07 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+16:58:07 INFO  : Launch script is exported to file '/home/hydrangea/project/AMD/bad_apple_7020_lcd/worksapce_new/bad_apple_app_system/_ide/scripts/debugger_bad_apple_app-default.tcl'
+17:00:13 INFO  : Checking for BSP changes to sync application flags for project 'bad_apple_app'...
+17:00:17 INFO  : Disconnected from the channel tcfchan#10.
+17:00:18 INFO  : Connected through redirection to target on host '10.0.0.8' and port '3121'.
+17:00:18 WARN  : IDE version '2022.2.0' doesn't match hw_server version '2022.2.2'. Some debug features may not work.
+17:00:18 INFO  : Jtag cable 'Digilent JTAG-SMT3 210357A7D00EA' is selected.
+17:00:18 INFO  : 'jtag frequency' command is executed.
+17:00:18 INFO  : Context for 'APU' is selected.
+17:00:18 INFO  : System reset is completed.
+17:00:21 INFO  : 'after 3000' command is executed.
+17:00:21 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-SMT3 210357A7D00EA" && level==0 && jtag_device_ctx=="jsn-JTAG-SMT3-210357A7D00EA-23727093-0"}' command is executed.
+17:00:23 INFO  : Device configured successfully with "/home/hydrangea/project/AMD/bad_apple_7020_lcd/worksapce_new/bad_apple_app/_ide/bitstream/top.bit"
+17:00:23 INFO  : Context for 'APU' is selected.
+17:00:23 INFO  : Hardware design and registers information is loaded from '/home/hydrangea/project/AMD/bad_apple_7020_lcd/worksapce_new/bad_apple_7020_new_platform/export/bad_apple_7020_new_platform/hw/top.xsa'.
+17:00:23 INFO  : 'configparams force-mem-access 1' command is executed.
+17:00:23 INFO  : Context for 'APU' is selected.
+17:00:23 INFO  : Sourcing of '/home/hydrangea/project/AMD/bad_apple_7020_lcd/worksapce_new/bad_apple_app/_ide/psinit/ps7_init.tcl' is done.
+17:00:24 INFO  : 'ps7_init' command is executed.
+17:00:24 INFO  : 'ps7_post_config' command is executed.
+17:00:24 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+17:00:24 INFO  : The application '/home/hydrangea/project/AMD/bad_apple_7020_lcd/worksapce_new/bad_apple_app/Debug/bad_apple_app.elf' is downloaded to processor 'ps7_cortexa9_0'.
+17:00:24 INFO  : 'configparams force-mem-access 0' command is executed.
+17:00:24 INFO  : ----------------XSDB Script----------------
+connect -path [list tcp::1534 tcp:10.0.0.8:3121]
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent JTAG-SMT3 210357A7D00EA" && level==0 && jtag_device_ctx=="jsn-JTAG-SMT3-210357A7D00EA-23727093-0"}
+fpga -file /home/hydrangea/project/AMD/bad_apple_7020_lcd/worksapce_new/bad_apple_app/_ide/bitstream/top.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw /home/hydrangea/project/AMD/bad_apple_7020_lcd/worksapce_new/bad_apple_7020_new_platform/export/bad_apple_7020_new_platform/hw/top.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source /home/hydrangea/project/AMD/bad_apple_7020_lcd/worksapce_new/bad_apple_app/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow /home/hydrangea/project/AMD/bad_apple_7020_lcd/worksapce_new/bad_apple_app/Debug/bad_apple_app.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+17:00:25 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+17:00:25 INFO  : 'con' command is executed.
+17:00:25 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+17:00:25 INFO  : Launch script is exported to file '/home/hydrangea/project/AMD/bad_apple_7020_lcd/worksapce_new/bad_apple_app_system/_ide/scripts/debugger_bad_apple_app-default.tcl'
+17:04:16 INFO  : Disconnected from the channel tcfchan#11.
+17:04:17 INFO  : Connected through redirection to target on host '10.0.0.8' and port '3121'.
+17:04:17 WARN  : IDE version '2022.2.0' doesn't match hw_server version '2022.2.2'. Some debug features may not work.
+17:04:17 INFO  : Jtag cable 'Digilent JTAG-SMT3 210357A7D00EA' is selected.
+17:04:17 INFO  : 'jtag frequency' command is executed.
+17:04:18 INFO  : Context for 'APU' is selected.
+17:04:18 INFO  : System reset is completed.
+17:04:21 INFO  : 'after 3000' command is executed.
+17:04:21 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-SMT3 210357A7D00EA" && level==0 && jtag_device_ctx=="jsn-JTAG-SMT3-210357A7D00EA-23727093-0"}' command is executed.
+17:04:24 INFO  : Device configured successfully with "/home/hydrangea/project/AMD/bad_apple_7020_lcd/worksapce_new/bad_apple_app/_ide/bitstream/top.bit"
+17:04:24 INFO  : Context for 'APU' is selected.
+17:04:24 INFO  : Hardware design and registers information is loaded from '/home/hydrangea/project/AMD/bad_apple_7020_lcd/worksapce_new/bad_apple_7020_new_platform/export/bad_apple_7020_new_platform/hw/top.xsa'.
+17:04:24 INFO  : 'configparams force-mem-access 1' command is executed.
+17:04:24 INFO  : Context for 'APU' is selected.
+17:04:24 INFO  : Sourcing of '/home/hydrangea/project/AMD/bad_apple_7020_lcd/worksapce_new/bad_apple_app/_ide/psinit/ps7_init.tcl' is done.
+17:04:24 INFO  : 'ps7_init' command is executed.
+17:04:24 INFO  : 'ps7_post_config' command is executed.
+17:04:24 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+17:04:25 INFO  : The application '/home/hydrangea/project/AMD/bad_apple_7020_lcd/worksapce_new/bad_apple_app/Debug/bad_apple_app.elf' is downloaded to processor 'ps7_cortexa9_0'.
+17:04:25 INFO  : 'configparams force-mem-access 0' command is executed.
+17:04:25 INFO  : ----------------XSDB Script----------------
+connect -path [list tcp::1534 tcp:10.0.0.8:3121]
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent JTAG-SMT3 210357A7D00EA" && level==0 && jtag_device_ctx=="jsn-JTAG-SMT3-210357A7D00EA-23727093-0"}
+fpga -file /home/hydrangea/project/AMD/bad_apple_7020_lcd/worksapce_new/bad_apple_app/_ide/bitstream/top.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw /home/hydrangea/project/AMD/bad_apple_7020_lcd/worksapce_new/bad_apple_7020_new_platform/export/bad_apple_7020_new_platform/hw/top.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source /home/hydrangea/project/AMD/bad_apple_7020_lcd/worksapce_new/bad_apple_app/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow /home/hydrangea/project/AMD/bad_apple_7020_lcd/worksapce_new/bad_apple_app/Debug/bad_apple_app.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+17:04:25 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+17:04:25 INFO  : 'con' command is executed.
+17:04:25 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+17:04:25 INFO  : Launch script is exported to file '/home/hydrangea/project/AMD/bad_apple_7020_lcd/worksapce_new/bad_apple_app_system/_ide/scripts/debugger_bad_apple_app-default.tcl'
+17:16:35 INFO  : Checking for BSP changes to sync application flags for project 'bad_apple_app'...
+17:18:19 INFO  : Checking for BSP changes to sync application flags for project 'bad_apple_app'...
+17:18:25 INFO  : Disconnected from the channel tcfchan#12.
+17:18:26 INFO  : Connected through redirection to target on host '10.0.0.8' and port '3121'.
+17:18:26 WARN  : IDE version '2022.2.0' doesn't match hw_server version '2022.2.2'. Some debug features may not work.
+17:18:27 INFO  : Jtag cable 'Digilent JTAG-SMT3 210357A7D00EA' is selected.
+17:18:27 ERROR : port closed
+17:18:27 INFO  : ----------------XSDB Script----------------
+connect -path [list tcp::1534 tcp:10.0.0.8:3121]
+----------------End of Script----------------
+
+17:18:27 ERROR : port closed
+17:18:31 INFO  : Connected through redirection to target on host '10.0.0.8' and port '3121'.
+17:18:31 WARN  : IDE version '2022.2.0' doesn't match hw_server version '2022.2.2'. Some debug features may not work.
+17:18:31 INFO  : Jtag cable 'Digilent JTAG-SMT3 210357A7D00EA' is selected.
+17:18:31 INFO  : 'jtag frequency' command is executed.
+17:18:31 INFO  : Context for 'APU' is selected.
+17:18:31 INFO  : System reset is completed.
+17:18:34 INFO  : 'after 3000' command is executed.
+17:18:34 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-SMT3 210357A7D00EA" && level==0 && jtag_device_ctx=="jsn-JTAG-SMT3-210357A7D00EA-23727093-0"}' command is executed.
+17:18:36 INFO  : Device configured successfully with "/home/hydrangea/project/AMD/bad_apple_7020_lcd/worksapce_new/bad_apple_app/_ide/bitstream/top.bit"
+17:18:36 INFO  : Context for 'APU' is selected.
+17:18:36 INFO  : Hardware design and registers information is loaded from '/home/hydrangea/project/AMD/bad_apple_7020_lcd/worksapce_new/bad_apple_7020_new_platform/export/bad_apple_7020_new_platform/hw/top.xsa'.
+17:18:36 INFO  : 'configparams force-mem-access 1' command is executed.
+17:18:36 INFO  : Context for 'APU' is selected.
+17:18:36 INFO  : Sourcing of '/home/hydrangea/project/AMD/bad_apple_7020_lcd/worksapce_new/bad_apple_app/_ide/psinit/ps7_init.tcl' is done.
+17:18:37 INFO  : 'ps7_init' command is executed.
+17:18:37 INFO  : 'ps7_post_config' command is executed.
+17:18:37 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+17:18:37 INFO  : The application '/home/hydrangea/project/AMD/bad_apple_7020_lcd/worksapce_new/bad_apple_app/Debug/bad_apple_app.elf' is downloaded to processor 'ps7_cortexa9_0'.
+17:18:37 INFO  : 'configparams force-mem-access 0' command is executed.
+17:18:37 INFO  : ----------------XSDB Script----------------
+connect -path [list tcp::1534 tcp:10.0.0.8:3121]
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent JTAG-SMT3 210357A7D00EA" && level==0 && jtag_device_ctx=="jsn-JTAG-SMT3-210357A7D00EA-23727093-0"}
+fpga -file /home/hydrangea/project/AMD/bad_apple_7020_lcd/worksapce_new/bad_apple_app/_ide/bitstream/top.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw /home/hydrangea/project/AMD/bad_apple_7020_lcd/worksapce_new/bad_apple_7020_new_platform/export/bad_apple_7020_new_platform/hw/top.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source /home/hydrangea/project/AMD/bad_apple_7020_lcd/worksapce_new/bad_apple_app/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow /home/hydrangea/project/AMD/bad_apple_7020_lcd/worksapce_new/bad_apple_app/Debug/bad_apple_app.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+17:18:37 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+17:18:37 INFO  : 'con' command is executed.
+17:18:37 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+17:18:37 INFO  : Launch script is exported to file '/home/hydrangea/project/AMD/bad_apple_7020_lcd/worksapce_new/bad_apple_app_system/_ide/scripts/debugger_bad_apple_app-default.tcl'
+19:16:43 INFO  : Disconnected from the channel tcfchan#13.

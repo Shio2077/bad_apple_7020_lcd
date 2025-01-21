@@ -62,3 +62,24 @@ platform generate
 platform clean
 platform clean
 platform generate
+bsp reload
+bsp reload
+domain active {standalone_ps7_cortexa9_0}
+bsp reload
+bsp reload
+bsp reload
+bsp config use_strfunc "0"
+bsp config use_strfunc "1"
+bsp write
+bsp reload
+catch {bsp regenerate}
+domain active {zynq_fsbl}
+bsp config use_strfunc "1"
+bsp write
+bsp reload
+catch {bsp regenerate}
+platform clean
+platform generate
+bsp reload
+domain active {standalone_ps7_cortexa9_0}
+bsp reload

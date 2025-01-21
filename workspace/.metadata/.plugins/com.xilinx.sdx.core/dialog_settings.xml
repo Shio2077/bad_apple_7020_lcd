@@ -1,4 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
-	<item key="sdx.custom.platform.repository.locations" value="D:\Projects\prj\AMD\lcd_7020\zynq_7020_lcd\workspace\zynq7_lcd\export\zynq7_lcd;D:\Projects\prj\AMD\bad_apple_7020_lcd\workspace\zynq_7020_badapple_lcd\export\zynq_7020_badapple_lcd"/>
+	<item key="sdx.custom.platform.repository.locations" value="/home/hydrangea/project/AMD/bad_apple_7020_lcd/workspace/top_bd_wrapper/export/top_bd_wrapper"/>
 </section>

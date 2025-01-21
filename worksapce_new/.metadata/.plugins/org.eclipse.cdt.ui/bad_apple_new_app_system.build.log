@@ -1,0 +1,10 @@
+16:27:42 **** Build of configuration Debug for project bad_apple_new_app_system ****
+make all 
+Generating bif file for the system project
+Executing command '::scw::generate_bif -xpfm /home/hydrangea/project/AMD/bad_apple_7020_lcd/worksapce_new/bad_apple_7020_new_platform/export/bad_apple_7020_new_platform/bad_apple_7020_new_platform.xpfm -domains standalone_domain -bifpath /home/hydrangea/project/AMD/bad_apple_7020_lcd/worksapce_new/bad_apple_new_app_system/Debug/system.bif' on XSCT
+sdcard_gen --xpfm /home/hydrangea/project/AMD/bad_apple_7020_lcd/worksapce_new/bad_apple_7020_new_platform/export/bad_apple_7020_new_platform/bad_apple_7020_new_platform.xpfm --sys_config bad_apple_7020_new_platform --bif /home/hydrangea/project/AMD/bad_apple_7020_lcd/worksapce_new/bad_apple_new_app_system/Debug/system.bif --bitstream /home/hydrangea/project/AMD/bad_apple_7020_lcd/worksapce_new/bad_apple_new_app/_ide/bitstream/top.bit --elf /home/hydrangea/project/AMD/bad_apple_7020_lcd/worksapce_new/bad_apple_new_app/Debug/bad_apple_new_app.elf,ps7_cortexa9_0
+creating BOOT.BIN using /home/hydrangea/project/AMD/bad_apple_7020_lcd/worksapce_new/bad_apple_new_app/_ide/bitstream/top.bit
+Running /tools/AMD/Vitis/2022.2/bin/bootgen  -image /home/hydrangea/project/AMD/bad_apple_7020_lcd/worksapce_new/bad_apple_new_app_system/Debug/sd_card_temp/boot.bif -w -o i BOOT.BIN
+
+16:27:47 Build Finished (took 5s.533ms)
+
