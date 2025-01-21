@@ -1,0 +1,7 @@
+{
+    "files.associations": {
+        "xspips.h": "c",
+        "xstatus.h": "c",
+        "xuartps.h": "c"
+    }
+}
