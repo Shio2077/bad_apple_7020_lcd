@@ -3,8 +3,12 @@
 
 #include "lcd_init.h"
 
-void delay(unsigned char i);
-
+void delay(unsigned char i){
+	volatile int Delay;
+	volatile int k;
+	for(k=0;k<i;k++)
+	for (Delay = 0; Delay < 10000; Delay++);
+}
 
 void Lcd_Init(void){
 	XGpioPs_WritePin(&Gpio, EMIO_LCD_RES, 0);

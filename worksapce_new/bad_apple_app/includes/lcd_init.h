@@ -10,7 +10,7 @@
 
 
 extern XGpioPs Gpio;
-extern void delay(unsigned char i);
+void delay(unsigned char i);
 void Lcd_Init();
 
 #endif

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="ASCII"?>
+<sdkproject:SdkProject xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:sdkproject="http://www.xilinx.com/sdkproject" name="bad_apple_app" location="/home/hydrangea/project/AMD/bad_apple_7020_lcd/worksapce_new/bad_apple_app" platform="/home/hydrangea/project/AMD/bad_apple_7020_lcd/worksapce_new/bad_apple_7020_new_platform/export/bad_apple_7020_new_platform/bad_apple_7020_new_platform.xpfm" platformUID="xilinx:::0.0(custom)" systemProject="bad_apple_app_system" sysConfig="bad_apple_7020_new_platform" runtime="C/C++" cpu="standalone_domain" cpuInstance="ps7_cortexa9_0" os="standalone" mssSignature="06ebe8ca9035d5dc34c913b1a1c66288">
+  <configuration name="Debug" id="xilinx.gnu.armv7.exe.debug.2059221640">
+    <configBuildOptions xsi:type="sdkproject:SdkOptions"/>
+    <lastBuildOptions xsi:type="sdkproject:SdkOptions"/>
+  </configuration>
+  <configuration name="Release" id="xilinx.gnu.armv7.exe.release.820126642" dirty="true">
+    <configBuildOptions xsi:type="sdkproject:SdkOptions"/>
+  </configuration>
+  <template appTemplateName="empty_application"/>
+</sdkproject:SdkProject>

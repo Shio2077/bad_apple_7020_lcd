@@ -166,7 +166,6 @@ void LCD_Test()
         }
     }
     for(u32 pic_idx = 0; pic_idx <=2190; pic_idx++){
-        //Address_set(0,0,320-1,172-1);
         gen_filename(pic_idx);
         read_frame(frame2disp, gen_filename(pic_idx));
         pix_idx = 0;
